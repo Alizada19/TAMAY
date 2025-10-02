@@ -1,0 +1,893 @@
+CRITICAL - 2024-09-09 05:17:11 --> TypeError: array_combine(): Argument #2 ($values) must be of type array, null given
+[Method: POST, Route: updatedRecord/172]
+in APPPATH\Controllers\Rfupdate.php on line 153.
+ 1 APPPATH\Controllers\Rfupdate.php(153): array_combine([...], null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('172')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 05:17:26 --> TypeError: array_combine(): Argument #2 ($values) must be of type array, null given
+[Method: POST, Route: updatedRecord/172]
+in APPPATH\Controllers\Rfupdate.php on line 165.
+ 1 APPPATH\Controllers\Rfupdate.php(165): array_combine([...], null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('172')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 05:17:54 --> TypeError: array_combine(): Argument #2 ($values) must be of type array, null given
+[Method: POST, Route: updatedRecord/172]
+in APPPATH\Controllers\Rfupdate.php on line 164.
+ 1 APPPATH\Controllers\Rfupdate.php(164): array_combine([...], null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('172')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 05:18:33 --> ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+[Method: POST, Route: updatedRecord/172]
+in APPPATH\Controllers\Rfupdate.php on line 101.
+ 1 APPPATH\Controllers\Rfupdate.php(101): array_combine([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('172')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 05:19:04 --> ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+[Method: POST, Route: updatedRecord/172]
+in APPPATH\Controllers\Rfupdate.php on line 101.
+ 1 APPPATH\Controllers\Rfupdate.php(101): array_combine([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('172')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 05:22:25 --> TypeError: array_combine(): Argument #2 ($values) must be of type array, null given
+[Method: POST, Route: updatedRecord/172]
+in APPPATH\Controllers\Rfupdate.php on line 153.
+ 1 APPPATH\Controllers\Rfupdate.php(153): array_combine([...], null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('172')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 05:23:32 --> TypeError: array_combine(): Argument #2 ($values) must be of type array, null given
+[Method: POST, Route: updatedRecord/172]
+in APPPATH\Controllers\Rfupdate.php on line 153.
+ 1 APPPATH\Controllers\Rfupdate.php(153): array_combine([...], null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('172')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 06:14:31 --> ErrorException: Undefined variable $cs
+[Method: GET, Route: dailyformUpdate/174]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 170.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cs', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 170)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(522): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('174')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 06:14:52 --> ErrorException: Undefined variable $cs
+[Method: GET, Route: dailyformUpdate/174]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 170.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cs', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 170)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(522): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('174')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 06:15:21 --> ErrorException: Undefined variable $cs
+[Method: GET, Route: dailyformUpdate/174]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 170.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cs', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 170)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(522): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('174')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 06:17:30 --> ErrorException: Undefined variable $cs
+[Method: GET, Route: dailyformUpdate/174]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 170.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cs', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 170)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(522): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('174')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 06:17:31 --> ErrorException: Undefined variable $cs
+[Method: GET, Route: dailyformUpdate/174]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 170.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cs', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 170)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(522): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('174')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 07:29:30 --> ErrorException: Undefined variable $sname
+[Method: GET, Route: dailyformUpdate/176]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 51.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(522): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('176')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 08:03:21 --> ErrorException: Undefined variable $sname
+[Method: GET, Route: dailyformUpdate/176]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 51.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(522): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('176')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 08:04:10 --> ErrorException: Undefined variable $sname
+[Method: GET, Route: dailyformUpdate/176]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 51.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(525): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('176')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 08:04:11 --> ErrorException: Undefined variable $sname
+[Method: GET, Route: dailyformUpdate/176]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 51.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(525): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('176')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 08:04:11 --> ErrorException: Undefined variable $sname
+[Method: GET, Route: dailyformUpdate/176]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 51.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(525): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('176')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 08:04:44 --> ErrorException: Undefined variable $sname
+[Method: GET, Route: dailyformUpdate/176]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 51.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 51)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(525): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('176')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 08:18:40 --> ParseError: Unclosed '{' on line 52
+[Method: GET, Route: dailyformUpdate/176]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 526.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 3 APPPATH\Controllers\Dailyform.php(525): view('dailyforms/dailyformupdate', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('176')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 08:38:23 --> ErrorException: Undefined variable $shname
+[Method: POST, Route: updatedRecord/176]
+in APPPATH\Controllers\Rfupdate.php on line 47.
+ 1 APPPATH\Controllers\Rfupdate.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shname', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\Rfupdate.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('176')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 08:39:05 --> ErrorException: Undefined variable $shname
+[Method: POST, Route: updatedRecord/176]
+in APPPATH\Controllers\Rfupdate.php on line 47.
+ 1 APPPATH\Controllers\Rfupdate.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $shname', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\Rfupdate.php', 47)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('176')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:17:20 --> ErrorException: Undefined variable $i
+[Method: POST, Route: updatedRecord/179]
+in APPPATH\Controllers\Rfupdate.php on line 97.
+ 1 APPPATH\Controllers\Rfupdate.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\Rfupdate.php', 97)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('179')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:25:26 --> ErrorException: Attempt to read property "shop" on null
+[Method: GET, Route: dailyformUpdate/180]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 53.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shop" on null', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(525): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('180')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:48:43 --> ErrorException: Undefined variable $db
+[Method: POST, Route: updatedRecord/182]
+in APPPATH\Models\DailyModel.php on line 235.
+ 1 APPPATH\Models\DailyModel.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php', 235)
+ 2 APPPATH\Controllers\Rfupdate.php(107): App\Models\DailyModel->updateSub2([...], '156', 'sub1')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('182')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 09:49:10 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Builder::getLastQuery()
+[Method: POST, Route: updatedRecord/182]
+in APPPATH\Models\DailyModel.php on line 235.
+ 1 APPPATH\Controllers\Rfupdate.php(107): App\Models\DailyModel->updateSub2([...], '156', 'sub1')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('182')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:01:44 --> ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+[Method: POST, Route: updatedRecord/182]
+in APPPATH\Controllers\Rfupdate.php on line 97.
+ 1 APPPATH\Controllers\Rfupdate.php(97): array_combine([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('182')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:01:57 --> ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+[Method: POST, Route: updatedRecord/182]
+in APPPATH\Controllers\Rfupdate.php on line 97.
+ 1 APPPATH\Controllers\Rfupdate.php(97): array_combine([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('182')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:02:08 --> ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+[Method: POST, Route: updatedRecord/182]
+in APPPATH\Controllers\Rfupdate.php on line 97.
+ 1 APPPATH\Controllers\Rfupdate.php(97): array_combine([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('182')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:02:46 --> ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+[Method: POST, Route: updatedRecord/182]
+in APPPATH\Controllers\Rfupdate.php on line 97.
+ 1 APPPATH\Controllers\Rfupdate.php(97): array_combine([...], [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('182')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:12:22 --> ErrorException: Undefined variable $value4
+[Method: POST, Route: updatedRecord/182]
+in APPPATH\Controllers\Rfupdate.php on line 165.
+ 1 APPPATH\Controllers\Rfupdate.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value4', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\Rfupdate.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('182')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:13:22 --> ErrorException: Undefined variable $value4
+[Method: POST, Route: updatedRecord/182]
+in APPPATH\Controllers\Rfupdate.php on line 165.
+ 1 APPPATH\Controllers\Rfupdate.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $value4', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\Rfupdate.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('182')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:28:18 --> ErrorException: Attempt to read property "shop" on null
+[Method: GET, Route: dailyformUpdate/182]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 53.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shop" on null', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(525): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('182')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:28:20 --> ErrorException: Attempt to read property "shop" on null
+[Method: GET, Route: dailyformUpdate/182]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 53.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shop" on null', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(525): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('182')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:28:23 --> ErrorException: Attempt to read property "shop" on null
+[Method: GET, Route: dailyformUpdate/182]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 53.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shop" on null', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 53)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(525): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('182')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:45:06 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: removesub/165]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\bringsub.php(80): CodeIgniter\Model->__call('remove', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bringsub->removesub('165')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bringsub))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:46:55 --> ErrorException: Undefined variable $rid
+[Method: POST, Route: removesub/165]
+in APPPATH\Models\DailyModel.php on line 324.
+ 1 APPPATH\Models\DailyModel.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rid', 'C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php', 324)
+ 2 APPPATH\Controllers\bringsub.php(80): App\Models\DailyModel->removesub('165')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bringsub->removesub('165')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bringsub))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:49:34 --> ErrorException: Undefined variable $rid
+[Method: POST, Route: removesub/165]
+in APPPATH\Models\DailyModel.php on line 324.
+ 1 APPPATH\Models\DailyModel.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rid', 'C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php', 324)
+ 2 APPPATH\Controllers\bringsub.php(80): App\Models\DailyModel->removesub('165')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bringsub->removesub('165')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bringsub))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:51:25 --> ErrorException: Undefined variable $rid
+[Method: POST, Route: removesub/165]
+in APPPATH\Models\DailyModel.php on line 324.
+ 1 APPPATH\Models\DailyModel.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rid', 'C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php', 324)
+ 2 APPPATH\Controllers\bringsub.php(80): App\Models\DailyModel->removesub('165')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bringsub->removesub('165')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bringsub))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:54:14 --> ErrorException: Undefined variable $rid
+[Method: POST, Route: removesub/165]
+in APPPATH\Models\DailyModel.php on line 324.
+ 1 APPPATH\Models\DailyModel.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rid', 'C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php', 324)
+ 2 APPPATH\Controllers\bringsub.php(80): App\Models\DailyModel->removesub('165')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bringsub->removesub('165')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bringsub))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:55:39 --> ErrorException: Undefined variable $rid
+[Method: POST, Route: removesub/165]
+in APPPATH\Models\DailyModel.php on line 324.
+ 1 APPPATH\Models\DailyModel.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rid', 'C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php', 324)
+ 2 APPPATH\Controllers\bringsub.php(80): App\Models\DailyModel->removesub('165')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bringsub->removesub('165')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bringsub))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 10:56:12 --> ErrorException: Undefined variable $rid
+[Method: POST, Route: removesub/165]
+in APPPATH\Models\DailyModel.php on line 324.
+ 1 APPPATH\Models\DailyModel.php(324): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rid', 'C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php', 324)
+ 2 APPPATH\Controllers\bringsub.php(80): App\Models\DailyModel->removesub('165')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Bringsub->removesub('165')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Bringsub))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 13:16:57 --> ErrorException: Undefined variable $query
+[Method: GET, Route: nightlyreport]
+in APPPATH\Views\nightlyreport\home.php on line 163.
+ 1 APPPATH\Views\nightlyreport\home.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\nightlyreport\\home.php', 163)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\nightlyreport\\home.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('nightlyreport/home', [], true)
+ 5 APPPATH\Controllers\nightlyreport.php(27): view('nightlyreport/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Nightlyreport->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nightlyreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 13:34:39 --> ErrorException: Undefined variable $query
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 78.
+ 1 APPPATH\Controllers\printpdfNightReports.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 13:35:07 --> ErrorException: Undefined variable $query
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 80.
+ 1 APPPATH\Controllers\printpdfNightReports.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 13:35:09 --> ErrorException: Undefined variable $query
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 80.
+ 1 APPPATH\Controllers\printpdfNightReports.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php', 80)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 14:06:12 --> Error: Undefined constant "App\Controllers\P"
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 14:06:18 --> Error: Undefined constant "App\Controllers\P"
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 14:10:12 --> Error: Undefined constant "App\Controllers\LANDSCAPE"
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 14:10:14 --> Error: Undefined constant "App\Controllers\LANDSCAPE"
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 14:10:14 --> Error: Undefined constant "App\Controllers\LANDSCAPE"
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 15:12:14 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\printpdfNightReports')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\printpdfNightReports')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\printpdfNightReports', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 15:12:15 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\printpdfNightReports')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\printpdfNightReports')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\printpdfNightReports', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 15:12:15 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 88.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\printpdfNightReports')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\printpdfNightReports')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\printpdfNightReports', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 15:13:44 --> ErrorException: Undefined variable $edensi
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 88.
+ 1 APPPATH\Controllers\printpdfNightReports.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edensi', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 15:13:46 --> ErrorException: Undefined variable $edensi
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 88.
+ 1 APPPATH\Controllers\printpdfNightReports.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edensi', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 15:15:03 --> ErrorException: Undefined variable $edensi
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 88.
+ 1 APPPATH\Controllers\printpdfNightReports.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edensi', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php', 88)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 15:26:22 --> ErrorException: Undefined property: stdClass::$totalNCash
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 103.
+ 1 APPPATH\Controllers\printpdfNightReports.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalNCash', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 15:26:24 --> ErrorException: Undefined property: stdClass::$totalNCash
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 103.
+ 1 APPPATH\Controllers\printpdfNightReports.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalNCash', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 15:26:24 --> ErrorException: Undefined property: stdClass::$totalNCash
+[Method: GET, Route: printpdfNightReports]
+in APPPATH\Controllers\printpdfNightReports.php on line 103.
+ 1 APPPATH\Controllers\printpdfNightReports.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalNCash', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfNightReports.php', 103)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PrintpdfNightReports->index('')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PrintpdfNightReports))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:35:12 --> ArgumentCountError: Too few arguments to function App\Controllers\Printpdfsreport::index(), 1 passed in C:\updated\htdocs\codeigniter\system\CodeIgniter.php on line 933 and exactly 3 expected
+[Method: GET, Route: printpdfsreport]
+in APPPATH\Controllers\printpdfsreport.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:35:26 --> ArgumentCountError: Too few arguments to function App\Controllers\Printpdfsreport::index(), 1 passed in C:\updated\htdocs\codeigniter\system\CodeIgniter.php on line 933 and exactly 3 expected
+[Method: GET, Route: printpdfsreport]
+in APPPATH\Controllers\printpdfsreport.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:35:54 --> ArgumentCountError: Too few arguments to function App\Controllers\Printpdfsreport::index(), 1 passed in C:\updated\htdocs\codeigniter\system\CodeIgniter.php on line 933 and exactly 3 expected
+[Method: GET, Route: printpdfsreport]
+in APPPATH\Controllers\printpdfsreport.php on line 17.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:37:52 --> ParseError: syntax error, unexpected token "{", expecting ")"
+[Method: GET, Route: printpdfsreport]
+in APPPATH\Controllers\printpdfsreport.php on line 18.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\printpdfsreport')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\printpdfsreport')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\printpdfsreport', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:38:04 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:38:06 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:38:22 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:38:37 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:38:43 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:39:36 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:40:44 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:41:00 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:41:50 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:43:53 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:45:33 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:47:10 --> ErrorException: Undefined variable $loc
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\allshops.php on line 148.
+ 1 APPPATH\Views\reports\allshops.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loc', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php', 148)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\allshops.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/allshops', [], true)
+ 5 APPPATH\Controllers\sreport.php(48): view('reports/allshops', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:48:45 --> ErrorException: Undefined variable $sdate
+[Method: GET, Route: printpdfsreport/2024-09-10/2024-09-10/7]
+in APPPATH\Controllers\printpdfsreport.php on line 23.
+ 1 APPPATH\Controllers\printpdfsreport.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sdate', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('2024-09-10', '2024-09-10', '7')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-09 16:58:28 --> ErrorException: Undefined variable $edensi
+[Method: GET, Route: printpdfsreport/2024-09-10/2024-09-10/7]
+in APPPATH\Controllers\printpdfsreport.php on line 108.
+ 1 APPPATH\Controllers\printpdfsreport.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $edensi', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php', 108)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('2024-09-10', '2024-09-10', '7')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

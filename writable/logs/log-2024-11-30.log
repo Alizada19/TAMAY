@@ -1,0 +1,144 @@
+ERROR - 2024-11-30 07:20:12 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(361): App\Models\attendance\AttendanceModel->getEmpBylocation(NULL)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-30 07:20:12 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/addPunch]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(361): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-30 07:20:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(361): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-30 07:20:12 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND location=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(361): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-30 10:27:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(309): App\Models\attendance\AttendanceModel->getEmpBylocation(NULL)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->empList()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-30 10:27:03 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/empList]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(309): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->empList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-30 10:27:03 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(309): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->empList()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-30 10:27:03 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND location=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(309): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->empList()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-30 12:00:10 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:186
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(186): mysqli->real_connect('sql101.infinity...', 'if0_34654888', Object(SensitiveParameterValue), 'if0_34654888_in...', 3306, '', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(136): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(136): App\Models\DailyModel->savedc(Array, 'cinout')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-30 12:00:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 3 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

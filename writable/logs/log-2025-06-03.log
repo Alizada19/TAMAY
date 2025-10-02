@@ -1,0 +1,140 @@
+CRITICAL - 2025-06-03 08:32:47 --> TypeError: abs(): Argument #1 ($num) must be of type int|float, string given
+[Method: POST, Route: salary/updateSave/77]
+in APPPATH/Controllers/salary/Salary.php on line 303.
+ 1 APPPATH/Controllers/salary/Salary.php(303): abs('')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\salary\Salary->updateSave('77')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\salary\Salary))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-03 09:22:09 --> TypeError: abs(): Argument #1 ($num) must be of type int|float, string given
+[Method: POST, Route: salary/save]
+in APPPATH/Controllers/salary/Salary.php on line 130.
+ 1 APPPATH/Controllers/salary/Salary.php(130): abs('')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\salary\Salary->save()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\salary\Salary))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-03 09:29:35 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(72): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(1529): App\Models\attendance\AttendanceModel->displayemp('')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-06-03 09:29:35 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/reportTol]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(72): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(1529): App\Models\attendance\AttendanceModel->displayemp('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-03 09:29:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(72): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(1529): App\Models\attendance\AttendanceModel->displayemp('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-03 09:29:35 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE Id=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(72): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(1529): App\Models\attendance\AttendanceModel->displayemp('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-06-03 10:03:52 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(72): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(650): App\Models\attendance\AttendanceModel->displayemp('')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-06-03 10:03:52 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/bringAtt]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(72): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(650): App\Models\attendance\AttendanceModel->displayemp('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-03 10:03:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(72): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(650): App\Models\attendance\AttendanceModel->displayemp('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-03 10:03:52 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE Id=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(72): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(650): App\Models\attendance\AttendanceModel->displayemp('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-03 10:05:56 --> TypeError: Unsupported operand types: float / string
+[Method: GET, Route: attendance/bringAtt]
+in APPPATH/Controllers/attendance/Attendance.php on line 1823.
+ 1 APPPATH/Controllers/attendance/Attendance.php(951): App\Controllers\attendance\Attendance->perhour(69.2300000000000039790393202565610408782958984375, '')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-03 10:09:40 --> TypeError: Unsupported operand types: float / string
+[Method: GET, Route: attendance/bringAtt]
+in APPPATH/Controllers/attendance/Attendance.php on line 1823.
+ 1 APPPATH/Controllers/attendance/Attendance.php(951): App\Controllers\attendance\Attendance->perhour(69.2300000000000039790393202565610408782958984375, '')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

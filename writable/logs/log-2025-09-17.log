@@ -1,0 +1,486 @@
+CRITICAL - 2025-09-17 07:18:31 --> Error: Call to a member function diff() on string
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 525.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 07:19:23 --> Error: Call to a member function diff() on string
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 527.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 07:20:33 --> Error: Call to a member function diff() on string
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 527.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 08:49:24 --> Error: Cannot use object of type stdClass as array
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 543.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 09:01:07 --> Error: Class "App\Controllers\expenses\IOFactory" not found
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 560.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 09:02:53 --> ErrorException: Undefined array key "date"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 569.
+ 1 APPPATH\Controllers\expenses\Expenses.php(569): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "date"', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 569)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 09:03:26 --> ErrorException: Undefined array key "groupe"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 570.
+ 1 APPPATH\Controllers\expenses\Expenses.php(570): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "groupe"', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 570)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 09:03:48 --> ErrorException: Undefined variable $des
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 573.
+ 1 APPPATH\Controllers\expenses\Expenses.php(573): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $des', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 573)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 14:59:48 --> ErrorException: Undefined variable $highestRow
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 550.
+ 1 APPPATH\Controllers\expenses\Expenses.php(550): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $highestRow', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 550)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 16:20:51 --> ParseError: syntax error, unexpected token "{"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 570.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 16:21:22 --> ParseError: syntax error, unexpected token "="
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 571.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 16:21:37 --> ParseError: syntax error, unexpected token "=", expecting ")"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 571.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 16:21:55 --> ParseError: syntax error, unexpected token "=", expecting ")"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 571.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 16:22:34 --> ParseError: syntax error, unexpected token "=", expecting ")"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 571.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 16:26:54 --> ParseError: syntax error, unexpected token "=", expecting ")"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 571.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 16:27:25 --> ParseError: syntax error, unexpected token "=", expecting "]"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 571.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 16:52:21 --> ErrorException: Undefined variable $cellValue
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 597.
+ 1 APPPATH\Controllers\expenses\Expenses.php(597): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cellValue', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 597)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:32:52 --> Error: Class "App\Controllers\expenses\Coordinate" not found
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 621.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:47:52 --> PhpOffice\PhpSpreadsheet\Calculation\Exception: EDEN!H1268 -> Formula Error: Unexpected ,
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php on line 549.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 6 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:47:52 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 3516.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 7 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:47:52 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 5407.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(4215): PhpOffice\PhpSpreadsheet\Calculation\Calculation->raiseFormulaError('Formula Error: Unexpected ,')
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3691): PhpOffice\PhpSpreadsheet\Calculation\Calculation->internalParseFormula('F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3491): PhpOffice\PhpSpreadsheet\Calculation\Calculation->_calculateFormulaValue('F591*50%,6(  ),7(  )', 'H1268', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 7 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 8 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 9 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+10 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:48:50 --> PhpOffice\PhpSpreadsheet\Calculation\Exception: EDEN!H1268 -> Formula Error: Unexpected ,
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php on line 549.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 6 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:48:50 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 3516.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 7 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:48:50 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 5407.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(4215): PhpOffice\PhpSpreadsheet\Calculation\Calculation->raiseFormulaError('Formula Error: Unexpected ,')
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3691): PhpOffice\PhpSpreadsheet\Calculation\Calculation->internalParseFormula('F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3491): PhpOffice\PhpSpreadsheet\Calculation\Calculation->_calculateFormulaValue('F591*50%,6(  ),7(  )', 'H1268', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 7 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 8 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 9 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+10 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:49:24 --> PhpOffice\PhpSpreadsheet\Calculation\Exception: EDEN!H1268 -> Formula Error: Unexpected ,
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php on line 549.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 6 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:49:24 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 3516.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 7 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:49:24 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 5407.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(4215): PhpOffice\PhpSpreadsheet\Calculation\Calculation->raiseFormulaError('Formula Error: Unexpected ,')
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3691): PhpOffice\PhpSpreadsheet\Calculation\Calculation->internalParseFormula('F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3491): PhpOffice\PhpSpreadsheet\Calculation\Calculation->_calculateFormulaValue('F591*50%,6(  ),7(  )', 'H1268', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 7 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 8 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 9 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+10 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:50:02 --> PhpOffice\PhpSpreadsheet\Calculation\Exception: EDEN!H1268 -> Formula Error: Unexpected ,
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php on line 549.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 6 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:50:02 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 3516.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 7 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:50:02 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 5407.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(4215): PhpOffice\PhpSpreadsheet\Calculation\Calculation->raiseFormulaError('Formula Error: Unexpected ,')
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3691): PhpOffice\PhpSpreadsheet\Calculation\Calculation->internalParseFormula('F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3491): PhpOffice\PhpSpreadsheet\Calculation\Calculation->_calculateFormulaValue('F591*50%,6(  ),7(  )', 'H1268', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6(  ),7(  )', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 7 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 8 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 9 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+10 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:51:13 --> PhpOffice\PhpSpreadsheet\Calculation\Exception: EDEN!H1268 -> Formula Error: Unexpected ,
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php on line 549.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6,7', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 6 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:51:13 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 3516.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6,7', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 7 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 17:51:13 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 5407.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(4215): PhpOffice\PhpSpreadsheet\Calculation\Calculation->raiseFormulaError('Formula Error: Unexpected ,')
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3691): PhpOffice\PhpSpreadsheet\Calculation\Calculation->internalParseFormula('F591*50%,6,7', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3491): PhpOffice\PhpSpreadsheet\Calculation\Calculation->_calculateFormulaValue('F591*50%,6,7', 'H1268', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%,6,7', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 7 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 8 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 9 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+10 APPPATH\Controllers\expenses\Expenses.php(658): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 18:11:02 --> PhpOffice\PhpSpreadsheet\Calculation\Exception: EDEN!H1268 -> Formula Error: Unexpected ,
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php on line 549.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%, EDEN CASH PURCHASE, EDEN CREDIT ', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 6 APPPATH\Controllers\expenses\Expenses.php(659): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 18:11:02 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 3516.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%, EDEN CASH PURCHASE, EDEN CREDIT ', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+ 7 APPPATH\Controllers\expenses\Expenses.php(659): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 18:11:02 --> [Caused by] PhpOffice\PhpSpreadsheet\Calculation\Exception: Formula Error: Unexpected ,
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php on line 5407.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(4215): PhpOffice\PhpSpreadsheet\Calculation\Calculation->raiseFormulaError('Formula Error: Unexpected ,')
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3691): PhpOffice\PhpSpreadsheet\Calculation\Calculation->internalParseFormula('F591*50%, EDEN CASH PURCHASE, EDEN CREDIT', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 3 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Calculation\Calculation.php(3491): PhpOffice\PhpSpreadsheet\Calculation\Calculation->_calculateFormulaValue('F591*50%, EDEN CASH PURCHASE, EDEN CREDIT', 'H1268', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 4 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(424): PhpOffice\PhpSpreadsheet\Calculation\Calculation->calculateCellValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), true)
+ 5 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1458): PhpOffice\PhpSpreadsheet\Cell\Cell->getCalculatedValue()
+ 6 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1609): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCellFormula(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), '=F591*50%, EDEN CASH PURCHASE, EDEN CREDIT ', Object(PhpOffice\PhpSpreadsheet\Cell\Cell))
+ 7 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(1384): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeCell(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), 'H1268', [...])
+ 8 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx\Worksheet.php(94): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeSheetData(Object(PhpOffice\PhpSpreadsheet\Shared\XMLWriter), Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...])
+ 9 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Writer\Xlsx.php(350): PhpOffice\PhpSpreadsheet\Writer\Xlsx\Worksheet->writeWorksheet(Object(PhpOffice\PhpSpreadsheet\Worksheet\Worksheet), [...], false)
+10 APPPATH\Controllers\expenses\Expenses.php(659): PhpOffice\PhpSpreadsheet\Writer\Xlsx->save('php://output')
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-17 18:19:56 --> ErrorException: Undefined variable $prevCell
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 638.
+ 1 APPPATH\Controllers\expenses\Expenses.php(638): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prevCell', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 638)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,92 @@
+CRITICAL - 2024-09-19 09:12:39 --> ErrorException: Attempt to read property "bname" on null
+[Method: GET, Route: paymentun/160/1]
+in APPPATH/Helpers/fornames_helper.php on line 44.
+ 1 APPPATH/Helpers/fornames_helper.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "bname" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Helpers/fornames_helper.php', 44)
+ 2 APPPATH/Views/payments/unview.php(166): bankName('')
+ 3 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/payments/unview.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('payments/unview', [], true)
+ 6 APPPATH/Controllers/Payment.php(610): view('payments/unview', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->viewun('160', '1')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-19 09:13:43 --> ErrorException: Attempt to read property "bname" on null
+[Method: GET, Route: paymentun/161/1]
+in APPPATH/Helpers/fornames_helper.php on line 44.
+ 1 APPPATH/Helpers/fornames_helper.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "bname" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Helpers/fornames_helper.php', 44)
+ 2 APPPATH/Views/payments/unview.php(166): bankName('')
+ 3 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/payments/unview.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('payments/unview', [], true)
+ 6 APPPATH/Controllers/Payment.php(610): view('payments/unview', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->viewun('161', '1')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-19 09:15:23 --> mysqli_sql_exception: Unknown column 'Unsched' in 'field list' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('UPDATE `payment...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `payment...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `payment...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `payment...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(382): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Payment.php(579): App\Models\DailyModel->gupdate(Array, '161', 'payments')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Payment->updatecs('161')
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-19 09:15:23 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Unsched' in 'field list'
+[Method: POST, Route: paymentupdatecs/161]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `payments` SET `ptype` = :ptype:, `invno` = :invno:, `bname` = :bname:, `cno` = :cno:, `ddate` = :ddate:, `amount` = :amount:, `pto` = :pto:, `remark` = :remark:, `status` = :status:, `Unsched` = :Unsched:, `userid` = :userid:, `username` = :username:, `saveDate` = :saveDate:
+WHERE `Id` = :Id:', [...], false)
+ 2 APPPATH/Models/DailyModel.php(382): CodeIgniter\Database\BaseBuilder->update()
+ 3 APPPATH/Controllers/Payment.php(579): App\Models\DailyModel->gupdate([...], '161', 'payments')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->updatecs('161')
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-19 09:15:23 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'Unsched' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `payments` SET `ptype` = \'4\', `invno` = \'\', `bname` = \'\', `cno` = \'\', `ddate` = \'\', `amount` = \'24550\', `pto` = \'270\', `remark` = \'GILASCO AUG RENTAL\', `status` = \'4\', `Unsched` = 1, `userid` = \'5\', `username` = \'Valid\', `saveDate` = \'2024-09-19 09:15:23\'
+WHERE `Id` = \'161\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `payments` SET `ptype` = \'4\', `invno` = \'\', `bname` = \'\', `cno` = \'\', `ddate` = \'\', `amount` = \'24550\', `pto` = \'270\', `remark` = \'GILASCO AUG RENTAL\', `status` = \'4\', `Unsched` = 1, `userid` = \'5\', `username` = \'Valid\', `saveDate` = \'2024-09-19 09:15:23\'
+WHERE `Id` = \'161\'')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `payments` SET `ptype` = :ptype:, `invno` = :invno:, `bname` = :bname:, `cno` = :cno:, `ddate` = :ddate:, `amount` = :amount:, `pto` = :pto:, `remark` = :remark:, `status` = :status:, `Unsched` = :Unsched:, `userid` = :userid:, `username` = :username:, `saveDate` = :saveDate:
+WHERE `Id` = :Id:', [...], false)
+ 4 APPPATH/Models/DailyModel.php(382): CodeIgniter\Database\BaseBuilder->update()
+ 5 APPPATH/Controllers/Payment.php(579): App\Models\DailyModel->gupdate([...], '161', 'payments')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->updatecs('161')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-19 09:15:23 --> [Caused by] mysqli_sql_exception: Unknown column 'Unsched' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('UPDATE `payments` SET `ptype` = \'4\', `invno` = \'\', `bname` = \'\', `cno` = \'\', `ddate` = \'\', `amount` = \'24550\', `pto` = \'270\', `remark` = \'GILASCO AUG RENTAL\', `status` = \'4\', `Unsched` = 1, `userid` = \'5\', `username` = \'Valid\', `saveDate` = \'2024-09-19 09:15:23\'
+WHERE `Id` = \'161\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `payments` SET `ptype` = \'4\', `invno` = \'\', `bname` = \'\', `cno` = \'\', `ddate` = \'\', `amount` = \'24550\', `pto` = \'270\', `remark` = \'GILASCO AUG RENTAL\', `status` = \'4\', `Unsched` = 1, `userid` = \'5\', `username` = \'Valid\', `saveDate` = \'2024-09-19 09:15:23\'
+WHERE `Id` = \'161\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `payments` SET `ptype` = \'4\', `invno` = \'\', `bname` = \'\', `cno` = \'\', `ddate` = \'\', `amount` = \'24550\', `pto` = \'270\', `remark` = \'GILASCO AUG RENTAL\', `status` = \'4\', `Unsched` = 1, `userid` = \'5\', `username` = \'Valid\', `saveDate` = \'2024-09-19 09:15:23\'
+WHERE `Id` = \'161\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2516): CodeIgniter\Database\BaseConnection->query('UPDATE `payments` SET `ptype` = :ptype:, `invno` = :invno:, `bname` = :bname:, `cno` = :cno:, `ddate` = :ddate:, `amount` = :amount:, `pto` = :pto:, `remark` = :remark:, `status` = :status:, `Unsched` = :Unsched:, `userid` = :userid:, `username` = :username:, `saveDate` = :saveDate:
+WHERE `Id` = :Id:', [...], false)
+ 5 APPPATH/Models/DailyModel.php(382): CodeIgniter\Database\BaseBuilder->update()
+ 6 APPPATH/Controllers/Payment.php(579): App\Models\DailyModel->gupdate([...], '161', 'payments')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->updatecs('161')
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

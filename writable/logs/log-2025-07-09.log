@@ -1,0 +1,45 @@
+CRITICAL - 2025-07-09 11:36:41 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Controllers/attendance/Attendance.php on line 1771.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-09 11:36:45 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Controllers/attendance/Attendance.php on line 1771.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-09 11:36:52 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Controllers/attendance/Attendance.php on line 1771.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-09 11:36:53 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Controllers/attendance/Attendance.php on line 1771.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-09 11:36:53 --> TypeError: Unsupported operand types: string - int
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Controllers/attendance/Attendance.php on line 1771.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

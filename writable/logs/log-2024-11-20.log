@@ -1,0 +1,500 @@
+ERROR - 2024-11-20 05:20:21 --> mysqli_sql_exception: Unknown column 'pdate' in 'order clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 05:20:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+[Method: GET, Route: attendance/searchEmp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=9 ORDER BY pdate DESC')
+ 2 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=9 ORDER BY pdate DESC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=9 ORDER BY pdate DESC')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=9 ORDER BY pdate DESC')
+ 4 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:21 --> [Caused by] mysqli_sql_exception: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND location=9 ORDER BY pdate DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=9 ORDER BY pdate DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=9 ORDER BY pdate DESC')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=9 ORDER BY pdate DESC')
+ 5 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 05:20:30 --> mysqli_sql_exception: Unknown column 'pdate' in 'order clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 05:20:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+[Method: GET, Route: attendance/searchEmp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=1 ORDER BY pdate DESC')
+ 2 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND nat=1 ORDER BY pdate DESC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND nat=1 ORDER BY pdate DESC')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=1 ORDER BY pdate DESC')
+ 4 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:30 --> [Caused by] mysqli_sql_exception: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND nat=1 ORDER BY pdate DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND nat=1 ORDER BY pdate DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND nat=1 ORDER BY pdate DESC')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=1 ORDER BY pdate DESC')
+ 5 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 05:20:42 --> mysqli_sql_exception: Unknown column 'pdate' in 'order clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 05:20:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+[Method: GET, Route: attendance/searchEmp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 2 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 4 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:42 --> [Caused by] mysqli_sql_exception: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 5 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 05:20:50 --> mysqli_sql_exception: Unknown column 'pdate' in 'order clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 05:20:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+[Method: GET, Route: attendance/searchEmp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 2 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 4 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:50 --> [Caused by] mysqli_sql_exception: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 5 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 05:20:53 --> mysqli_sql_exception: Unknown column 'pdate' in 'order clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 05:20:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+[Method: GET, Route: attendance/searchEmp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 2 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 4 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:20:53 --> [Caused by] mysqli_sql_exception: Unknown column 'pdate' in 'order clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND nat=2 ORDER BY pdate DESC')
+ 5 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 05:24:17 --> mysqli_sql_exception: Unknown column 'dep' in 'where clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 05:24:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dep' in 'where clause'
+[Method: GET, Route: attendance/searchEmp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 2 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:24:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dep' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 4 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:24:17 --> [Caused by] mysqli_sql_exception: Unknown column 'dep' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 5 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 05:24:28 --> mysqli_sql_exception: Unknown column 'dep' in 'where clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 05:24:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dep' in 'where clause'
+[Method: GET, Route: attendance/searchEmp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 2 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:24:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dep' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 4 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:24:28 --> [Caused by] mysqli_sql_exception: Unknown column 'dep' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 5 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 05:24:29 --> mysqli_sql_exception: Unknown column 'dep' in 'where clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 05:24:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dep' in 'where clause'
+[Method: GET, Route: attendance/searchEmp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 2 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:24:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'dep' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 4 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:24:29 --> [Caused by] mysqli_sql_exception: Unknown column 'dep' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(284): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND dep=6 ORDER BY saveDate DESC')
+ 5 APPPATH/Controllers/attendance/Attendance.php(830): App\Models\attendance\AttendanceModel->searchEmp([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchEmp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 05:28:43 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(293): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(880): App\Models\attendance\AttendanceModel->nowh('')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->report()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 05:28:43 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/report]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(293): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(880): App\Models\attendance\AttendanceModel->nowh('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->report()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:28:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(293): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(880): App\Models\attendance\AttendanceModel->nowh('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->report()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 05:28:43 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE Id=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(293): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(880): App\Models\attendance\AttendanceModel->nowh('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->report()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-20 15:52:21 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(326): App\Models\attendance\AttendanceModel->getEmpBylocation(NULL)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-20 15:52:21 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/addPunch]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(326): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 15:52:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(326): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-20 15:52:21 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND location=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(326): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

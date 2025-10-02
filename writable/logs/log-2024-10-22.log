@@ -1,0 +1,188 @@
+ERROR - 2024-10-22 08:50:37 --> mysqli_sql_exception: Column 'userid' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(136): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-10-22 08:50:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 08:50:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'3\', \'1\', 1, 0, 0, 1, \'ARABIC\', NULL, NULL, \'2024-10-22 08:50:37\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'3\', \'1\', 1, 0, 0, 1, \'ARABIC\', NULL, NULL, \'2024-10-22 08:50:37\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 08:50:37 --> [Caused by] mysqli_sql_exception: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'3\', \'1\', 1, 0, 0, 1, \'ARABIC\', NULL, NULL, \'2024-10-22 08:50:37\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'3\', \'1\', 1, 0, 0, 1, \'ARABIC\', NULL, NULL, \'2024-10-22 08:50:37\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'3\', \'1\', 1, 0, 0, 1, \'ARABIC\', NULL, NULL, \'2024-10-22 08:50:37\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 09:01:22 --> ErrorException: Undefined variable $mergedArray
+[Method: GET, Route: cdbtorsList2/14]
+in APPPATH/Controllers/Cdbtorsnew.php on line 125.
+ 1 APPPATH/Controllers/Cdbtorsnew.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mergedArray', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cdbtorsnew.php', 125)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cdbtorsnew->list('14')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cdbtorsnew))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 09:01:29 --> ErrorException: Undefined variable $mergedArray
+[Method: GET, Route: cdbtorsList2/14]
+in APPPATH/Controllers/Cdbtorsnew.php on line 125.
+ 1 APPPATH/Controllers/Cdbtorsnew.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mergedArray', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cdbtorsnew.php', 125)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cdbtorsnew->list('14')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cdbtorsnew))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 09:02:40 --> ErrorException: Undefined variable $mergedArray
+[Method: GET, Route: cdbtorsList2/15]
+in APPPATH/Controllers/Cdbtorsnew.php on line 125.
+ 1 APPPATH/Controllers/Cdbtorsnew.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mergedArray', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cdbtorsnew.php', 125)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cdbtorsnew->list('15')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cdbtorsnew))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 09:05:43 --> ErrorException: Undefined variable $mergedArray
+[Method: GET, Route: cdbtorsList2/15]
+in APPPATH/Controllers/Cdbtorsnew.php on line 125.
+ 1 APPPATH/Controllers/Cdbtorsnew.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mergedArray', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cdbtorsnew.php', 125)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cdbtorsnew->list('15')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cdbtorsnew))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 09:06:23 --> ErrorException: Undefined variable $mergedArray
+[Method: GET, Route: cdbtorsList2/153]
+in APPPATH/Controllers/Cdbtorsnew.php on line 125.
+ 1 APPPATH/Controllers/Cdbtorsnew.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mergedArray', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cdbtorsnew.php', 125)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cdbtorsnew->list('153')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cdbtorsnew))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 09:06:47 --> ErrorException: Undefined variable $mergedArray
+[Method: GET, Route: cdbtorsList2/15]
+in APPPATH/Controllers/Cdbtorsnew.php on line 125.
+ 1 APPPATH/Controllers/Cdbtorsnew.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mergedArray', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cdbtorsnew.php', 125)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cdbtorsnew->list('15')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cdbtorsnew))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 09:28:24 --> ErrorException: Undefined variable $mergedArray
+[Method: GET, Route: cdbtorsList2/14]
+in APPPATH/Controllers/Cdbtorsnew.php on line 125.
+ 1 APPPATH/Controllers/Cdbtorsnew.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mergedArray', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cdbtorsnew.php', 125)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cdbtorsnew->list('14')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cdbtorsnew))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 10:03:50 --> ErrorException: Undefined variable $mergedArray
+[Method: GET, Route: cdbtorsList2/15]
+in APPPATH/Controllers/Cdbtorsnew.php on line 125.
+ 1 APPPATH/Controllers/Cdbtorsnew.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mergedArray', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cdbtorsnew.php', 125)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cdbtorsnew->list('15')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cdbtorsnew))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-22 11:48:28 --> mysqli_sql_exception: Column 'shop' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(136): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-10-22 11:48:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 11:48:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 0, 1, \'ASK PRICE\', NULL, NULL, \'2024-10-22 11:48:28\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 0, 1, \'ASK PRICE\', NULL, NULL, \'2024-10-22 11:48:28\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-22 11:48:28 --> [Caused by] mysqli_sql_exception: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 0, 1, \'ASK PRICE\', NULL, NULL, \'2024-10-22 11:48:28\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 0, 1, \'ASK PRICE\', NULL, NULL, \'2024-10-22 11:48:28\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 0, 1, \'ASK PRICE\', NULL, NULL, \'2024-10-22 11:48:28\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

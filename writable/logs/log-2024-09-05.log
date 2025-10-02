@@ -1,0 +1,944 @@
+CRITICAL - 2024-09-05 06:36:57 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: dailyformview/134/1]
+in APPPATH\Views\dailyforms\dailyformview.php on line 274.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformview', [], true)
+ 3 APPPATH\Controllers\Dailyform.php(418): view('dailyforms/dailyformview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->view('134', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 06:37:40 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: dailyformview/134/1]
+in APPPATH\Views\dailyforms\dailyformview.php on line 274.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformview', [], true)
+ 3 APPPATH\Controllers\Dailyform.php(418): view('dailyforms/dailyformview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->view('134', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 06:37:41 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: dailyformview/134/1]
+in APPPATH\Views\dailyforms\dailyformview.php on line 274.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformview', [], true)
+ 3 APPPATH\Controllers\Dailyform.php(418): view('dailyforms/dailyformview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->view('134', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 06:38:18 --> ParseError: syntax error, unexpected identifier "button", expecting ")"
+[Method: GET, Route: dailyformview/134/1]
+in APPPATH\Views\dailyforms\dailyformview.php on line 274.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformview', [], true)
+ 3 APPPATH\Controllers\Dailyform.php(418): view('dailyforms/dailyformview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->view('134', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 06:38:28 --> ParseError: syntax error, unexpected identifier "button", expecting ")"
+[Method: GET, Route: dailyformview/134/1]
+in APPPATH\Views\dailyforms\dailyformview.php on line 274.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformview', [], true)
+ 3 APPPATH\Controllers\Dailyform.php(418): view('dailyforms/dailyformview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->view('134', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 06:38:48 --> ParseError: syntax error, unexpected token "<"
+[Method: GET, Route: dailyformview/134/1]
+in APPPATH\Views\dailyforms\dailyformview.php on line 274.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformview', [], true)
+ 3 APPPATH\Controllers\Dailyform.php(418): view('dailyforms/dailyformview', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->view('134', '1')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:09:43 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:09:51 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:09:52 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:09:52 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:11:41 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:12:53 --> ParseError: syntax error, unexpected token ";"
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 96.
+ 1 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 3 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:13:08 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:13:10 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:13:39 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:13:51 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:14:30 --> ErrorException: Undefined variable $para
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $para', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 98)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:15:32 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:15:35 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:15:35 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:15:36 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 98.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:16:10 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:16:11 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:16:12 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:16:12 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:16:12 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:16:12 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:20:53 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:20:57 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:20:57 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:20:57 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:20:58 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:21 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:21 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:31 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:31 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:32 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:32 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:32 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:32 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:33 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:21:41 --> Error: Object of class stdClass could not be converted to string
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 97.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:27:51 --> Error: Undefined constant "cname"
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 272.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 07:28:38 --> Error: Undefined constant "cname"
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 272.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 4 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:17:54 --> ErrorException: Cannot redeclare App\Controllers\Rfupdate::update()
+[Method: POST, Route: updatedRecord]
+in APPPATH\Controllers\Rfupdate.php on line 422.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-05 08:30:30 --> ErrorException: Declaration of App\Models\DailyModel::update($data) must be compatible with CodeIgniter\Model::update($id = null, $row = null): bool
+[Method: GET, Route: dailyform]
+in APPPATH\Models\DailyModel.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-05 08:33:31 --> ErrorException: Undefined property: stdClass::$shopname
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 48.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$shopname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 48)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:45:56 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Models\DailyModel.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DailyModel')
+ 3 APPPATH\Controllers\Dailyform.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DailyModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Dailyform->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:45:58 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Models\DailyModel.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DailyModel')
+ 3 APPPATH\Controllers\Dailyform.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DailyModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Dailyform->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:46:37 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Models\DailyModel.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DailyModel')
+ 3 APPPATH\Controllers\Dailyform.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DailyModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Dailyform->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:46:53 --> ErrorException: Undefined variable $Id
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 17.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Id', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:47:23 --> ErrorException: Undefined variable $Id
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 17.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Id', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:48:14 --> ErrorException: Undefined variable $Id
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 17.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Id', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:48:30 --> ErrorException: Undefined variable $Id
+[Method: GET, Route: dailyformUpdate/134]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 17.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Id', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('134')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:51:21 --> ErrorException: Undefined variable $Id
+[Method: GET, Route: dailyformUpdate/136]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 17.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Id', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('136')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:51:27 --> ErrorException: Undefined variable $Id
+[Method: GET, Route: dailyformUpdate/136]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 17.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Id', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 17)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('136')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:51:52 --> ErrorException: Undefined variable $Id
+[Method: GET, Route: dailyformUpdate/136]
+in APPPATH\Controllers\Dailyform.php on line 497.
+ 1 APPPATH\Controllers\Dailyform.php(497): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Id', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\Dailyform.php', 497)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('136')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:52:23 --> ErrorException: Undefined variable $success
+[Method: GET, Route: dailyformUpdate/136]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 27.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $success', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(499): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('136')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:52:53 --> ErrorException: Undefined variable $i
+[Method: GET, Route: dailyformUpdate/136]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 83.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 83)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(500): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('136')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 08:57:18 --> ParseError: syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+[Method: GET, Route: dailyformUpdate/136]
+in APPPATH\Models\DailyModel.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DailyModel')
+ 3 APPPATH\Controllers\Dailyform.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DailyModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Dailyform->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:01:58 --> ParseError: syntax error, unexpected token ")", expecting variable or "{" or "$"
+[Method: GET, Route: dailyform]
+in APPPATH\Models\DailyModel.php on line 28.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Models\\DailyModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DailyModel')
+ 3 APPPATH\Controllers\Dailyform.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DailyModel')
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\Dailyform->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:07:38 --> Error: Call to undefined method CodeIgniter\Database\MySQLi\Connection::updateID()
+[Method: POST, Route: updatedRecord/136]
+in APPPATH\Models\DailyModel.php on line 32.
+ 1 APPPATH\Controllers\Rfupdate.php(72): App\Models\DailyModel->updateRecord([...], '136')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('136')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:09:27 --> ErrorException: Attempt to read property "shop" on null
+[Method: GET, Route: dailyformview/1/1]
+in APPPATH\Views\dailyforms\dailyformview.php on line 49.
+ 1 APPPATH\Views\dailyforms\dailyformview.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shop" on null', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformview.php', 49)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformview.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformview', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(418): view('dailyforms/dailyformview', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->view('1', '1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:10:21 --> ErrorException: Undefined variable $st
+[Method: GET, Route: dailyformUpdate/137]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 177.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $st', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(500): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('137')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:10:32 --> ErrorException: Undefined variable $st
+[Method: GET, Route: dailyformUpdate/137]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 177.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $st', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(500): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('137')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:10:54 --> ErrorException: Undefined variable $st
+[Method: GET, Route: dailyformUpdate/137]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 177.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $st', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(500): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('137')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:11:19 --> ErrorException: Undefined variable $st
+[Method: GET, Route: dailyformUpdate/137]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 177.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $st', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(500): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('137')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-05 09:13:49 --> mysqli_sql_exception: Unknown column 'login' in 'where clause' in C:\updated\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\updated\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 C:\updated\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 C:\updated\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 C:\updated\htdocs\codeigniter\app\Controllers\Dailyform.php(430): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 C:\updated\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\Dailyform->update('login')
+#5 C:\updated\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+#6 C:\updated\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\updated\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#8 C:\updated\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#9 C:\updated\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#10 {main}
+CRITICAL - 2024-09-05 09:13:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'login' in 'where clause'
+[Method: GET, Route: dailyformUpdate/login]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Controllers\Dailyform.php(430): CodeIgniter\Database\BaseConnection->query('SELECT * FROM exsub WHERE rdid=login AND allsubs=\'sub1\'')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('login')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:13:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'login' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM exsub WHERE rdid=login AND allsubs=\'sub1\'')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM exsub WHERE rdid=login AND allsubs=\'sub1\'')
+ 3 APPPATH\Controllers\Dailyform.php(430): CodeIgniter\Database\BaseConnection->query('SELECT * FROM exsub WHERE rdid=login AND allsubs=\'sub1\'')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('login')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:13:49 --> [Caused by] mysqli_sql_exception: Unknown column 'login' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM exsub WHERE rdid=login AND allsubs=\'sub1\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM exsub WHERE rdid=login AND allsubs=\'sub1\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM exsub WHERE rdid=login AND allsubs=\'sub1\'')
+ 4 APPPATH\Controllers\Dailyform.php(430): CodeIgniter\Database\BaseConnection->query('SELECT * FROM exsub WHERE rdid=login AND allsubs=\'sub1\'')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('login')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 09:18:02 --> ErrorException: Undefined variable $st
+[Method: GET, Route: dailyformUpdate/139]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 177.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $st', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 177)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(500): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('139')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 11:16:04 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: updatedRecord/141]
+in APPPATH\Controllers\Rfupdate.php on line 85.
+ 1 APPPATH\Controllers\Rfupdate.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\Rfupdate.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('141')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 11:16:10 --> ErrorException: foreach() argument must be of type array|object, null given
+[Method: POST, Route: updatedRecord/141]
+in APPPATH\Controllers\Rfupdate.php on line 85.
+ 1 APPPATH\Controllers\Rfupdate.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, null given', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\Rfupdate.php', 85)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Rfupdate->update('141')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-05 17:11:15 --> ErrorException: Undefined variable $st
+[Method: GET, Route: dailyformUpdate/149]
+in APPPATH\Views\dailyforms\dailyformupdate.php on line 166.
+ 1 APPPATH\Views\dailyforms\dailyformupdate.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $st', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php', 166)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\dailyforms\\dailyformupdate.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformupdate', [], true)
+ 5 APPPATH\Controllers\Dailyform.php(500): view('dailyforms/dailyformupdate', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dailyform->update('149')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,50 @@
+ERROR - 2025-09-18 04:29:25 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''inv' AS investment FROM investment WHERE 1 AND sdate BETWEEN '2025-09-14' AN...' at line 1 in C:\update3\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\update3\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT sdate AS...', 0)
+#1 C:\update3\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sdate AS...')
+#2 C:\update3\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sdate AS...')
+#3 C:\update3\htdocs\codeigniter\app\Models\expenses\ExpensesModel.php(212): CodeIgniter\Database\BaseConnection->query('SELECT sdate AS...')
+#4 C:\update3\htdocs\codeigniter\app\Controllers\expenses\Expenses.php(540): App\Models\expenses\ExpensesModel->investment(Array)
+#5 C:\update3\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+#6 C:\update3\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+#7 C:\update3\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\update3\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\update3\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\update3\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-18 04:29:25 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''inv' AS investment FROM investment WHERE 1 AND sdate BETWEEN '2025-09-14' AN...' at line 1
+[Method: POST, Route: expenses/printDailyExcel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\expenses\ExpensesModel.php(212): CodeIgniter\Database\BaseConnection->query('SELECT sdate AS pdate \'inv\' AS investment FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 2 APPPATH\Controllers\expenses\Expenses.php(540): App\Models\expenses\ExpensesModel->investment([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 04:29:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''inv' AS investment FROM investment WHERE 1 AND sdate BETWEEN '2025-09-14' AN...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sdate AS pdate \'inv\' AS investment FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sdate AS pdate \'inv\' AS investment FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 3 APPPATH\Models\expenses\ExpensesModel.php(212): CodeIgniter\Database\BaseConnection->query('SELECT sdate AS pdate \'inv\' AS investment FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 4 APPPATH\Controllers\expenses\Expenses.php(540): App\Models\expenses\ExpensesModel->investment([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-18 04:29:25 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''inv' AS investment FROM investment WHERE 1 AND sdate BETWEEN '2025-09-14' AN...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT sdate AS pdate \'inv\' AS investment FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sdate AS pdate \'inv\' AS investment FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sdate AS pdate \'inv\' AS investment FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 4 APPPATH\Models\expenses\ExpensesModel.php(212): CodeIgniter\Database\BaseConnection->query('SELECT sdate AS pdate \'inv\' AS investment FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 5 APPPATH\Controllers\expenses\Expenses.php(540): App\Models\expenses\ExpensesModel->investment([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

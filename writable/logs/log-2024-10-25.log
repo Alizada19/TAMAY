@@ -1,0 +1,86 @@
+CRITICAL - 2024-10-25 03:21:13 --> Error: Class "App\Models\DailyModel" not found
+[Method: GET, Route: cdbtorsMainListNew]
+in APPPATH/Controllers/Cdbtorsnew.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Cdbtorsnew->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-25 03:21:16 --> Error: Class "App\Models\DailyModel" not found
+[Method: GET, Route: cdbtorsMainListNew]
+in APPPATH/Controllers/Cdbtorsnew.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Cdbtorsnew->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-25 04:35:42 --> mysqli_sql_exception: Unknown column 'location' in 'field list' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pa...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(365): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Payment.php(158): App\Models\DailyModel->gadd(Array, 'payments')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Payment->addc()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-10-25 04:35:42 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'location' in 'field list'
+[Method: POST, Route: paymentAddc]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `payments` (`ptype`, `invNo`, `invDate`, `ddate`, `amount`, `pto`, `remark`, `location`, `userid`, `username`, `saveDate`) VALUES (:ptype:, :invNo:, :invDate:, :ddate:, :amount:, :pto:, :remark:, :location:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(365): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Payment.php(158): App\Models\DailyModel->gadd([...], 'payments')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->addc()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-25 04:35:42 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `payments` (`ptype`, `invNo`, `invDate`, `ddate`, `amount`, `pto`, `remark`, `location`, `userid`, `username`, `saveDate`) VALUES (\'2\', \'101\', \'2024-10-25\', \'2024-10-31\', \'5000\', \'15\', \'Temp\', \'1\', \'5\', \'Valid\', \'2024-10-25 04:35:42\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `payments` (`ptype`, `invNo`, `invDate`, `ddate`, `amount`, `pto`, `remark`, `location`, `userid`, `username`, `saveDate`) VALUES (\'2\', \'101\', \'2024-10-25\', \'2024-10-31\', \'5000\', \'15\', \'Temp\', \'1\', \'5\', \'Valid\', \'2024-10-25 04:35:42\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `payments` (`ptype`, `invNo`, `invDate`, `ddate`, `amount`, `pto`, `remark`, `location`, `userid`, `username`, `saveDate`) VALUES (:ptype:, :invNo:, :invDate:, :ddate:, :amount:, :pto:, :remark:, :location:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(365): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Payment.php(158): App\Models\DailyModel->gadd([...], 'payments')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->addc()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-25 04:35:42 --> [Caused by] mysqli_sql_exception: Unknown column 'location' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `payments` (`ptype`, `invNo`, `invDate`, `ddate`, `amount`, `pto`, `remark`, `location`, `userid`, `username`, `saveDate`) VALUES (\'2\', \'101\', \'2024-10-25\', \'2024-10-31\', \'5000\', \'15\', \'Temp\', \'1\', \'5\', \'Valid\', \'2024-10-25 04:35:42\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `payments` (`ptype`, `invNo`, `invDate`, `ddate`, `amount`, `pto`, `remark`, `location`, `userid`, `username`, `saveDate`) VALUES (\'2\', \'101\', \'2024-10-25\', \'2024-10-31\', \'5000\', \'15\', \'Temp\', \'1\', \'5\', \'Valid\', \'2024-10-25 04:35:42\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `payments` (`ptype`, `invNo`, `invDate`, `ddate`, `amount`, `pto`, `remark`, `location`, `userid`, `username`, `saveDate`) VALUES (\'2\', \'101\', \'2024-10-25\', \'2024-10-31\', \'5000\', \'15\', \'Temp\', \'1\', \'5\', \'Valid\', \'2024-10-25 04:35:42\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `payments` (`ptype`, `invNo`, `invDate`, `ddate`, `amount`, `pto`, `remark`, `location`, `userid`, `username`, `saveDate`) VALUES (:ptype:, :invNo:, :invDate:, :ddate:, :amount:, :pto:, :remark:, :location:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(365): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Payment.php(158): App\Models\DailyModel->gadd([...], 'payments')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->addc()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-25 04:37:40 --> ErrorException: Attempt to read property "status" on null
+[Method: GET, Route: paymentViewoc/199/1]
+in APPPATH/Views/payments/viewoc.php on line 145.
+ 1 APPPATH/Views/payments/viewoc.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "status" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/payments/viewoc.php', 145)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/payments/viewoc.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('payments/viewoc', [], true)
+ 5 APPPATH/Controllers/Payment.php(259): view('payments/viewoc', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->viewoc('199', '1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

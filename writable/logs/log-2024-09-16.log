@@ -1,0 +1,54 @@
+ERROR - 2024-09-16 10:53:57 --> mysqli_sql_exception: Column 'userid' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `pa...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(365): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Payment.php(98): App\Models\DailyModel->gadd(Array, 'payments')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Payment->addc()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-09-16 10:53:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+[Method: POST, Route: paymentAddc]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `payments` (`bname`, `ptype`, `ddate`, `cno`, `amount`, `pto`, `remark`, `userid`, `username`, `saveDate`) VALUES (:bname:, :ptype:, :ddate:, :cno:, :amount:, :pto:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(365): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Payment.php(98): App\Models\DailyModel->gadd([...], 'payments')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->addc()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-16 10:53:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `payments` (`bname`, `ptype`, `ddate`, `cno`, `amount`, `pto`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'24\', \'1\', \'2024-11-11\', \'000079\', \'5000\', \'184\', \'BERGAYA\', NULL, NULL, \'2024-09-16 10:53:57\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `payments` (`bname`, `ptype`, `ddate`, `cno`, `amount`, `pto`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'24\', \'1\', \'2024-11-11\', \'000079\', \'5000\', \'184\', \'BERGAYA\', NULL, NULL, \'2024-09-16 10:53:57\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `payments` (`bname`, `ptype`, `ddate`, `cno`, `amount`, `pto`, `remark`, `userid`, `username`, `saveDate`) VALUES (:bname:, :ptype:, :ddate:, :cno:, :amount:, :pto:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(365): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Payment.php(98): App\Models\DailyModel->gadd([...], 'payments')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->addc()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-16 10:53:57 --> [Caused by] mysqli_sql_exception: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `payments` (`bname`, `ptype`, `ddate`, `cno`, `amount`, `pto`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'24\', \'1\', \'2024-11-11\', \'000079\', \'5000\', \'184\', \'BERGAYA\', NULL, NULL, \'2024-09-16 10:53:57\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `payments` (`bname`, `ptype`, `ddate`, `cno`, `amount`, `pto`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'24\', \'1\', \'2024-11-11\', \'000079\', \'5000\', \'184\', \'BERGAYA\', NULL, NULL, \'2024-09-16 10:53:57\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `payments` (`bname`, `ptype`, `ddate`, `cno`, `amount`, `pto`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'24\', \'1\', \'2024-11-11\', \'000079\', \'5000\', \'184\', \'BERGAYA\', NULL, NULL, \'2024-09-16 10:53:57\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `payments` (`bname`, `ptype`, `ddate`, `cno`, `amount`, `pto`, `remark`, `userid`, `username`, `saveDate`) VALUES (:bname:, :ptype:, :ddate:, :cno:, :amount:, :pto:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(365): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Payment.php(98): App\Models\DailyModel->gadd([...], 'payments')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Payment->addc()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Payment))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,901 @@
+ERROR - 2025-03-01 09:22:10 --> mysqli_sql_exception: Table 'if0_34654888_invoices.allBanks' doesn't exist in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From a...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From a...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From a...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(391): CodeIgniter\Database\BaseConnection->query('SELECT * From a...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(60): App\Models\attendance\AttendanceModel->getBanks()
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addemp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-01 09:22:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'if0_34654888_invoices.allBanks' doesn't exist
+[Method: GET, Route: attendance/addemp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(391): CodeIgniter\Database\BaseConnection->query('SELECT * From allBanks')
+ 2 APPPATH/Controllers/attendance/Attendance.php(60): App\Models\attendance\AttendanceModel->getBanks()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addemp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 09:22:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'if0_34654888_invoices.allBanks' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From allBanks')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From allBanks')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(391): CodeIgniter\Database\BaseConnection->query('SELECT * From allBanks')
+ 4 APPPATH/Controllers/attendance/Attendance.php(60): App\Models\attendance\AttendanceModel->getBanks()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addemp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 09:22:10 --> [Caused by] mysqli_sql_exception: Table 'if0_34654888_invoices.allBanks' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From allBanks', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From allBanks')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From allBanks')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(391): CodeIgniter\Database\BaseConnection->query('SELECT * From allBanks')
+ 5 APPPATH/Controllers/attendance/Attendance.php(60): App\Models\attendance\AttendanceModel->getBanks()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addemp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 09:22:29 --> mysqli_sql_exception: Table 'if0_34654888_invoices.allBanks' doesn't exist in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From a...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From a...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From a...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(391): CodeIgniter\Database\BaseConnection->query('SELECT * From a...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(60): App\Models\attendance\AttendanceModel->getBanks()
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addemp()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-01 09:22:29 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'if0_34654888_invoices.allBanks' doesn't exist
+[Method: GET, Route: attendance/addemp]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(391): CodeIgniter\Database\BaseConnection->query('SELECT * From allBanks')
+ 2 APPPATH/Controllers/attendance/Attendance.php(60): App\Models\attendance\AttendanceModel->getBanks()
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addemp()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 09:22:29 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'if0_34654888_invoices.allBanks' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From allBanks')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From allBanks')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(391): CodeIgniter\Database\BaseConnection->query('SELECT * From allBanks')
+ 4 APPPATH/Controllers/attendance/Attendance.php(60): App\Models\attendance\AttendanceModel->getBanks()
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addemp()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 09:22:29 --> [Caused by] mysqli_sql_exception: Table 'if0_34654888_invoices.allBanks' doesn't exist
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From allBanks', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From allBanks')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From allBanks')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(391): CodeIgniter\Database\BaseConnection->query('SELECT * From allBanks')
+ 5 APPPATH/Controllers/attendance/Attendance.php(60): App\Models\attendance\AttendanceModel->getBanks()
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addemp()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:19:46 --> DivisionByZeroError: Division by zero
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Controllers/attendance/Attendance.php on line 1605.
+ 1 APPPATH/Controllers/attendance/Attendance.php(1565): App\Controllers\attendance\Attendance->perday('2000', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:19:55 --> DivisionByZeroError: Division by zero
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Controllers/attendance/Attendance.php on line 1605.
+ 1 APPPATH/Controllers/attendance/Attendance.php(1565): App\Controllers\attendance\Attendance->perday('2000', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:20:10 --> DivisionByZeroError: Division by zero
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Controllers/attendance/Attendance.php on line 1605.
+ 1 APPPATH/Controllers/attendance/Attendance.php(1565): App\Controllers\attendance\Attendance->perday('2000', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 10:23:32 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND active=1' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(429): App\Models\attendance\AttendanceModel->getEmpBylocation(NULL)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->empList()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-01 10:23:32 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND active=1' at line 1
+[Method: GET, Route: attendance/empList]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location= AND active=1')
+ 2 APPPATH/Controllers/attendance/Attendance.php(429): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->empList()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:23:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND active=1' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location= AND active=1')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location= AND active=1')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location= AND active=1')
+ 4 APPPATH/Controllers/attendance/Attendance.php(429): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->empList()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:23:32 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND active=1' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND location= AND active=1', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location= AND active=1')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location= AND active=1')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location= AND active=1')
+ 5 APPPATH/Controllers/attendance/Attendance.php(429): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->empList()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 10:32:04 --> DivisionByZeroError: Division by zero
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Controllers/attendance/Attendance.php on line 1605.
+ 1 APPPATH/Controllers/attendance/Attendance.php(1565): App\Controllers\attendance\Attendance->perday('1200', '0')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:16:59 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: loginadd]
+in APPPATH/Controllers/Login.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login->add()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:17:03 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: loginadd]
+in APPPATH/Controllers/Login.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login->add()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:17:44 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: loginadd]
+in APPPATH/Controllers/Login.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login->add()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:17:48 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: loginadd]
+in APPPATH/Controllers/Login.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login->add()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:19:31 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: loginadd]
+in APPPATH/Controllers/Login.php on line 32.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login->add()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:21:43 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: loginadd]
+in APPPATH/Controllers/Login.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login->add()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:22:48 --> Error: Object of class stdClass could not be converted to string
+[Method: POST, Route: loginadd]
+in APPPATH/Controllers/Login.php on line 90.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login->add()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:26:09 --> ErrorException: Attempt to read property "role" on string
+[Method: POST, Route: loginadd]
+in APPPATH/Controllers/Login.php on line 230.
+ 1 APPPATH/Controllers/Login.php(230): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on string', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Login.php', 230)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login->add()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:54:08 --> BadMethodCallException: Call to undefined method App\Models\attendance\AttendanceModel::getLocation2
+[Method: GET, Route: attendance/searchlayout]
+in SYSTEMPATH/Model.php on line 932.
+ 1 APPPATH/Controllers/attendance/Attendance.php(776): CodeIgniter\Model->__call('getLocation2', [])
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:55:05 --> ArgumentCountError: Too few arguments to function App\Models\attendance\AttendanceModel::getLocations2(), 0 passed in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php on line 776 and exactly 1 expected
+[Method: GET, Route: attendance/searchlayout]
+in APPPATH/Models/attendance/AttendanceModel.php on line 15.
+ 1 APPPATH/Controllers/attendance/Attendance.php(776): App\Models\attendance\AttendanceModel->getLocations2()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:56:11 --> ArgumentCountError: Too few arguments to function App\Models\attendance\AttendanceModel::getLocations2(), 0 passed in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php on line 776 and exactly 1 expected
+[Method: GET, Route: attendance/searchlayout]
+in APPPATH/Models/attendance/AttendanceModel.php on line 15.
+ 1 APPPATH/Controllers/attendance/Attendance.php(776): App\Models\attendance\AttendanceModel->getLocations2()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 17:56:27 --> mysqli_sql_exception: Unknown column 'location' in 'where clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From l...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From l...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From l...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From l...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-01 17:56:27 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'location' in 'where clause'
+[Method: GET, Route: attendance/searchlayout]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From locations WHERE 1 AND location IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 2 APPPATH/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:56:27 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'location' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From locations WHERE 1 AND location IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From locations WHERE 1 AND location IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From locations WHERE 1 AND location IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 4 APPPATH/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:56:27 --> [Caused by] mysqli_sql_exception: Unknown column 'location' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From locations WHERE 1 AND location IN (\'3\', \'4\', \'5\', \'10\', \'11\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From locations WHERE 1 AND location IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From locations WHERE 1 AND location IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From locations WHERE 1 AND location IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 5 APPPATH/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 17:56:58 --> mysqli_sql_exception: Unknown column 'locations' in 'where clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From l...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From l...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From l...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From l...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-01 17:56:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'locations' in 'where clause'
+[Method: GET, Route: attendance/searchlayout]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 2 APPPATH/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:56:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'locations' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 4 APPPATH/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:56:58 --> [Caused by] mysqli_sql_exception: Unknown column 'locations' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 5 APPPATH/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 17:57:00 --> mysqli_sql_exception: Unknown column 'locations' in 'where clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From l...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From l...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From l...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From l...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-01 17:57:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'locations' in 'where clause'
+[Method: GET, Route: attendance/searchlayout]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 2 APPPATH/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:57:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'locations' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 4 APPPATH/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 17:57:00 --> [Caused by] mysqli_sql_exception: Unknown column 'locations' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(22): CodeIgniter\Database\BaseConnection->query('SELECT * From locations WHERE 1 AND locations IN (\'3\', \'4\', \'5\', \'10\', \'11\')')
+ 5 APPPATH/Controllers/attendance/Attendance.php(777): App\Models\attendance\AttendanceModel->getLocations2('900')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->searchlayout()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:03:26 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:03:33 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:03:39 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:03:58 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:04:08 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:04:16 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:04:51 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:05:04 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:05:48 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:05:53 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:06:18 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:06:20 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:06:24 --> ErrorException: Undefined property: CodeIgniter\View\View::$session
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1585): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:12:04 --> ErrorException: Undefined variable $myRole
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myRole', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1586): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:12:48 --> ErrorException: Undefined variable $myRole
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myRole', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1586): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:12:50 --> ErrorException: Undefined variable $myRole
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myRole', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1586): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:12:51 --> ErrorException: Undefined variable $myRole
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myRole', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1586): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:15:22 --> ErrorException: Undefined variable $myRole
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myRole', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1586): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:16:24 --> ErrorException: Undefined variable $myRole
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myRole', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1587): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:16:26 --> ErrorException: Undefined variable $myRole
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myRole', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1587): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:18:15 --> ErrorException: Undefined variable $myRole
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myRole', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1587): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:20:19 --> ErrorException: Undefined variable $myRole
+[Method: GET, Route: attendance/reportTol]
+in APPPATH/Views/attendance/reportTolerance.php on line 87.
+ 1 APPPATH/Views/attendance/reportTolerance.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myRole', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php', 87)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/attendance/reportTolerance.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('attendance/reportTolerance', [], true)
+ 5 APPPATH/Controllers/attendance/Attendance.php(1587): view('attendance/reportTolerance', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 18:25:00 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(1326): App\Models\attendance\AttendanceModel->displayemp('')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-01 18:25:00 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/reportTol]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(1326): App\Models\attendance\AttendanceModel->displayemp('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:25:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(1326): App\Models\attendance\AttendanceModel->displayemp('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:25:00 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE Id=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(1326): App\Models\attendance\AttendanceModel->displayemp('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 18:32:44 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND active=2' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(373): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(1291): App\Models\attendance\AttendanceModel->getEmployeesBylocationStatus('', '2')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringStatus()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-01 18:32:44 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND active=2' at line 1
+[Method: GET, Route: attendance/bringStatus]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(373): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE location= AND active=2')
+ 2 APPPATH/Controllers/attendance/Attendance.php(1291): App\Models\attendance\AttendanceModel->getEmployeesBylocationStatus('', '2')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringStatus()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:32:44 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND active=2' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE location= AND active=2')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE location= AND active=2')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(373): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE location= AND active=2')
+ 4 APPPATH/Controllers/attendance/Attendance.php(1291): App\Models\attendance\AttendanceModel->getEmployeesBylocationStatus('', '2')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringStatus()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:32:44 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND active=2' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE location= AND active=2', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE location= AND active=2')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE location= AND active=2')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(373): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE location= AND active=2')
+ 5 APPPATH/Controllers/attendance/Attendance.php(1291): App\Models\attendance\AttendanceModel->getEmployeesBylocationStatus('', '2')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringStatus()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-03-01 18:32:49 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(1326): App\Models\attendance\AttendanceModel->displayemp('')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-03-01 18:32:49 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/reportTol]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(1326): App\Models\attendance\AttendanceModel->displayemp('')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:32:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(1326): App\Models\attendance\AttendanceModel->displayemp('')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-03-01 18:32:49 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE Id=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE Id=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE Id=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(64): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE Id=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(1326): App\Models\attendance\AttendanceModel->displayemp('')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->reportTol()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

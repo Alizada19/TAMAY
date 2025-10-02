@@ -1,0 +1,208 @@
+CRITICAL - 2024-11-21 02:18:41 --> ErrorException: Attempt to read property "role" on null
+[Method: POST, Route: loginadd]
+in APPPATH/Controllers/Login.php on line 209.
+ 1 APPPATH/Controllers/Login.php(209): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "role" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Login.php', 209)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Login->add()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-21 03:41:14 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND pdate BETWEEN '2024-11-01' AND '2024-11-21' ORDER BY pdate DESC' at line 5 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('\n\t\t\tSELECT \n\t\t\t...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT \n\t\t\t...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT \n\t\t\t...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(141): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT \n\t\t\t...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(465): App\Models\attendance\AttendanceModel->getEmpAttendance('', '2024-11-01', '2024-11-21')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-21 03:41:14 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND pdate BETWEEN '2024-11-01' AND '2024-11-21' ORDER BY pdate DESC' at line 5
+[Method: GET, Route: attendance/bringAtt]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(141): CodeIgniter\Database\BaseConnection->query('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-11-01\' AND \'2024-11-21\' ORDER BY pdate DESC;
+			')
+ 2 APPPATH/Controllers/attendance/Attendance.php(465): App\Models\attendance\AttendanceModel->getEmpAttendance('', '2024-11-01', '2024-11-21')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 03:41:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND pdate BETWEEN '2024-11-01' AND '2024-11-21' ORDER BY pdate DESC' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-11-01\' AND \'2024-11-21\' ORDER BY pdate DESC;
+			')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-11-01\' AND \'2024-11-21\' ORDER BY pdate DESC;
+			')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(141): CodeIgniter\Database\BaseConnection->query('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-11-01\' AND \'2024-11-21\' ORDER BY pdate DESC;
+			')
+ 4 APPPATH/Controllers/attendance/Attendance.php(465): App\Models\attendance\AttendanceModel->getEmpAttendance('', '2024-11-01', '2024-11-21')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 03:41:14 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND pdate BETWEEN '2024-11-01' AND '2024-11-21' ORDER BY pdate DESC' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-11-01\' AND \'2024-11-21\' ORDER BY pdate DESC;
+			', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-11-01\' AND \'2024-11-21\' ORDER BY pdate DESC;
+			')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-11-01\' AND \'2024-11-21\' ORDER BY pdate DESC;
+			')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(141): CodeIgniter\Database\BaseConnection->query('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-11-01\' AND \'2024-11-21\' ORDER BY pdate DESC;
+			')
+ 5 APPPATH/Controllers/attendance/Attendance.php(465): App\Models\attendance\AttendanceModel->getEmpAttendance('', '2024-11-01', '2024-11-21')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-21 04:06:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(333): App\Models\attendance\AttendanceModel->getEmpBylocation(NULL)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-21 04:06:58 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/addPunch]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(333): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:06:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(333): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:06:58 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND location=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(333): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-21 04:06:58 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM e...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM e...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM e...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM e...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(333): App\Models\attendance\AttendanceModel->getEmpBylocation(NULL)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-11-21 04:06:58 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+[Method: GET, Route: attendance/addPunch]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 2 APPPATH/Controllers/attendance/Attendance.php(333): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:06:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Controllers/attendance/Attendance.php(333): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-21 04:06:58 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT * FROM employees WHERE 1 AND location=', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM employees WHERE 1 AND location=')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM employees WHERE 1 AND location=')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(132): CodeIgniter\Database\BaseConnection->query('SELECT * FROM employees WHERE 1 AND location=')
+ 5 APPPATH/Controllers/attendance/Attendance.php(333): App\Models\attendance\AttendanceModel->getEmpBylocation(null)
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->addPunch()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

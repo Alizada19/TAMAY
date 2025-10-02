@@ -1,0 +1,260 @@
+ERROR - 2024-12-01 01:19:07 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND pdate BETWEEN '2024-12-01' AND '2024-12-01' ORDER BY pdate' at line 5 in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('\n\t\t\tSELECT \n\t\t\t...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('\n\t\t\tSELECT \n\t\t\t...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('\n\t\t\tSELECT \n\t\t\t...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/attendance/AttendanceModel.php(141): CodeIgniter\Database\BaseConnection->query('\n\t\t\tSELECT \n\t\t\t...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/attendance/Attendance.php(555): App\Models\attendance\AttendanceModel->getEmpAttendance('', '2024-12-01', '2024-12-01')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-12-01 01:19:07 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND pdate BETWEEN '2024-12-01' AND '2024-12-01' ORDER BY pdate' at line 5
+[Method: GET, Route: attendance/bringAtt]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/attendance/AttendanceModel.php(141): CodeIgniter\Database\BaseConnection->query('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-12-01\' AND \'2024-12-01\' ORDER BY pdate;
+			')
+ 2 APPPATH/Controllers/attendance/Attendance.php(555): App\Models\attendance\AttendanceModel->getEmpAttendance('', '2024-12-01', '2024-12-01')
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-01 01:19:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND pdate BETWEEN '2024-12-01' AND '2024-12-01' ORDER BY pdate' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-12-01\' AND \'2024-12-01\' ORDER BY pdate;
+			')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-12-01\' AND \'2024-12-01\' ORDER BY pdate;
+			')
+ 3 APPPATH/Models/attendance/AttendanceModel.php(141): CodeIgniter\Database\BaseConnection->query('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-12-01\' AND \'2024-12-01\' ORDER BY pdate;
+			')
+ 4 APPPATH/Controllers/attendance/Attendance.php(555): App\Models\attendance\AttendanceModel->getEmpAttendance('', '2024-12-01', '2024-12-01')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-01 01:19:07 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AND pdate BETWEEN '2024-12-01' AND '2024-12-01' ORDER BY pdate' at line 5
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-12-01\' AND \'2024-12-01\' ORDER BY pdate;
+			', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-12-01\' AND \'2024-12-01\' ORDER BY pdate;
+			')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-12-01\' AND \'2024-12-01\' ORDER BY pdate;
+			')
+ 4 APPPATH/Models/attendance/AttendanceModel.php(141): CodeIgniter\Database\BaseConnection->query('
+			SELECT 
+				*
+			FROM tinout 
+			WHERE 
+			empId= AND pdate BETWEEN \'2024-12-01\' AND \'2024-12-01\' ORDER BY pdate;
+			')
+ 5 APPPATH/Controllers/attendance/Attendance.php(555): App\Models\attendance\AttendanceModel->getEmpAttendance('', '2024-12-01', '2024-12-01')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\attendance\Attendance->bringAtt()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\attendance\Attendance))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-01 12:19:28 --> mysqli_sql_exception: Column 'userid' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(136): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-01 12:19:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-01 12:19:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:28\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:28\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-01 12:19:28 --> [Caused by] mysqli_sql_exception: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:28\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:28\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:28\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-01 12:19:36 --> mysqli_sql_exception: Column 'userid' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(136): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-01 12:19:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-01 12:19:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:36\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:36\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-01 12:19:36 --> [Caused by] mysqli_sql_exception: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:36\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:36\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:36\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-12-01 12:19:45 --> mysqli_sql_exception: Column 'userid' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(136): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-12-01 12:19:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-01 12:19:45 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:45\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:45\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-12-01 12:19:45 --> [Caused by] mysqli_sql_exception: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:45\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:45\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-12-01 12:19:45\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(136): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,433 @@
+CRITICAL - 2025-08-20 04:17:16 --> Error: Class "App\Models\SalesattModel" not found
+[Method: POST, Route: saveFund]
+in APPPATH\Controllers\johoni\Johoni.php on line 475.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\johoni\Johoni->saveFund()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\johoni\Johoni))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:17:57 --> Error: Call to undefined function vbank()
+[Method: GET, Route: viewFund/19/1]
+in APPPATH\Views\johoni\viewFund.php on line 29.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('johoni/viewFund', [], true)
+ 4 APPPATH\Controllers\johoni\Johoni.php(782): view('johoni/viewFund', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\johoni\Johoni->viewFund('19', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\johoni\Johoni))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:18:17 --> Error: Call to undefined function vbank()
+[Method: GET, Route: viewFund/20/1]
+in APPPATH\Views\johoni\viewFund.php on line 29.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('johoni/viewFund', [], true)
+ 4 APPPATH\Controllers\johoni\Johoni.php(782): view('johoni/viewFund', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\johoni\Johoni->viewFund('20', '1')
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\johoni\Johoni))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:35:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reports/investment.php"
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reports/investment.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/investment', [], true)
+ 3 APPPATH\Controllers\sreport.php(130): view('reports/investment', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:36:02 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reports/investment.php"
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reports/investment.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/investment', [], true)
+ 3 APPPATH\Controllers\sreport.php(130): view('reports/investment', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:38:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "reports/investment.php"
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reports/investment.php')
+ 2 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/investment', [], true)
+ 3 APPPATH\Controllers\sreport.php(130): view('reports/investment', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:40:46 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:40:49 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:06 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:14 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:14 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:14 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:15 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:15 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:15 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:22 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:29 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:47 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:48 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:48 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:41:49 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:42:33 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:42:39 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:42:40 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:42:40 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:42:51 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:01 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:02 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:20 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:21 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:21 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:27 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:28 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:28 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:29 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:30 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:30 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:43:53 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:48:58 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:49:04 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:49:04 --> BadMethodCallException: Call to undefined method App\Models\DailyModel::bergayaTotal
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Model.php on line 932.
+ 1 APPPATH\Controllers\sreport.php(42): CodeIgniter\Model->__call('bergayaTotal', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-08-20 04:53:45 --> CodeIgniter\Database\Exceptions\DatabaseException: You must set the database table to be used with your query.
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH\Database\BaseConnection.php on line 927.
+ 1 SYSTEMPATH\Model.php(716): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(922): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\sreport.php(128): CodeIgniter\Model->__call('getInvestment', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

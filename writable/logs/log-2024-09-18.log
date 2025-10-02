@@ -1,0 +1,85 @@
+CRITICAL - 2024-09-18 07:44:58 --> ErrorException: Attempt to read property "dcnames" on null
+[Method: GET, Route: apayments]
+in APPPATH/Helpers/fornames_helper.php on line 56.
+ 1 APPPATH/Helpers/fornames_helper.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "dcnames" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Helpers/fornames_helper.php', 56)
+ 2 APPPATH/Views/reports/apaymentreports.php(152): getdbc('151')
+ 3 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/reports/apaymentreports.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('reports/apaymentreports', [], true)
+ 6 APPPATH/Controllers/Paymentreports.php(59): view('reports/apaymentreports', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentreports->apayments()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentreports))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 07:45:17 --> ErrorException: Attempt to read property "dcnames" on null
+[Method: GET, Route: apayments]
+in APPPATH/Helpers/fornames_helper.php on line 56.
+ 1 APPPATH/Helpers/fornames_helper.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "dcnames" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Helpers/fornames_helper.php', 56)
+ 2 APPPATH/Views/reports/apaymentreports.php(152): getdbc('151')
+ 3 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/reports/apaymentreports.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('reports/apaymentreports', [], true)
+ 6 APPPATH/Controllers/Paymentreports.php(59): view('reports/apaymentreports', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentreports->apayments()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentreports))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 07:45:22 --> ErrorException: Attempt to read property "dcnames" on null
+[Method: GET, Route: apayments]
+in APPPATH/Helpers/fornames_helper.php on line 56.
+ 1 APPPATH/Helpers/fornames_helper.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "dcnames" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Helpers/fornames_helper.php', 56)
+ 2 APPPATH/Views/reports/apaymentreports.php(152): getdbc('151')
+ 3 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/reports/apaymentreports.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('reports/apaymentreports', [], true)
+ 6 APPPATH/Controllers/Paymentreports.php(59): view('reports/apaymentreports', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentreports->apayments()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentreports))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 07:46:29 --> ErrorException: Attempt to read property "dcnames" on null
+[Method: GET, Route: apayments]
+in APPPATH/Helpers/fornames_helper.php on line 56.
+ 1 APPPATH/Helpers/fornames_helper.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "dcnames" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Helpers/fornames_helper.php', 56)
+ 2 APPPATH/Views/reports/apaymentreports.php(152): getdbc('151')
+ 3 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/reports/apaymentreports.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('reports/apaymentreports', [], true)
+ 6 APPPATH/Controllers/Paymentreports.php(59): view('reports/apaymentreports', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentreports->apayments()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentreports))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 07:49:14 --> ErrorException: Attempt to read property "dcnames" on null
+[Method: GET, Route: apayments]
+in APPPATH/Helpers/fornames_helper.php on line 56.
+ 1 APPPATH/Helpers/fornames_helper.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "dcnames" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Helpers/fornames_helper.php', 56)
+ 2 APPPATH/Views/reports/apaymentreports.php(152): getdbc('151')
+ 3 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/reports/apaymentreports.php')
+ 4 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('reports/apaymentreports', [], true)
+ 6 APPPATH/Controllers/Paymentreports.php(59): view('reports/apaymentreports', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentreports->apayments()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentreports))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-18 07:53:16 --> ErrorException: Undefined property: stdClass::$oc
+[Method: GET, Route: printpdfAllPayments]
+in APPPATH/Controllers/Paymentprintpdf.php on line 662.
+ 1 APPPATH/Controllers/Paymentprintpdf.php(662): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$oc', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Paymentprintpdf.php', 662)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentprintpdf->pdfAllPayments()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentprintpdf))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

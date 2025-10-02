@@ -1,0 +1,162 @@
+CRITICAL - 2025-04-26 05:23:39 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: uploadexcel/excel]
+in APPPATH/Controllers/uploadexcel/Excel.php on line 65.
+ 1 APPPATH/Controllers/uploadexcel/Excel.php(65): date_format(false, 'Y-m-d')
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\uploadexcel\Excel->import()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\uploadexcel\Excel))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-26 11:00:20 --> Error connecting to the database: mysqli_sql_exception: Connection refused in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:186
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(186): mysqli->real_connect('sql101.infinity...', 'if0_34654888', Object(SensitiveParameterValue), 'if0_34654888_in...', 3306, '', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(146): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Connection refused in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:231
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert(Array)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(146): App\Models\DailyModel->savedc(Array, 'cinout')
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-04-26 11:00:20 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 467.
+ 1 SYSTEMPATH/Database/BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 3 APPPATH/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert([...])
+ 4 APPPATH/Controllers/Cinout.php(146): App\Models\DailyModel->savedc([...], 'cinout')
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-26 12:00:54 --> mysqli_sql_exception: Column 'userid' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(146): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-26 12:00:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(146): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-26 12:00:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'4\', \'1\', 0, 1, 0, 1, \'LOOK\', NULL, NULL, \'2025-04-26 12:00:54\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'4\', \'1\', 0, 1, 0, 1, \'LOOK\', NULL, NULL, \'2025-04-26 12:00:54\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(146): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-26 12:00:54 --> [Caused by] mysqli_sql_exception: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'4\', \'1\', 0, 1, 0, 1, \'LOOK\', NULL, NULL, \'2025-04-26 12:00:54\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'4\', \'1\', 0, 1, 0, 1, \'LOOK\', NULL, NULL, \'2025-04-26 12:00:54\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'4\', \'1\', 0, 1, 0, 1, \'LOOK\', NULL, NULL, \'2025-04-26 12:00:54\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(146): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-04-26 12:13:12 --> mysqli_sql_exception: Column 'userid' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(146): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2025-04-26 12:13:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(146): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-26 12:13:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2025-04-26 12:13:12\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2025-04-26 12:13:12\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(146): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-04-26 12:13:12 --> [Caused by] mysqli_sql_exception: Column 'userid' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2025-04-26 12:13:12\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2025-04-26 12:13:12\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (\'6\', \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2025-04-26 12:13:12\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(388): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(146): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

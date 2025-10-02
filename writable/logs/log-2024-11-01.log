@@ -1,0 +1,14 @@
+CRITICAL - 2024-11-01 03:27:24 --> ErrorException: Attempt to read property "shop" on null
+[Method: GET, Route: dailyformview/433/1]
+in APPPATH/Views/dailyforms/dailyformview.php on line 132.
+ 1 APPPATH/Views/dailyforms/dailyformview.php(132): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "shop" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/dailyforms/dailyformview.php', 132)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/dailyforms/dailyformview.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('dailyforms/dailyformview', [], true)
+ 5 APPPATH/Controllers/Dailyform.php(445): view('dailyforms/dailyformview', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Dailyform->view('433', '1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dailyform))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

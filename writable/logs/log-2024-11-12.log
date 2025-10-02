@@ -1,0 +1,14 @@
+CRITICAL - 2024-11-12 11:30:14 --> ErrorException: Attempt to read property "ddate" on null
+[Method: GET, Route: cdbtorsViewPay/152/1]
+in APPPATH/Views/cdbtors/viewPay.php on line 78.
+ 1 APPPATH/Views/cdbtors/viewPay.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "ddate" on null', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/cdbtors/viewPay.php', 78)
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/cdbtors/viewPay.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('cdbtors/viewPay', [], true)
+ 5 APPPATH/Controllers/Cdbtors.php(402): view('cdbtors/viewPay', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cdbtors->viewPay('152', '1')
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cdbtors))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,30 @@
+CRITICAL - 2024-09-24 05:59:53 --> ErrorException: Undefined variable $subh7
+[Method: POST, Route: updatedRecord/12]
+in APPPATH/Controllers/Rfupdate.php on line 227.
+ 1 APPPATH/Controllers/Rfupdate.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subh7', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Rfupdate.php', 227)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Rfupdate->update('12')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-24 06:00:02 --> ErrorException: Undefined variable $subh7
+[Method: POST, Route: updatedRecord/12]
+in APPPATH/Controllers/Rfupdate.php on line 227.
+ 1 APPPATH/Controllers/Rfupdate.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subh7', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Rfupdate.php', 227)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Rfupdate->update('12')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-24 06:00:27 --> ErrorException: Undefined variable $subh7
+[Method: POST, Route: updatedRecord/12]
+in APPPATH/Controllers/Rfupdate.php on line 227.
+ 1 APPPATH/Controllers/Rfupdate.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $subh7', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Rfupdate.php', 227)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Rfupdate->update('12')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Rfupdate))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

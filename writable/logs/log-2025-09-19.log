@@ -1,0 +1,253 @@
+CRITICAL - 2025-09-19 03:48:53 --> ParseError: syntax error, unexpected single-quoted string "inv", expecting "]"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 578.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 03:49:14 --> ParseError: syntax error, unexpected single-quoted string "inv", expecting "]"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 578.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 03:49:40 --> ParseError: syntax error, unexpected identifier "inv", expecting "]"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 578.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 03:50:16 --> ParseError: syntax error, unexpected integer "5000", expecting "]"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 578.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 03:52:28 --> ErrorException: Undefined array key "category"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 590.
+ 1 APPPATH\Controllers\expenses\Expenses.php(590): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 590)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-19 04:56:28 --> mysqli_sql_exception: Unknown column 'tsales' in 'field list' in C:\update3\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\update3\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT sdate AS...', 0)
+#1 C:\update3\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sdate AS...')
+#2 C:\update3\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sdate AS...')
+#3 C:\update3\htdocs\codeigniter\app\Models\expenses\ExpensesModel.php(231): CodeIgniter\Database\BaseConnection->query('SELECT sdate AS...')
+#4 C:\update3\htdocs\codeigniter\app\Controllers\expenses\Expenses.php(539): App\Models\expenses\ExpensesModel->getDailySales(Array)
+#5 C:\update3\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+#6 C:\update3\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+#7 C:\update3\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\update3\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\update3\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\update3\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-19 04:56:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tsales' in 'field list'
+[Method: POST, Route: expenses/printDailyExcel]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\expenses\ExpensesModel.php(231): CodeIgniter\Database\BaseConnection->query('SELECT sdate AS pdate, tsales, shop AS shop FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 2 APPPATH\Controllers\expenses\Expenses.php(539): App\Models\expenses\ExpensesModel->getDailySales([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 04:56:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tsales' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sdate AS pdate, tsales, shop AS shop FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sdate AS pdate, tsales, shop AS shop FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 3 APPPATH\Models\expenses\ExpensesModel.php(231): CodeIgniter\Database\BaseConnection->query('SELECT sdate AS pdate, tsales, shop AS shop FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 4 APPPATH\Controllers\expenses\Expenses.php(539): App\Models\expenses\ExpensesModel->getDailySales([...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 04:56:28 --> [Caused by] mysqli_sql_exception: Unknown column 'tsales' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT sdate AS pdate, tsales, shop AS shop FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT sdate AS pdate, tsales, shop AS shop FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT sdate AS pdate, tsales, shop AS shop FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 4 APPPATH\Models\expenses\ExpensesModel.php(231): CodeIgniter\Database\BaseConnection->query('SELECT sdate AS pdate, tsales, shop AS shop FROM investment WHERE 1 AND sdate BETWEEN \'2025-09-14\' AND \'2025-09-16\' ORDER BY sdate')
+ 5 APPPATH\Controllers\expenses\Expenses.php(539): App\Models\expenses\ExpensesModel->getDailySales([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 05:16:23 --> Error: Undefined constant "App\Controllers\expenses\sdateRowMap"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 05:31:59 --> ErrorException: Undefined array key "amount"
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 592.
+ 1 APPPATH\Controllers\expenses\Expenses.php(592): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "amount"', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 592)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 05:32:56 --> ErrorException: Undefined variable $targetRow
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 599.
+ 1 APPPATH\Controllers\expenses\Expenses.php(599): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $targetRow', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 599)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 05:33:32 --> PhpOffice\PhpSpreadsheet\Exception: Unable to bind unstringable array
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php on line 33.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(236): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder->bindValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), [...])
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1123): PhpOffice\PhpSpreadsheet\Cell\Cell->setValue([...], Object(PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder))
+ 3 APPPATH\Controllers\expenses\Expenses.php(613): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('R566', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 05:39:54 --> ErrorException: Undefined variable $formula
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 613.
+ 1 APPPATH\Controllers\expenses\Expenses.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $formula', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 613)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 05:42:48 --> ErrorException: Array to string conversion
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 613.
+ 1 APPPATH\Controllers\expenses\Expenses.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 613)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 05:43:08 --> PhpOffice\PhpSpreadsheet\Exception: Unable to bind unstringable array
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php on line 33.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(236): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder->bindValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), [...])
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1123): PhpOffice\PhpSpreadsheet\Cell\Cell->setValue([...], Object(PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder))
+ 3 APPPATH\Controllers\expenses\Expenses.php(614): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('R566', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 05:44:30 --> ErrorException: Array to string conversion
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 613.
+ 1 APPPATH\Controllers\expenses\Expenses.php(613): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 613)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 05:48:05 --> PhpOffice\PhpSpreadsheet\Exception: Unable to bind unstringable array
+[Method: POST, Route: expenses/printDailyExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\DefaultValueBinder.php on line 33.
+ 1 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Cell\Cell.php(236): PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder->bindValue(Object(PhpOffice\PhpSpreadsheet\Cell\Cell), [...])
+ 2 APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1123): PhpOffice\PhpSpreadsheet\Cell\Cell->setValue([...], Object(PhpOffice\PhpSpreadsheet\Cell\DefaultValueBinder))
+ 3 APPPATH\Controllers\expenses\Expenses.php(614): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('R566', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printDailyExel()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2025-09-19 16:21:16 --> mysqli_sql_exception: Unknown column 'status' in 'where clause' in C:\update3\htdocs\codeigniter\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\update3\htdocs\codeigniter\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM c...', 0)
+#1 C:\update3\htdocs\codeigniter\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM c...')
+#2 C:\update3\htdocs\codeigniter\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM c...')
+#3 C:\update3\htdocs\codeigniter\app\Models\expenses\ExpensesModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM c...')
+#4 C:\update3\htdocs\codeigniter\app\Controllers\expenses\Expenses.php(110): App\Models\expenses\ExpensesModel->getAllResult('category')
+#5 C:\update3\htdocs\codeigniter\system\CodeIgniter.php(933): App\Controllers\expenses\Expenses->add()
+#6 C:\update3\htdocs\codeigniter\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+#7 C:\update3\htdocs\codeigniter\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\update3\htdocs\codeigniter\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 C:\update3\htdocs\codeigniter\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 C:\update3\htdocs\codeigniter\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2025-09-19 16:21:16 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+[Method: GET, Route: expenses/add]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 APPPATH\Models\expenses\ExpensesModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM category WHERE status!=1 ORDER BY saveDate DESC')
+ 2 APPPATH\Controllers\expenses\Expenses.php(110): App\Models\expenses\ExpensesModel->getAllResult('category')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->add()
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 16:21:16 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM category WHERE status!=1 ORDER BY saveDate DESC')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM category WHERE status!=1 ORDER BY saveDate DESC')
+ 3 APPPATH\Models\expenses\ExpensesModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM category WHERE status!=1 ORDER BY saveDate DESC')
+ 4 APPPATH\Controllers\expenses\Expenses.php(110): App\Models\expenses\ExpensesModel->getAllResult('category')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->add()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-19 16:21:16 --> [Caused by] mysqli_sql_exception: Unknown column 'status' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT * FROM category WHERE status!=1 ORDER BY saveDate DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * FROM category WHERE status!=1 ORDER BY saveDate DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * FROM category WHERE status!=1 ORDER BY saveDate DESC')
+ 4 APPPATH\Models\expenses\ExpensesModel.php(53): CodeIgniter\Database\BaseConnection->query('SELECT * FROM category WHERE status!=1 ORDER BY saveDate DESC')
+ 5 APPPATH\Controllers\expenses\Expenses.php(110): App\Models\expenses\ExpensesModel->getAllResult('category')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->add()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,89 @@
+CRITICAL - 2025-09-05 08:28:43 --> ErrorException: Undefined variable $sdate
+[Method: POST, Route: expenses/printExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 535.
+ 1 APPPATH\Controllers\expenses\Expenses.php(535): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sdate', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 535)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-05 08:34:24 --> ErrorException: Undefined variable $sdate
+[Method: POST, Route: expenses/printExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 535.
+ 1 APPPATH\Controllers\expenses\Expenses.php(535): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sdate', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 535)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-05 08:36:34 --> Error: Class "App\Controllers\expenses\Alignment" not found
+[Method: POST, Route: expenses/printExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 541.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printExel()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-05 08:37:17 --> ErrorException: Undefined property: stdClass::$type
+[Method: POST, Route: expenses/printExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 566.
+ 1 APPPATH\Controllers\expenses\Expenses.php(566): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$type', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 566)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-05 08:38:24 --> ErrorException: Undefined property: stdClass::$description
+[Method: POST, Route: expenses/printExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 574.
+ 1 APPPATH\Controllers\expenses\Expenses.php(574): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$description', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 574)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-05 08:38:53 --> ErrorException: Attempt to read property "total" on string
+[Method: POST, Route: expenses/printExcel]
+in APPPATH\Controllers\expenses\Expenses.php on line 581.
+ 1 APPPATH\Controllers\expenses\Expenses.php(581): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "total" on string', 'C:\\update3\\htdocs\\codeigniter\\app\\Controllers\\expenses\\Expenses.php', 581)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-05 08:43:35 --> PhpOffice\PhpSpreadsheet\Exception: Merge must be on a valid range of cells.
+[Method: POST, Route: expenses/printExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1717.
+ 1 APPPATH\Controllers\expenses\Expenses.php(580): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->mergeCells('A539C539:A539C539')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-05 08:43:55 --> PhpOffice\PhpSpreadsheet\Exception: Merge must be on a valid range of cells.
+[Method: POST, Route: expenses/printExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1717.
+ 1 APPPATH\Controllers\expenses\Expenses.php(580): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->mergeCells('A539C539:A539C539')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-09-05 08:44:00 --> PhpOffice\PhpSpreadsheet\Exception: Merge must be on a valid range of cells.
+[Method: POST, Route: expenses/printExcel]
+in APPPATH\ThirdParty\vendor2\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php on line 1717.
+ 1 APPPATH\Controllers\expenses\Expenses.php(580): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->mergeCells('A539C539:A539C539')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\expenses\Expenses->printExel()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,192 @@
+CRITICAL - 2024-09-22 06:54:52 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 06:54:56 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 06:54:58 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 06:55:10 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 06:56:32 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 06:58:38 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 07:04:01 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 07:06:50 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 07:09:17 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-22 07:09:49 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 266354688 bytes)
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-22 07:10:04 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 07:12:50 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 417349632 bytes)
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-22 07:14:45 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 07:15:18 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 392183808 bytes)
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-22 07:17:11 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 283131904 bytes)
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-22 07:18:22 --> ErrorException: Allowed memory size of 536870912 bytes exhausted (tried to allocate 400572416 bytes)
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 27.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-22 07:19:58 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-22 07:20:16 --> TypeError: date_format(): Argument #1 ($object) must be of type DateTimeInterface, bool given
+[Method: POST, Route: allReportSearchSub]
+in APPPATH/Views/bydate/home.php on line 30.
+ 1 APPPATH/Views/bydate/home.php(30): date_format(false, 'd/m/Y')
+ 2 SYSTEMPATH/View/View.php(234): include('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Views/bydate/home.php')
+ 3 SYSTEMPATH/View/View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1169): CodeIgniter\View\View->render('bydate/home', [], true)
+ 5 APPPATH/Controllers/Paymentsearch.php(117): view('bydate/home', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Paymentsearch->allReportSearchSub()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paymentsearch))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

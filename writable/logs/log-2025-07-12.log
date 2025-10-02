@@ -1,0 +1,91 @@
+CRITICAL - 2025-07-12 04:27:28 --> Error: Class "App\Models\DailyModel" not found
+[Method: POST, Route: sreport/rsearch]
+in APPPATH/Controllers/sreport.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Sreport->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-12 04:27:35 --> Error: Class "App\Models\DailyModel" not found
+[Method: POST, Route: sreport/rsearch]
+in APPPATH/Controllers/sreport.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Sreport->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-12 04:27:36 --> Error: Class "App\Models\DailyModel" not found
+[Method: POST, Route: sreport/rsearch]
+in APPPATH/Controllers/sreport.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Sreport->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-12 04:27:37 --> Error: Class "App\Models\DailyModel" not found
+[Method: POST, Route: sreport/rsearch]
+in APPPATH/Controllers/sreport.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Sreport->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-12 04:27:37 --> Error: Class "App\Models\DailyModel" not found
+[Method: POST, Route: sreport/rsearch]
+in APPPATH/Controllers/sreport.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Sreport->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-12 04:27:37 --> Error: Class "App\Models\DailyModel" not found
+[Method: POST, Route: sreport/rsearch]
+in APPPATH/Controllers/sreport.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Sreport->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-12 04:27:37 --> Error: Class "App\Models\DailyModel" not found
+[Method: POST, Route: sreport/rsearch]
+in APPPATH/Controllers/sreport.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Sreport->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-12 04:27:46 --> Error: Class "App\Models\DailyModel" not found
+[Method: POST, Route: sreport/rsearch]
+in APPPATH/Controllers/sreport.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Sreport->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-12 04:27:50 --> Error: Class "App\Models\DailyModel" not found
+[Method: POST, Route: sreport/rsearch]
+in APPPATH/Controllers/sreport.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(903): App\Controllers\Sreport->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(500): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-07-12 04:46:32 --> ErrorException: Undefined variable $bergayaTotal
+[Method: GET, Route: printpdfsreport/2025-07-11/2025-07-11/20]
+in APPPATH/Controllers/printpdfsreport.php on line 201.
+ 1 APPPATH/Controllers/printpdfsreport.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $bergayaTotal', '/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/printpdfsreport.php', 201)
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('2025-07-11', '2025-07-11', '20')
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

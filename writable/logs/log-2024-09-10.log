@@ -1,0 +1,382 @@
+CRITICAL - 2024-09-10 02:28:07 --> ErrorException: Undefined variable $loc
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 22.
+ 1 APPPATH\Views\reports\displayreport.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loc', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(58): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:29:02 --> ErrorException: Undefined variable $loc
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 22.
+ 1 APPPATH\Views\reports\displayreport.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loc', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:29:22 --> ErrorException: Undefined variable $loc
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 22.
+ 1 APPPATH\Views\reports\displayreport.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $loc', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:29:47 --> ErrorException: Undefined variable $location
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 22.
+ 1 APPPATH\Views\reports\displayreport.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $location', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:30:01 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 22.
+ 1 APPPATH\Views\reports\displayreport.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:30:42 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 22.
+ 1 APPPATH\Views\reports\displayreport.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:31:08 --> ErrorException: Undefined variable $slocation
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 22.
+ 1 APPPATH\Views\reports\displayreport.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $slocation', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 22)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:32:46 --> ErrorException: Undefined variable $sname
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 3.
+ 1 APPPATH\Views\reports\displayreport.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:33:40 --> ErrorException: Undefined variable $sname
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 3.
+ 1 APPPATH\Views\reports\displayreport.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:34:17 --> ErrorException: Undefined variable $sname
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 3.
+ 1 APPPATH\Views\reports\displayreport.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:34:44 --> ErrorException: Undefined variable $sname
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 3.
+ 1 APPPATH\Views\reports\displayreport.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(60): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:35:31 --> ErrorException: Undefined variable $sname
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 3.
+ 1 APPPATH\Views\reports\displayreport.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(59): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:35:45 --> ErrorException: Undefined variable $sname
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 3.
+ 1 APPPATH\Views\reports\displayreport.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(59): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:36:07 --> ErrorException: Undefined variable $sname
+[Method: POST, Route: sreport/rsearch]
+in APPPATH\Views\reports\displayreport.php on line 3.
+ 1 APPPATH\Views\reports\displayreport.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php', 3)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\updated\\htdocs\\codeigniter\\app\\Views\\reports\\displayreport.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1169): CodeIgniter\View\View->render('reports/displayreport', [], true)
+ 5 APPPATH\Controllers\sreport.php(59): view('reports/displayreport', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:42:06 --> ErrorException: Undefined property: stdClass::$totalNcash
+[Method: GET, Route: printpdfsreport/2024-09-01/2024-09-10/1]
+in APPPATH\Controllers\printpdfsreport.php on line 288.
+ 1 APPPATH\Controllers\printpdfsreport.php(288): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalNcash', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php', 288)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('2024-09-01', '2024-09-10', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:43:42 --> ErrorException: Undefined property: stdClass::$totalcash
+[Method: GET, Route: printpdfsreport/2024-09-01/2024-09-10/1]
+in APPPATH\Controllers\printpdfsreport.php on line 284.
+ 1 APPPATH\Controllers\printpdfsreport.php(284): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$totalcash', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php', 284)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('2024-09-01', '2024-09-10', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:46:42 --> ParseError: Unclosed '{' on line 264 does not match ')'
+[Method: GET, Route: printpdfsreport/2024-09-01/2024-09-10/1]
+in APPPATH\Controllers\printpdfsreport.php on line 270.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\printpdfsreport')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\printpdfsreport')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\printpdfsreport', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:46:43 --> ParseError: Unclosed '{' on line 264 does not match ')'
+[Method: GET, Route: printpdfsreport/2024-09-01/2024-09-10/1]
+in APPPATH\Controllers\printpdfsreport.php on line 270.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\printpdfsreport')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\printpdfsreport')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\printpdfsreport', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:46:43 --> ParseError: Unclosed '{' on line 264 does not match ')'
+[Method: GET, Route: printpdfsreport/2024-09-01/2024-09-10/1]
+in APPPATH\Controllers\printpdfsreport.php on line 270.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\printpdfsreport')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\printpdfsreport')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\printpdfsreport', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:47:48 --> ErrorException: Undefined variable $sname
+[Method: GET, Route: printpdfsreport/2024-09-01/2024-09-10/1]
+in APPPATH\Controllers\printpdfsreport.php on line 270.
+ 1 APPPATH\Controllers\printpdfsreport.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php', 270)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('2024-09-01', '2024-09-10', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:52:04 --> ErrorException: Undefined variable $sname
+[Method: GET, Route: printpdfsreport/2024-09-01/2024-09-10/1]
+in APPPATH\Controllers\printpdfsreport.php on line 270.
+ 1 APPPATH\Controllers\printpdfsreport.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php', 270)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('2024-09-01', '2024-09-10', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 02:52:30 --> ErrorException: Undefined variable $sname
+[Method: GET, Route: printpdfsreport/2024-09-01/2024-09-10/1]
+in APPPATH\Controllers\printpdfsreport.php on line 270.
+ 1 APPPATH\Controllers\printpdfsreport.php(270): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $sname', 'C:\\updated\\htdocs\\codeigniter\\app\\Controllers\\printpdfsreport.php', 270)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Printpdfsreport->index('2024-09-01', '2024-09-10', '1')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Printpdfsreport))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-10 05:21:38 --> mysqli_sql_exception: Unknown column 'edate' in 'where clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT SUM(scas...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(scas...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(scas...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT SUM(scas...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/sreport.php(48): App\Models\DailyModel->allshops(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-10 05:21:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'edate' in 'where clause'
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/DailyModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 2 APPPATH/Controllers/sreport.php(48): App\Models\DailyModel->allshops([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 05:21:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'edate' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 3 APPPATH/Models/DailyModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 4 APPPATH/Controllers/sreport.php(48): App\Models\DailyModel->allshops([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 05:21:38 --> [Caused by] mysqli_sql_exception: Unknown column 'edate' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 4 APPPATH/Models/DailyModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 5 APPPATH/Controllers/sreport.php(48): App\Models\DailyModel->allshops([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-09-10 05:21:54 --> mysqli_sql_exception: Unknown column 'edate' in 'where clause' in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('SELECT SUM(scas...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(scas...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(scas...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT SUM(scas...')
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/sreport.php(48): App\Models\DailyModel->allshops(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#11 {main}
+CRITICAL - 2024-09-10 05:21:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'edate' in 'where clause'
+[Method: POST, Route: sreport/rsearch]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 APPPATH/Models/DailyModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 2 APPPATH/Controllers/sreport.php(48): App\Models\DailyModel->allshops([...])
+ 3 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 4 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 5 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 05:21:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'edate' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 3 APPPATH/Models/DailyModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 4 APPPATH/Controllers/sreport.php(48): App\Models\DailyModel->allshops([...])
+ 5 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 6 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 7 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-09-10 05:21:54 --> [Caused by] mysqli_sql_exception: Unknown column 'edate' in 'where clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 4 APPPATH/Models/DailyModel.php(213): CodeIgniter\Database\BaseConnection->query('SELECT SUM(scash) AS totalCash, SUM(ncash) AS totalNcash, SUM(scard) AS totalCard, SUM(tsales) AS totalSales, SUM(texpens) AS totaleamount FROM daily WHERE sdate = \'2024-08-01\' AND  edate = \'2024-08-01\'')
+ 5 APPPATH/Controllers/sreport.php(48): App\Models\DailyModel->allshops([...])
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Sreport->rsearch()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sreport))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

@@ -1,0 +1,1202 @@
+ERROR - 2024-10-11 01:21:49 --> mysqli_sql_exception: Column 'shop' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(135): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-10-11 01:21:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 01:21:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:21:49\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:21:49\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 01:21:49 --> [Caused by] mysqli_sql_exception: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:21:49\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:21:49\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:21:49\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-11 01:22:00 --> mysqli_sql_exception: Column 'shop' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(135): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-10-11 01:22:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 01:22:00 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:00\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:00\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 01:22:00 --> [Caused by] mysqli_sql_exception: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:00\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:00\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:00\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-11 01:22:07 --> mysqli_sql_exception: Column 'shop' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(135): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-10-11 01:22:07 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 01:22:07 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:07\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:07\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 01:22:07 --> [Caused by] mysqli_sql_exception: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:07\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:07\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 0, 1, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:07\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-10-11 01:22:36 --> mysqli_sql_exception: Column 'shop' cannot be null in /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php:312
+Stack trace:
+#0 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `ci...', 0)
+#1 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ci...')
+#2 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ci...')
+#3 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ci...', Array, false)
+#4 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/Cinout.php(135): App\Models\DailyModel->savedc(Array, 'cinout')
+#6 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(933): App\Controllers\Cinout->save()
+#7 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+#8 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/system/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 /home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/public/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 {main}
+CRITICAL - 2024-10-11 01:22:37 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+[Method: POST, Route: cinoutsave]
+in SYSTEMPATH/Database/BaseConnection.php on line 688.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 2 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 3 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 01:22:37 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 317.
+ 1 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 1, 0, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:36\')')
+ 2 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 1, 0, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:36\')')
+ 3 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 4 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 5 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 6 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 7 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 8 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 01:22:37 --> [Caused by] mysqli_sql_exception: Column 'shop' cannot be null
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 312.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(312): mysqli->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 1, 0, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:36\')', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 1, 0, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:36\')')
+ 3 SYSTEMPATH/Database/BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (NULL, \'1\', 1, 0, 1, 0, \'\', NULL, NULL, \'2024-10-11 01:22:36\')')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(2340): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cinout` (`shop`, `cin`, `purchase`, `purchasenot`, `local`, `foreigner`, `remark`, `userid`, `username`, `saveDate`) VALUES (:shop:, :cin:, :purchase:, :purchasenot:, :local:, :foreigner:, :remark:, :userid:, :username:, :saveDate:)', [...], false)
+ 5 APPPATH/Models/DailyModel.php(355): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH/Controllers/Cinout.php(135): App\Models\DailyModel->savedc([...], 'cinout')
+ 7 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\Cinout->save()
+ 8 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cinout))
+ 9 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:39:32 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:39:37 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:45:28 --> ParseError: syntax error, unexpected token "*"
+[Method: GET, Route: expenses/list]
+in APPPATH/Controllers/expenses/Expenses.php on line 42.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/Controllers/expenses/Expenses.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\expenses\\Expenses')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\expenses\\Expenses')
+ 4 SYSTEMPATH/CodeIgniter.php(887): class_exists('\\App\\Controllers\\expenses\\Expenses', true)
+ 5 SYSTEMPATH/CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:46:21 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:50:07 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:50:10 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:50:13 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:53:41 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:53:42 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:53:43 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:53:44 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:53:44 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:53:45 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 10:53:46 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:09:32 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:09:40 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:10:05 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:21:05 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:22:18 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:22:22 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:22:41 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:22:54 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:23:00 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 11:29:03 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:53:27 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:53:41 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:55:46 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:55:48 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:55:50 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:56:52 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:57:33 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:59:09 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:59:14 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:59:17 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:59:21 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:59:43 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 12:59:45 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:00:08 --> Error: Interface "PhpOffice\PhpSpreadsheet\JsonSerializable" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 19.
+ 1 APPPATH/ThirdParty/vendor2/composer/ClassLoader.php(576): include()
+ 2 APPPATH/ThirdParty/vendor2/composer/ClassLoader.php(427): Composer\Autoload\{closure}('/home/vol18_1/infinityfree.com/if0_34654888/htdocs/office/codeigniter/app/ThirdParty/vendor2/composer/../phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php')
+ 3 APPPATH/Controllers/expenses/Expenses.php(25): Composer\Autoload\ClassLoader->loadClass('PhpOffice\\PhpSpreadsheet\\Spreadsheet')
+ 4 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 5 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 6 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:00:41 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:16:08 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:17:00 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:19:01 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:36:39 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/Controllers/expenses/Expenses.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:36:42 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/Controllers/expenses/Expenses.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:36:44 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/Controllers/expenses/Expenses.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:37:04 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/Controllers/expenses/Expenses.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:37:07 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/Controllers/expenses/Expenses.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:37:58 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/Controllers/expenses/Expenses.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:38:04 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:38:16 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:38:42 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:38:47 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:43:23 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:43:55 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:44:05 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:44:08 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:44:20 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:44:23 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:44:35 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:44:46 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:44:49 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:45:14 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:45:15 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 13:45:20 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:06:53 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:06:58 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:08:39 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:09:08 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/Controllers/expenses/Expenses.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:09:11 --> Error: Class "PhpOffice\PhpSpreadsheet\Spreadsheet" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/Controllers/expenses/Expenses.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 2 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 3 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:09:25 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:10:55 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:10:58 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:12:26 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:37:18 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:37:25 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:37:40 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:41:25 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:42:29 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:46:29 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:46:32 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:46:37 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:46:40 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:46:42 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 14:47:08 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:02:52 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:02:59 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:03:06 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:03:31 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:03:40 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:04:08 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:04:12 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:05:41 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:05:55 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:08:40 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:08:44 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:09:05 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:19:57 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:47:34 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-10-11 15:50:08 --> Error: Class "PhpOffice\PhpSpreadsheet\Calculation\Calculation" not found
+[Method: GET, Route: expenses/list]
+in APPPATH/ThirdParty/vendor2/phpoffice/phpspreadsheet/src/PhpSpreadsheet/Spreadsheet.php on line 407.
+ 1 APPPATH/Controllers/expenses/Expenses.php(25): PhpOffice\PhpSpreadsheet\Spreadsheet->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(933): App\Controllers\expenses\Expenses->index()
+ 3 SYSTEMPATH/CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\expenses\Expenses))
+ 4 SYSTEMPATH/CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
