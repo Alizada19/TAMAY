@@ -126,7 +126,7 @@ class Home extends BaseController
 			{
 				//upload perfume image
 				$this->uploadimage($rid, $pname); 
-				return redirect()->to(base_url('codeigniter/public/perfumes/view/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('perfumes/view/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{
@@ -273,7 +273,7 @@ class Home extends BaseController
 			{   
 				//upload perfume image
 				$this->editImage($rid, $pname); 
-				return redirect()->to(base_url('codeigniter/public/perfumes/view/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('perfumes/view/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{

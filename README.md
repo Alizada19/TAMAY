@@ -1,60 +1,74 @@
-# CodeIgniter 4 Framework
+# Comprehensive Business Management System
 
-## What is CodeIgniter?
+A robust and versatile business management solution built on CodeIgniter 4, designed to streamline daily operations, financial tracking, and employee management for modern enterprises.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## Key Features
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- **Attendance Management**: Track employee clock-in/out times, manage leaves, and generate detailed attendance reports with tolerance settings.
+- **Salary & Payroll**: Automated salary calculation, payslip generation, and financial record keeping.
+- **Expense Tracking**: Categorize and monitor business expenses with graphical insights and Excel/PDF reporting.
+- **Perfume Inventory**: Specialized module for managing perfume stock, including olfactory notes (floral, oriental, woody, etc.) and category filtering.
+- **Daily Sales Reporting**: Capture and analyze daily sales across multiple shop locations with MTD performance metrics.
+- **Debtors & Creditors**: Comprehensive balance sheet management to track outstanding payments and collections.
+- **Reporting Engine**: Generate professional PDF and Excel reports for sales, expenses, attendance, and payments.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Tech Stack
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+- **Framework**: CodeIgniter 4.x (PHP 8.1+)
+- **Frontend**: Bootstrap, jQuery, W3.CSS
+- **Database**: MySQL/MariaDB
+- **Reporting**: Dompdf for PDF generation, PHPExcel/PhpSpreadsheet for Excel.
 
-## Important Change with index.php
+## Installation Guide
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+### Prerequisites
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+- PHP 8.1 or higher
+- MySQL 5.7+ or MariaDB 10.3+
+- Composer installed globally
+- PHP Extensions: `intl`, `mbstring`, `json`, `mysqlnd`, `libcurl`, `gd`
 
-**Please** read the user guide for a better explanation of how CI4 works!
+### Setup Steps
 
-## Repository Management
+1. **Clone the Repository**
+   ```bash
+   git clone <repository-url>
+   cd <project-folder>
+   ```
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+2. **Install Dependencies**
+   ```bash
+   composer install
+   ```
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+3. **Environment Configuration**
+   - Copy `env` to `.env`:
+     ```bash
+     cp env .env
+     ```
+   - Edit `.env` and configure your database settings:
+     ```env
+     database.default.hostname = localhost
+     database.default.database = your_db_name
+     database.default.username = your_db_user
+     database.default.password = your_db_password
+     database.default.DBDriver = MySQLi
+     ```
 
-## Contributing
+4. **Database Setup**
+   - Create a new database in MySQL.
+   - Import the provided SQL schema (if available) into your database.
 
-We welcome contributions from the community.
+5. **Run the Application**
+   - You can use the built-in PHP server:
+     ```bash
+     php spark serve
+     ```
+   - Access the application at `http://localhost:8080`.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+## Security Note
 
-## Server Requirements
+For production environments, ensure that your web server points to the `public/` directory as the document root to prevent unauthorized access to system files.
 
-PHP version 8.1 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+---
+*Built with CodeIgniter 4 - Light, Fast, Flexible, and Secure.*

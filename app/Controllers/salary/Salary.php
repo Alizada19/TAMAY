@@ -186,7 +186,7 @@ class Salary extends BaseController
 			$rid = $this->SalaryModel->saveRecord($data, 'salary');   
 			if($rid)
 			{
-				return redirect()->to(base_url('codeigniter/public/salary/view/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('salary/view/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{
@@ -353,7 +353,7 @@ class Salary extends BaseController
 		 $update = $this->SalaryModel->updateRecord($data, $rid, 'salary');   
 		 if($update == 1)
 		 {
-			return redirect()->to(base_url('codeigniter/public/salary/view/'.$rid.'/1'.'')); exit;
+			return redirect()->to(base_url('salary/view/'.$rid.'/1'.'')); exit;
 		 }
 		 else
 		 {

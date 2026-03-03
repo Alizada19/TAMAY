@@ -3,7 +3,7 @@
 			<div class="col-sm-12" style="font-weight:bold;">
 				<div class="panel panel-primary">
 				  <div class="panel-heading">Attendance</div>
-				  <div class="panel-body"><a target='blank' href="<?=base_url('codeigniter/public/attendance/').'addPunch/'?>"><h3>Add Punches</h3> </a></div>
+				  <div class="panel-body"><a target='blank' href="<?=base_url('attendance/').'addPunch/'?>"><h3>Add Punches</h3> </a></div>
 				</div>
 			</div>
 		</div>

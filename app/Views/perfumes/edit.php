@@ -3,7 +3,7 @@
 			<h4>Edit Perfume</h4>
 		</div>
 		
-		<form id="form1" method="post" enctype="multipart/form-data" action="<?=base_url('codeigniter/public/perfumes/editSave/')?><?=$row->Id?>" style="width:800px;margin: 0 auto;">
+		<form id="form1" method="post" enctype="multipart/form-data" action="<?=base_url('perfumes/editSave/')?><?=$row->Id?>" style="width:800px;margin: 0 auto;">
 			<div style="width:100%" style="margin-right:1%;">
 				<table style="width:100%;font-size:20px;float:left;margin-top:10px;margin-bottom:10px;">
 				  <tr>
@@ -67,7 +67,7 @@
 	function bringCheque(cid)
 	{
 		 $.ajax({
-			     url: "<?=base_url('codeigniter/public/expenses/bringCheque')?>/"+cid, 
+			     url: "<?=base_url('expenses/bringCheque')?>/"+cid,
                  success: function(result) {
 					 if(result!=0)
 					 {
@@ -101,7 +101,7 @@ function bringCat(gid)
 	var mydata = "&gid=" + gid
 	$.ajax({
 				 type: 'GET',
-				 url: "<?=base_url('codeigniter/public/perfumes/bringCat')?>",
+				 url: "<?=base_url('perfumes/bringCat')?>",
 				 data: mydata,
 				 success: function(result) {
 					$("#pcategory").empty(); 

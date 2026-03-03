@@ -1,4 +1,4 @@
-<form id="form1" method="post" enctype="multipart/form-data" action="<?=base_url('codeigniter/public/salary/searchSalary')?>">
+<form id="form1" method="post" enctype="multipart/form-data" action="<?=base_url('salary/searchSalary')?>">
 <div style="margin-left:1%;">
 	<div>
 		<input type="month" name="sdate" id="sdate"  value="<?=date_format(date_create($sdate), 'Y-m');?>" style="width:20%; height:30px;	text-align:center;">
@@ -16,7 +16,7 @@
 		</select>
 	</div>
 	<div style="margin-bottom:5px;">
-		<input type="submit" name="form1"   style="width:100px;" class="btn btn-primary line" onclick="submitForm('<?=base_url('codeigniter/public/salary/searchSalary')?>')" id="search" value="Search" />
+		<input type="submit" name="form1"   style="width:100px;" class="btn btn-primary line" onclick="submitForm('<?=base_url('salary/searchSalary')?>')" id="search" value="Search" />
 	</div>
 </div>
 </form>
@@ -48,7 +48,7 @@
 				<td><?='RM '.number_format($row->gSalary, 2)?></td>
 				<td><?='RM '.number_format($row->netSalary, 2)?></td>
 				<td>
-					<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/salary/view/')?><?=$row->Id?>/2" target="_blank">View</a>
+					<a style="test-decoration: none;" title="View Record" href="<?=base_url('salary/view/')?><?=$row->Id?>/2" target="_blank">View</a>
 				</td>
 			</tr>
 		<?php
@@ -65,7 +65,7 @@
 	</table>
 </div>
 <div class="row" style="margin:15px 15px 15px 1%;;width:40%;">	
-   <input type="button" value="Generate File" name="btn_result" onclick="submitForm('<?=base_url('codeigniter/public/salary/generateFile')?>')" style="width:200px;" class="btn btn-primary line"></button>
+   <input type="button" value="Generate File" name="btn_result" onclick="submitForm('<?=base_url('salary/generateFile')?>')" style="width:200px;" class="btn btn-primary line"></button>
 </div>
 </div>
 

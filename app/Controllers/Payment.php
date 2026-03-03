@@ -108,7 +108,7 @@ class Payment extends BaseController
 
 					if($rid != 0)
 					{	
-							 return redirect()->to(base_url('codeigniter/public/paymentViewc/'.$rid.'/1'.'')); exit;
+							 return redirect()->to(base_url('paymentViewc/'.$rid.'/1'.'')); exit;
 					}
 					else
 					{
@@ -126,7 +126,7 @@ class Payment extends BaseController
 
 				if($rid != 0)
 				{	
-						 return redirect()->to(base_url('codeigniter/public/paymentViewc/'.$rid.'/1'.'')); exit;
+						 return redirect()->to(base_url('paymentViewc/'.$rid.'/1'.'')); exit;
 				}
 				else
 				{
@@ -174,7 +174,7 @@ class Payment extends BaseController
 					
 					if($rid != 0)
 					{	
-							 return redirect()->to(base_url('codeigniter/public/paymentViewoc/'.$rid.'/1'.'')); exit;
+							 return redirect()->to(base_url('paymentViewoc/'.$rid.'/1'.'')); exit;
 					}
 					else
 					{
@@ -222,7 +222,7 @@ class Payment extends BaseController
 				
 				if($rid != 0)
 				{	
-						 return redirect()->to(base_url('codeigniter/public/paymentun/'.$rid.'/1'.'')); exit;
+						 return redirect()->to(base_url('paymentun/'.$rid.'/1'.'')); exit;
 				}
 				else
 				{
@@ -508,7 +508,7 @@ class Payment extends BaseController
 					$up = $this->DailyModel->gupdate($data,$rid, 'payments'); 
 					if($up != 0)
 					{	
-							 return redirect()->to(base_url('codeigniter/public/paymentViewc/'.$rid.'/1'.'')); 
+							 return redirect()->to(base_url('paymentViewc/'.$rid.'/1'.''));
 					}
 					else
 					{
@@ -525,7 +525,7 @@ class Payment extends BaseController
 					$up = $this->DailyModel->gupdate($data,$rid, 'payments'); 
 					if($up != 0)
 					{	
-							 return redirect()->to(base_url('codeigniter/public/paymentViewc/'.$rid.'/1'.'')); 
+							 return redirect()->to(base_url('paymentViewc/'.$rid.'/1'.''));
 					}
 					else
 					{
@@ -575,7 +575,7 @@ class Payment extends BaseController
 					$up = $this->DailyModel->gupdate($data,$rid, 'payments'); 
 					if($up != 0)
 					{	
-							 return redirect()->to(base_url('codeigniter/public/paymentViewoc/'.$rid.'/1'.''));
+							 return redirect()->to(base_url('paymentViewoc/'.$rid.'/1'.''));
 					}
 					else
 					{
@@ -640,7 +640,7 @@ class Payment extends BaseController
 				$up = $this->DailyModel->gupdate($data,$rid, 'payments'); 
 				if($up != 0)
 				{	
-						 return redirect()->to(base_url('codeigniter/public/paymentun/'.$rid.'/1'.''));
+						 return redirect()->to(base_url('paymentun/'.$rid.'/1'.''));
 				}
 				else
 				{

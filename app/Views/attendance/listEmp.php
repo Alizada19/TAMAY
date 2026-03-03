@@ -100,7 +100,7 @@
 			<td style="width:8%;background-color:#b3d7ff87;padding-left:5px;"><?=$row->jdate?></td>
 			<td style="width:15%;background-color:#b3d7ff87;padding-left:5px;"><?=$row->addr?></td>
 			<td style="width:8%;background-color:#b3d7ff87;padding-left:5px;">
-				<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/attendance/viewemp/')?><?=$row->Id?>/2" target="_blank">View</a>
+				<a style="test-decoration: none;" title="View Record" href="<?=base_url('attendance/viewemp/')?><?=$row->Id?>/2" target="_blank">View</a>
 			</td>
 		</tr>
 	
@@ -122,7 +122,7 @@ function filterSearch()
 	var formData = $("#filter1").serialize(); 
 	$.ajax({
 				 type: 'get',
-				 url: "<?=base_url('codeigniter/public/attendance/searchEmp')?>",
+				 url: "<?=base_url('attendance/searchEmp')?>",
 				 data: formData,
 				 success: function(result) {
 					$("#listCon").empty(); 

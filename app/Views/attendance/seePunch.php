@@ -25,7 +25,7 @@
 	</tbody>
 </table>
 
-<form id="reportform" action="<?=base_url('codeigniter/public/attendance/printpdf')?>" method="get" target="_blank">		
+<form id="reportform" action="<?=base_url('attendance/printpdf')?>" method="get" target="_blank">
 	<input type="hidden" name="sdate" id="sdate" value="<?=$sdate?>">
 	<input type="hidden" name="edate" id="edate" value="<?=$edate?>">
 	<input type="hidden" name="location" id="location" value="<?=$location?>">

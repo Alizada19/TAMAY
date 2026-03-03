@@ -9,16 +9,16 @@
 		</div>
 		
 	</form>	
-			<input type="submit" value="Search by date" name="btn_result" onclick="submitForm('<?=base_url('codeigniter/public/searchExcel')?>')" style="width:110px;" class="btn btn-primary line"></button>
+			<input type="submit" value="Search by date" name="btn_result" onclick="submitForm('<?=base_url('searchExcel')?>')" style="width:110px;" class="btn btn-primary line"></button>
 			
-			<input type="submit" value="Ungroup" name="btn_result" onclick="submitForm('<?=base_url('codeigniter/public/ungroup')?>')" style="width:100px;" class="btn btn-primary line"></button>
+			<input type="submit" value="Ungroup" name="btn_result" onclick="submitForm('<?=base_url('ungroup')?>')" style="width:100px;" class="btn btn-primary line"></button>
 			
-			<!--<input type="submit" value="Chart" name="btn_result" onclick="submitForm('<?//=base_url('codeigniter/public/schart')?>')" style="width:100px;" class="btn btn-primary line"></button>-->
-			<input type="submit" value="Group by Category" name="btn_result" onclick="submitForm('<?=base_url('codeigniter/public/gcategory')?>')" style="width:160px;" class="btn btn-primary line"></button>
+			<!--<input type="submit" value="Chart" name="btn_result" onclick="submitForm('<?//=base_url('schart')?>')" style="width:100px;" class="btn btn-primary line"></button>-->
+			<input type="submit" value="Group by Category" name="btn_result" onclick="submitForm('<?=base_url('gcategory')?>')" style="width:160px;" class="btn btn-primary line"></button>
 			
-			<input type="submit" value="Chart" name="btn_result" onclick="submitForm('<?=base_url('codeigniter/public/schart')?>')" style="width:100px;" class="btn btn-primary line"></button>
+			<input type="submit" value="Chart" name="btn_result" onclick="submitForm('<?=base_url('schart')?>')" style="width:100px;" class="btn btn-primary line"></button>
 			
-			<a title="Upload excel file" target="_blank" href="<?=base_url('codeigniter/public/excel')?>"><input type="button" name="btn_result" style="width:150px;" class="btn btn-primary line" value="Upload Excel File"  /></a>
+			<a title="Upload excel file" target="_blank" href="<?=base_url('excel')?>"><input type="button" name="btn_result" style="width:150px;" class="btn btn-primary line" value="Upload Excel File"  /></a>
 	<div id="mainDive">
 		<div style="width:98%; margin-right:1%; margin-left:1%;">	
 			<div style="text-align:center; font-weight:bold;font-size: 18px;">

@@ -13,7 +13,7 @@
 <div id="container" style="padding:5px 5px 5px 5px;width:100%;">
 		<div style="width:100%;margin-right:1%;">
 			<?php if($pimage){ ?> 
-			<span style="margin-left:40%;"><img src="<?= base_url('codeigniter/public/')?><?=$ppath?>" alt="User Image" style="width: 100px; height: 100px;border:1px solid #000;"></span>
+			<span style="margin-left:40%;"><img src="<?= base_url()?><?=$ppath?>" alt="User Image" style="width: 100px; height: 100px;border:1px solid #000;"></span>
 			<?php } ?>
 			<table  style="width:100%;font-size:20px;float:left;margin-top:10px;margin-bottom:10px;">
 			  <tr>
@@ -131,7 +131,7 @@
 				  <td style="width:12%;background-color:#b3d7ff87;padding-left:5px;">Profile Picture:</td>
 				  <td colspan="2" style="width:26%;font-weight:bold;font-size:20px;padding-left:10px;background-color:#b3d7ff87;">
 					<?php if($pimage){ ?>
-					<img src="<?= base_url('codeigniter/public/')?><?=$ppath?>" alt="User Image" style="width: 50px; height: 50px;border:1px solid #000;"> <a href="<?= base_url('codeigniter/public/attendance/downloadProfile/')?><?=$row->Id?>" title="Download It">Download</a>
+					<img src="<?= base_url()?><?=$ppath?>" alt="User Image" style="width: 50px; height: 50px;border:1px solid #000;"> <a href="<?= base_url('attendance/downloadProfile/')?><?=$row->Id?>" title="Download It">Download</a>
 					<?php } ?>
 				  </td>
 			  </tr>
@@ -139,7 +139,7 @@
 				  <td style="width:12%;background-color:#b3d7ff87;padding-left:5px;">ID:</td>
 				  <td colspan="2" style="width:26%;font-weight:bold;font-size:20px;padding-left:10px;background-color:#b3d7ff87;">
 				  <?php if($idimage){ ?>
-					<!--<img src="<?//= base_url('codeigniter/public/')?><?//=$ipath?>" alt="User Image" style="width: 50px; height: 50px;border:1px solid #000;">--> <a href="<?= base_url('codeigniter/public/attendance/downloadId/')?><?=$row->Id?>" title="Download It">Download</a>
+					<!--<img src="<?//= base_url()?><?//=$ipath?>" alt="User Image" style="width: 50px; height: 50px;border:1px solid #000;">--> <a href="<?= base_url('attendance/downloadId/')?><?=$row->Id?>" title="Download It">Download</a>
 				  <?php } ?>
 				  </td>
 			  </tr>
@@ -148,6 +148,6 @@
 		</div>	
 	
 		<div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">
-		   <a title="Edit Record" href="<?=base_url('codeigniter/public/attendance/editViewemp/')?><?=$row->Id?>"><input type="button" name="btn_result" style="width:200px;" class="btn btn-primary line" value="Update" /></a>
+		   <a title="Edit Record" href="<?=base_url('attendance/editViewemp/')?><?=$row->Id?>"><input type="button" name="btn_result" style="width:200px;" class="btn btn-primary line" value="Update" /></a>
 		</div>	
 </div>	

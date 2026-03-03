@@ -3,7 +3,7 @@
 			<h4>Expense Form</h4>
 			<h4>Create Expense</h4>
 		</div>
-		<form id="form1" method="post" action="<?=base_url('codeigniter/public/expenses/save')?>">
+		<form id="form1" method="post" action="<?=base_url('expenses/save')?>">
 			<div style="width:100%" style="margin-right:1%;">
 				<table style="width:100%;font-size:20px;float:left;margin-top:10px;margin-bottom:10px;">
 				  <tr>
@@ -91,7 +91,7 @@
 	function bringCheque(cid)
 	{
 		 $.ajax({
-			     url: "<?=base_url('codeigniter/public/expenses/bringCheque')?>/"+cid, 
+			     url: "<?=base_url('expenses/bringCheque')?>/"+cid,
                  success: function(result) {
 					 if(result!=0)
 					 {

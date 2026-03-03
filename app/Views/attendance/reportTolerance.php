@@ -27,7 +27,7 @@
 	</tbody>
 </table>
 
-<form id="reportform" action="<?=base_url('codeigniter/public/attendance/printpdf')?>" method="get" target="_blank">		
+<form id="reportform" action="<?=base_url('attendance/printpdf')?>" method="get" target="_blank">
 <!--	<table class="table table-bordered table-hover" style="width:40%;margin-left:15%;margin-right:15%;text-align:center;">
 		<thead>
 			<tr>
@@ -87,7 +87,7 @@
 if($myRole==1)
 {	
 ?>
-<form id="reportform" action="<?=base_url('codeigniter/public/salary/save')?>" method="post" target="_blank">
+<form id="reportform" action="<?=base_url('salary/save')?>" method="post" target="_blank">
 	<table class="table table-bordered table-hover" style="width:60%;text-align:center;margin-left:20%; margin-right:20%;">
 		<thead>
 			<tr>

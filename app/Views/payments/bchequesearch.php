@@ -43,7 +43,7 @@
 					?>
 					</td>
 					<td style="width:10%">
-						<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('codeigniter/public/paymentupdatec/')?><?=$cheque->Id?>" target="_blank">Edit</a>
+						<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('paymentupdatec/')?><?=$cheque->Id?>" target="_blank">Edit</a>
 					</td>
 				</tr>
 				
@@ -57,8 +57,8 @@
 			</tr>	
 			</table>
 <div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">	
-  <!-- <a style="" title="Print PDF Search" href="<?//=base_url('codeigniter/public/printpdfchequesearch/')?><?//=$sdate?>/<?//=$edate?>/<?//=$status?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>-->
-   <form id="reportform" action="<?=base_url('codeigniter/public/printpdfchequesearch')?>" method="get" target="_blank">
+  <!-- <a style="" title="Print PDF Search" href="<?//=base_url('printpdfchequesearch/')?><?//=$sdate?>/<?//=$edate?>/<?//=$status?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>-->
+   <form id="reportform" action="<?=base_url('printpdfchequesearch')?>" method="get" target="_blank">
 		<input name="sdate" id="sdate" type="hidden" value="<?=$sdate?>"/>
 		<input name="edate" id="sdate" type="hidden" value="<?=$edate?>"/>
 		<input name="status" id="status" type="hidden" value="<?=$status?>"/>

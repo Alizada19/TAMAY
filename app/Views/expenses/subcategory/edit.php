@@ -3,7 +3,7 @@
 			<h4>Subcategory Form</h4>
 			<h4>Create Subcategory</h4>
 		</div>
-		<form id="form1" method="post" action="<?=base_url('codeigniter/public/expenses/subcategoryEditSave/')?><?=$row->Id?>">
+		<form id="form1" method="post" action="<?=base_url('expenses/subcategoryEditSave/')?><?=$row->Id?>">
 			<div style="width:100%" style="margin-right:1%;">
 				<table style="width:100%;font-size:20px;float:left;margin-top:10px;margin-bottom:10px;">
 				  <tr>

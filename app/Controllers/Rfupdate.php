@@ -430,7 +430,7 @@ class Rfupdate extends BaseController
 			//echo "<pre />"; print_r($sub1); exit;
 			 //redirect and display data
 			 //$this->session->setFlashdata('success', 'Your operation was successful.');
-			 return redirect()->to(base_url('codeigniter/public/dailyformview/'.$rid.'/1'.'')); exit;
+			 return redirect()->to(base_url('dailyformview/'.$rid.'/1'.'')); exit;
 			 //return view('dailyforms/dailyformview', $data);
 		}
 		else

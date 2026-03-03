@@ -164,7 +164,7 @@
 	</tbody>
 </table>
 <div class="row" style="margin:15px 15px 15px 30%;;width:40%;">	
-   <a title="Edit Record" href="<?=base_url('codeigniter/public/salary/update/')?><?=$rdetails->Id?>"><input type="button" name="btn_result" style="width:200px;" class="btn btn-primary line" value="Update" /></a>
+   <a title="Edit Record" href="<?=base_url('salary/update/')?><?=$rdetails->Id?>"><input type="button" name="btn_result" style="width:200px;" class="btn btn-primary line" value="Update" /></a>
 			
    <input type="submit" value="Generate Payslipt" name="btn_result" style="width:200px; margin-left:5px;" class="btn btn-primary line"></button>
 </div>

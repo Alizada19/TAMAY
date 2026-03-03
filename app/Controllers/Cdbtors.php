@@ -93,7 +93,7 @@ class Cdbtors extends BaseController
 			 $rid = $this->DailyModel->gadd($data, 'balancesheet'); 
 			if($rid)
 			{
-				return redirect()->to(base_url('codeigniter/public/cdbtorsView/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('cdbtorsView/'.$rid.'/1'.'')); exit;
 			}
 	}	
 	
@@ -225,7 +225,7 @@ class Cdbtors extends BaseController
 			 $rid = $this->DailyModel->gadd($data, 'balancesheet'); 
 			if($rid)
 			{
-				return redirect()->to(base_url('codeigniter/public/cdbtorsViewPay/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('cdbtorsViewPay/'.$rid.'/1'.'')); exit;
 			}
 	}	
 	
@@ -306,7 +306,7 @@ class Cdbtors extends BaseController
 			$res = $this->DailyModel->gupdate($data, $rid, 'balancesheet');
 			if($res)
 			{
-				return redirect()->to(base_url('codeigniter/public/cdbtorsView/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('cdbtorsView/'.$rid.'/1'.'')); exit;
 			}
 	}
 	
@@ -375,7 +375,7 @@ class Cdbtors extends BaseController
 			$res = $this->DailyModel->gupdate($data, $rid, 'balancesheet');
 			if($res)
 			{
-				return redirect()->to(base_url('codeigniter/public/cdbtorsViewPay/'.$rid.'/2'.'')); exit;
+				return redirect()->to(base_url('cdbtorsViewPay/'.$rid.'/2'.'')); exit;
 			}
 	}
 	

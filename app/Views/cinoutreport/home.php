@@ -58,7 +58,7 @@ function filterSearch()
 	var formData = $("#filter1").serialize(); 
 	$.ajax({
 			 type: 'get',
-			 url: "<?=base_url('codeigniter/public/cinoutreport/bypurchase')?>",
+			 url: "<?=base_url('cinoutreport/bypurchase')?>",
 			 data: formData,
 			 success: function(result) {
 				$("#cinoutCon").empty(); 

@@ -25,8 +25,8 @@
 		  ?>
 		  </td>
 		    <td title="Click for more details">
-				<a href="<?=base_url('codeigniter/public/expenses/categorybased')?>/<?=$row->category?>" target="_blank" style="text-decoration:none;">
-					<img src="<?=base_url('codeigniter/public/')?>images/view.png" alt="View" style="width: 20px; height: 20px;">
+				<a href="<?=base_url('expenses/categorybased')?>/<?=$row->category?>" target="_blank" style="text-decoration:none;">
+					<img src="<?=base_url()?>images/view.png" alt="View" style="width: 20px; height: 20px;">
 				</a>	 
 		    </td>
 		</tr>

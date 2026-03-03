@@ -3,9 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>Search Report</title>
-    <link href="<?=base_url('codeigniter/public/')?>css/bootstrap.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="<?=base_url('codeigniter/public/')?>css/w3school.css">
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/')?>js/jq.js"></script>
+    <link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="<?=base_url()?>css/w3school.css">
+	<script type="text/javascript" src="<?=base_url()?>js/jq.js"></script>
 	<style type="text/css">
 
 	table, th, td {
@@ -18,120 +18,120 @@
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
   
-  <a href="<?=base_url('codeigniter/public/').'dailyform/'?>" class="w3-bar-item w3-button">Add Report</a>
+  <a href="<?=base_url().'dailyform/'?>" class="w3-bar-item w3-button">Add Report</a>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'payment'?>" class="w3-bar-item w3-button">Add Payments</a>
+  <a href="<?=base_url().'payment'?>" class="w3-bar-item w3-button">Add Payments</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'debtorcreditor/2'?>" class="w3-bar-item w3-button">Add Debtor/Creditor</a>
+  <a href="<?=base_url().'debtorcreditor/2'?>" class="w3-bar-item w3-button">Add Debtor/Creditor</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'nightlyreport/'?>" class="w3-bar-item w3-button">Today's Report</a>
+  <a href="<?=base_url().'nightlyreport/'?>" class="w3-bar-item w3-button">Today's Report</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'sreport/'?>" class="w3-bar-item w3-button">Search Reports</a>
+  <a href="<?=base_url().'sreport/'?>" class="w3-bar-item w3-button">Search Reports</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'chequereports/'?>" class="w3-bar-item w3-button">Cheque Reports</a>
+  <a href="<?=base_url().'chequereports/'?>" class="w3-bar-item w3-button">Cheque Reports</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'ocashreports/'?>" class="w3-bar-item w3-button">OT /Cash Reports</a>
+  <a href="<?=base_url().'ocashreports/'?>" class="w3-bar-item w3-button">OT /Cash Reports</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'apayments/'?>" class="w3-bar-item w3-button">Payment Reports</a>
+  <a href="<?=base_url().'apayments/'?>" class="w3-bar-item w3-button">Payment Reports</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'supReports/'?>" class="w3-bar-item w3-button">Reports by Suppliers</a>
+  <a href="<?=base_url().'supReports/'?>" class="w3-bar-item w3-button">Reports by Suppliers</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'pendingChequesCharts'?>" class="w3-bar-item w3-button">Pending Payment in 30 days.</a>
+  <a href="<?=base_url().'pendingChequesCharts'?>" class="w3-bar-item w3-button">Pending Payment in 30 days.</a>
   <?php  } ?>
 </div>
 <?php $this->session = \Config\Services::session();?>
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
   
-  <a href="<?=base_url('codeigniter/public/').'dailyform/'?>" class="w3-bar-item w3-button">Add Report</a>
+  <a href="<?=base_url().'dailyform/'?>" class="w3-bar-item w3-button">Add Report</a>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'payment'?>" class="w3-bar-item w3-button">Add Payments</a>
+  <a href="<?=base_url().'payment'?>" class="w3-bar-item w3-button">Add Payments</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'debtorcreditor/2'?>" class="w3-bar-item w3-button">Add Debtor/Creditor</a>
+  <a href="<?=base_url().'debtorcreditor/2'?>" class="w3-bar-item w3-button">Add Debtor/Creditor</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'nightlyreport/'?>" class="w3-bar-item w3-button">Today's Report</a>
+  <a href="<?=base_url().'nightlyreport/'?>" class="w3-bar-item w3-button">Today's Report</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'sreport/'?>" class="w3-bar-item w3-button">Search Reports</a>
+  <a href="<?=base_url().'sreport/'?>" class="w3-bar-item w3-button">Search Reports</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'chequereports/'?>" class="w3-bar-item w3-button">Cheque Reports</a>
+  <a href="<?=base_url().'chequereports/'?>" class="w3-bar-item w3-button">Cheque Reports</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'ocashreports/'?>" class="w3-bar-item w3-button">Creditors Reports</a>
+  <a href="<?=base_url().'ocashreports/'?>" class="w3-bar-item w3-button">Creditors Reports</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'apayments/'?>" class="w3-bar-item w3-button">Payment Reports</a>
+  <a href="<?=base_url().'apayments/'?>" class="w3-bar-item w3-button">Payment Reports</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'supReports/'?>" class="w3-bar-item w3-button">Reports by Suppliers</a>
+  <a href="<?=base_url().'supReports/'?>" class="w3-bar-item w3-button">Reports by Suppliers</a>
   <?php  } ?>
   <?php 
   if($this->session->get('myRole') == 1)
   {
    ?>
-  <a href="<?=base_url('codeigniter/public/').'pendingChequesCharts'?>" class="w3-bar-item w3-button">Pending Cheques for coming 30 days.</a>
+  <a href="<?=base_url().'pendingChequesCharts'?>" class="w3-bar-item w3-button">Pending Cheques for coming 30 days.</a>
   <?php  } ?>
 </div>
 <div id="main">
@@ -142,7 +142,7 @@
 		<h6>Username: <?=$this->session->get('name')?> </h6>
 		</div>
 		<div style="display:inline-block; margin-top:0px; font-size:20px; float:right;">
-			<h6><a href="<?=base_url('codeigniter/public/login')?>" title="Logout" style="text-decoration:none;color: inherit;">Logout</a></h6>
+			<h6><a href="<?=base_url('login')?>" title="Logout" style="text-decoration:none;color: inherit;">Logout</a></h6>
 		</div>
 		
 	</div>
@@ -152,7 +152,7 @@
 <div id="container" style="padding:5px 5px 5px 5px;width:100%;">
 	<div style="margin:5px 5px 5px 5px;">
 		<div style="display:inline-block;float:left;width:40%;">
-			<img src="<?=base_url('codeigniter/public/')?>images/republic.png" style="width:90px; height:90px;" alt="Groom">
+			<img src="<?=base_url()?>images/republic.png" style="width:90px; height:90px;" alt="Groom">
 			<button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
 		</div>
 		<div style="display:inline-block; text-align:center;font-weight:bold;font-size:20px;">
@@ -167,7 +167,7 @@
 		</div>
 	</div>
 	<div style="margin:5px 5px 5px 5px;">
-		<form id="reportform" method="post" action="<?=base_url('codeigniter/public/sreport')?>rsearch">
+		<form id="reportform" method="post" action="<?=base_url('sreport')?>rsearch">
 			<table style="width:100%;font-size:20px;float:left;margin-top:10px;margin-bottom:10px;">
 				<tr>
 					<td align="center" style="width:2%;background-color:#b3d7ff87;">Start Date:</td>
@@ -216,7 +216,7 @@ function searchFilter()
 	var formData = $("#reportform").serialize(); 
 	$.ajax({
 				 type: 'post',
-				 url: "<?=base_url('codeigniter/public/sreport/')?>rsearch",
+				 url: "<?=base_url('sreport/')?>rsearch",
 				 data: formData,
 				 success: function(result) {
 					$("#rcon").empty(); 

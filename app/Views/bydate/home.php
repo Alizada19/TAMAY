@@ -36,7 +36,7 @@
 				}		
 			}		
 	?>
-		<tr class="phover" style="<?=$bgc?>; cursor: pointer;" title='Click To See Details' onclick="window.open('<?=base_url('codeigniter/public/byonedaylist/')?><?=$result->ddate?>', '_blank');">
+		<tr class="phover" style="<?=$bgc?>; cursor: pointer;" title='Click To See Details' onclick="window.open('<?=base_url('byonedaylist/')?><?=$result->ddate?>', '_blank');">
 			<td align="center" style="width:10%"><?=$i?></td>
 			<td style="width:10%;padding:0px 5px 0px 5px;"><?=date('l', strtotime($result->ddate))?></td>
 			<td style="width:10%;padding:0px 5px 0px 5px;"><?=date_format(date_create($result->ddate), 'd/m/Y')?></td>
@@ -57,7 +57,7 @@
 	</tr>	
 	</table>
 	<div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">	
-	   <a style="" title="Export PDF" href="<?=base_url('codeigniter/public/printpdfbydates/')?><?=$sdate?>/<?=$edate?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
+	   <a style="" title="Export PDF" href="<?=base_url('printpdfbydates/')?><?=$sdate?>/<?=$edate?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
 	</div>
 </div>
 		

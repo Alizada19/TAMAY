@@ -27,10 +27,10 @@
 						</table>
 					</div>
 					<?php if($pimage){ ?> 
-						<div style=""><img src="<?= base_url('codeigniter/public/')?><?=$pimage->image_path?>" alt="User Image" style="width: 100px; height: 100px;border:1px solid #000;"></div>
+						<div style=""><img src="<?= base_url()?><?=$pimage->image_path?>" alt="User Image" style="width: 100px; height: 100px;border:1px solid #000;"></div>
 					<?php } ?>		
 					<div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">
-					   <a title="Edit Record" href="<?=base_url('codeigniter/public/perfumes/editView/')?><?=$row->Id?>"><input type="button" name="btn_result" style="width:200px;" class="btn btn-primary line" value="Edit" /></a>
+					   <a title="Edit Record" href="<?=base_url('perfumes/editView/')?><?=$row->Id?>"><input type="button" name="btn_result" style="width:200px;" class="btn btn-primary line" value="Edit" /></a>
 					</div
 			</div>
 			
@@ -55,7 +55,7 @@
 	function bringCheque(cid)
 	{
 		 $.ajax({
-			     url: "<?=base_url('codeigniter/public/expenses/bringCheque')?>/"+cid, 
+			     url: "<?=base_url('expenses/bringCheque')?>/"+cid,
                  success: function(result) {
 					 if(result!=0)
 					 {
@@ -89,7 +89,7 @@ function bringCat(gid)
 	var mydata = "&gid=" + gid
 	$.ajax({
 				 type: 'GET',
-				 url: "<?=base_url('codeigniter/public/perfumes/bringCat')?>",
+				 url: "<?=base_url('perfumes/bringCat')?>",
 				 data: mydata,
 				 success: function(result) {
 					$("#pcategory").empty(); 

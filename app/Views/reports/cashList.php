@@ -26,8 +26,8 @@
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;">RM <?=number_format($row->deduction,2)?></td>
 			<td style="width:20%;background-color:#b3d7ff87;padding-left:5px;"><?=$row->description?></td>
 			<td style="width:20%;background-color:#b3d7ff87;padding-left:5px;">
-				<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/viewCash/')?><?=$row->Id?>/1" target="_blank">View</a>
-				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('codeigniter/public/editCash/')?><?=$row->Id?>" target="_blank">Edit</a>
+				<a style="test-decoration: none;" title="View Record" href="<?=base_url('viewCash/')?><?=$row->Id?>/1" target="_blank">View</a>
+				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('editCash/')?><?=$row->Id?>" target="_blank">Edit</a>
 			</td>
 		</tr>
 	

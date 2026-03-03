@@ -3,10 +3,10 @@
 <head>
 	<meta charset="utf-8">
 	<title>D/C Details</title>
-    <link href="<?=base_url('codeigniter/public/')?>css/bootstrap.min.css" rel="stylesheet" />
-    <link href="<?=base_url('codeigniter/public/')?>css/temp/bootstrap.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="<?=base_url('codeigniter/public/')?>css/w3school.css">
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/')?>js/jq.js"></script>
+    <link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<?=base_url()?>css/temp/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="<?=base_url()?>css/w3school.css">
+	<script type="text/javascript" src="<?=base_url()?>js/jq.js"></script>
 	<style type="text/css">
 
 	table, th, td {
@@ -19,13 +19,13 @@
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
   
-  <!--<a href="<?//=base_url('codeigniter/public/').'cdbtorsAdd'?>" target="_blank" class="w3-bar-item w3-button">Add Invoice</a>
-  <a href="<?//=base_url('codeigniter/public/').'cdbtorsAddPay'?>" target="_blank" class="w3-bar-item w3-button">Payment Invoice</a>-->
+  <!--<a href="<?//=base_url().'cdbtorsAdd'?>" target="_blank" class="w3-bar-item w3-button">Add Invoice</a>
+  <a href="<?//=base_url().'cdbtorsAddPay'?>" target="_blank" class="w3-bar-item w3-button">Payment Invoice</a>-->
 </div>
 <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
   <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
-  <a href="<?=base_url('codeigniter/public/').'payment'?>" class="w3-bar-item w3-button">Add Payments</a>
-  <a href="<?=base_url('codeigniter/public/').'debtorcreditor/2'?>" class="w3-bar-item w3-button">Add Debtors/Creditors</a>
+  <a href="<?=base_url().'payment'?>" class="w3-bar-item w3-button">Add Payments</a>
+  <a href="<?=base_url().'debtorcreditor/2'?>" class="w3-bar-item w3-button">Add Debtors/Creditors</a>
 </div>
 
 <div id="main">
@@ -47,7 +47,7 @@
 <div id="container" style="padding:5px 5px 5px 5px;width:100%;">
 	<div style="margin:5px 5px 5px 5px;">
 		<div style="display:inline-block;float:left;width:40%;">
-			<img src="<?=base_url('codeigniter/public/')?>images/republic.png" style="width:90px; height:90px;" alt="Groom">
+			<img src="<?=base_url()?>images/republic.png" style="width:90px; height:90px;" alt="Groom">
 			<button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
 		</div>
 		<div style="display:inline-block; text-align:center;font-weight:bold;font-size:20px;">
@@ -157,7 +157,7 @@
 			</tr>	
 			</table>
 			<div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">	
-			   <a style="" title="Export PDF" href="<?=base_url('codeigniter/public/printpdfcdbc2/')?><?=$dbc?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
+			   <a style="" title="Export PDF" href="<?=base_url('printpdfcdbc2/')?><?=$dbc?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
 			</div>
 			<div class="row" style="margin:5px 5px 5px 0px;width:100%;">
 			<?//=displayPagination()?>	
@@ -176,7 +176,7 @@ function searchFilter()
 		var formData = $("#reportform").serialize(); 
 		$.ajax({
 					 type: 'post',
-					 url: "<?=base_url('codeigniter/public/searchcheque')?>",
+					 url: "<?=base_url('searchcheque')?>",
 					 data: formData,
 					 success: function(result) {
 						$("#tblCon").empty(); 

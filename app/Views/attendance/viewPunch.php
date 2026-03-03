@@ -22,6 +22,6 @@
 		</div>	
 	
 		<div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">
-		   <a title="Edit Record" href="<?=base_url('codeigniter/public/attendance/editViewPunch/')?><?=$row->Id?>"><input type="button" name="btn_result" style="width:200px;" class="btn btn-primary line" value="Update" /></a>
+		   <a title="Edit Record" href="<?=base_url('attendance/editViewPunch/')?><?=$row->Id?>"><input type="button" name="btn_result" style="width:200px;" class="btn btn-primary line" value="Update" /></a>
 		</div>	
 </div>	

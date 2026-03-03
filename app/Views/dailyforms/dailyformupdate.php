@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>TAMAY GROUP NIGHTLY SALES REPORT</title>
-    <link href="<?=base_url('codeigniter/public/')?>css/bootstrap.min.css" rel="stylesheet" />
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/')?>js/jq.js"></script>
+    <link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet" />
+	<script type="text/javascript" src="<?=base_url()?>js/jq.js"></script>
 	<style type="text/css">
 
 	table, th, td {
@@ -14,10 +14,10 @@
 </head>
 <body style="margin:0px 0px 0px 0px;overflow: auto;">
 <div id="container" style="padding:5px 5px 5px 5px;width:100%;">
-<form id="form2" method="post" action="<?=base_url('codeigniter/public/updatedRecord/')?><?=$Id?>">	
+<form id="form2" method="post" action="<?=base_url('updatedRecord/')?><?=$Id?>">
 	<div style="margin:5px 5px 5px 5px;">
 		<div style="display:inline-block;float:left;width:40%;">
-			<img src="<?=base_url('codeigniter/public/')?>images/republic.png" style="width:90px; height:90px;" alt="Groom">
+			<img src="<?=base_url()?>images/republic.png" style="width:90px; height:90px;" alt="Groom">
 		</div>
 		<div style="display:inline-block; text-align:center;font-weight:bold;font-size:20px;">
 			<h4>Tamay Group</h4>
@@ -574,7 +574,7 @@ function showFeatures()
 function bringExp2(value)
 {  
 		 $.ajax({
-			     url: "<?=base_url('codeigniter/public/bringsub2')?>/"+value, 
+			     url: "<?=base_url('bringsub2')?>/"+value,
 				 //type: "POST",
 				 //async: true,
                  success: function(result) {
@@ -639,7 +639,7 @@ function getTotal()
 function removeMe(id)
 {
 	$.ajax({
-			 url: "<?=base_url('codeigniter/public/removesub')?>/"+id, 
+			 url: "<?=base_url('removesub')?>/"+id,
 			 type: "POST",
 			 //async: true,
 			 success: function(result) {

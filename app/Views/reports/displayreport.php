@@ -19,5 +19,5 @@
 	</tr>
 </table>
 <div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">	
-   <a style="" title="Update Current Record" href="<?=base_url('codeigniter/public/printpdfsreport/')?><?=$sdate?>/<?=$edate?>/<?=$sname?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
+   <a style="" title="Update Current Record" href="<?=base_url('printpdfsreport/')?><?=$sdate?>/<?=$edate?>/<?=$sname?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
 </div>

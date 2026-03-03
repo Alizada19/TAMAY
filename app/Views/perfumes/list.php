@@ -63,16 +63,16 @@
 			<td style="width:15%;background-color:#b3d7ff87;padding-left:5px;font-weight:bold;"><?=pcname($row->category)?></td>
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;font-weight:bold;">Remark</td>
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;font-weight:bold;">
-				<img src="<?= base_url('codeigniter/public/')?><?=getImage($row->Id)?>" alt="No Image" style="width: 30px; height: 30px;">
+				<img src="<?= base_url()?><?=getImage($row->Id)?>" alt="No Image" style="width: 30px; height: 30px;">
 			</td>
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;font-weight:bold;">
-				<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/perfumes/view/')?><?=$row->Id?>/2" target="_blank">View</a>
+				<a style="test-decoration: none;" title="View Record" href="<?=base_url('perfumes/view/')?><?=$row->Id?>/2" target="_blank">View</a>
 			</td>
 		</tr>
 <?php
 	}
 ?>	
-	<a href="<?=base_url('codeigniter/public/perfumes/add')?>" target="_blank" title="Add Perfume">Add Perfume</a>
+	<a href="<?=base_url('perfumes/add')?>" target="_blank" title="Add Perfume">Add Perfume</a>
 </table>
 </div>		
 <script>
@@ -87,7 +87,7 @@ function filterSearch()
 	var formData = $("#filter1").serialize(); 
 	$.ajax({
 				 type: 'get',
-				 url: "<?=base_url('codeigniter/public/perfumes/searchFilter')?>",
+				 url: "<?=base_url('perfumes/searchFilter')?>",
 				 data: formData,
 				 success: function(result) {
 					$("#listCon").empty(); 
@@ -123,7 +123,7 @@ function bringCat(gid)
 	var mydata = "&gid=" + gid
 	$.ajax({
 				 type: 'GET',
-				 url: "<?=base_url('codeigniter/public/perfumes/bringCat')?>",
+				 url: "<?=base_url('perfumes/bringCat')?>",
 				 data: mydata,
 				 success: function(result) {
 					$("#pcategory").empty(); 

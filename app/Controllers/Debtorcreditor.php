@@ -49,7 +49,7 @@ class Debtorcreditor extends BaseController
 		$rid = $this->DailyModel->gadd($data, 'debtorcreditor');
 		if($rid)
 		{		
-			return redirect()->to(base_url('codeigniter/public/debtorcreditorView/'.$rid.'/1'));
+			return redirect()->to(base_url('debtorcreditorView/'.$rid.'/1'));
 		}
 		else 
 		{
@@ -155,7 +155,7 @@ class Debtorcreditor extends BaseController
 		$res = $this->DailyModel->gupdate($data, $id, 'debtorcreditor');
 		if($res == 1)
 		{			
-			return redirect()->to(base_url('codeigniter/public/debtorcreditorView/'.$id.'/1')); 
+			return redirect()->to(base_url('debtorcreditorView/'.$id.'/1'));
 		}
 		else
 		{

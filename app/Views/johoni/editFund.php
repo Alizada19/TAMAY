@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="<?=base_url('codeigniter/public/')?>js/jq.js"></script>
+  <script type="text/javascript" src="<?=base_url()?>js/jq.js"></script>
   <style>
     body {
       background-color: rgba(0, 0, 0, 0.5);
@@ -23,7 +23,7 @@
         <h5 class="modal-title">Edit Fund Record</h5>
         <button type="button" class="btn-close btn-close-white" onclick="window.close()" aria-label="Close"></button>
       </div>
-      <form enctype="multipart/form-data" action="<?=base_url('codeigniter/public/editFundSave/')?><?=$rid?>" method="post">
+      <form enctype="multipart/form-data" action="<?=base_url('editFundSave/')?><?=$rid?>" method="post">
         <div class="modal-body">
           <div class="mb-3">
             <select  style="width:100%;height:40px;text-align:center;"  id="vbank" name="vbank" required>

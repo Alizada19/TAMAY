@@ -24,8 +24,8 @@
 			<td style="width:20%;background-color:#b3d7ff87;padding-left:5px;">RM <?=number_format($row->amount,2)?></td>
 			<td style="width:20%;background-color:#b3d7ff87;padding-left:5px;"><?=$row->description?></td>
 			<td style="width:20%;background-color:#b3d7ff87;padding-left:5px;">
-				<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/viewFund/')?><?=$row->Id?>/1" target="_blank">View</a>
-				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('codeigniter/public/editFund/')?><?=$row->Id?>" target="_blank">Edit</a>
+				<a style="test-decoration: none;" title="View Record" href="<?=base_url('viewFund/')?><?=$row->Id?>/1" target="_blank">View</a>
+				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('editFund/')?><?=$row->Id?>" target="_blank">Edit</a>
 			</td>
 		</tr>
 	

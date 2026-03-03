@@ -1,4 +1,4 @@
-<form id="form1" method="post" enctype="multipart/form-data" action="<?=base_url('codeigniter/public/salary/searchSalary')?>">
+<form id="form1" method="post" enctype="multipart/form-data" action="<?=base_url('salary/searchSalary')?>">
 <div style="margin-left:1%;">
 	<div>
 		<input type="month" name="sdate" id="sdate"  value="<?=date('Y-m');?>" style="width:20%; height:30px;	text-align:center;">
@@ -49,7 +49,7 @@
 				<td><?='RM '.number_format($row->gSalary, 2)?></td>
 				<td><?='RM '.number_format($row->netSalary, 2)?></td>
 				<td>
-					<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/salary/view/')?><?=$row->Id?>/2" target="_blank">View</a>
+					<a style="test-decoration: none;" title="View Record" href="<?=base_url('salary/view/')?><?=$row->Id?>/2" target="_blank">View</a>
 				</td>
 			</tr>
 		<?php

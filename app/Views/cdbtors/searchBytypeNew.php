@@ -22,7 +22,7 @@
 		
 				
 	?>
-		<tr class="phover" style=" cursor: pointer;" title='Click To See Details' onclick="window.open('<?=base_url('codeigniter/public/cdbtorsList2/')?><?=$row->dbc?>', '_blank');">
+		<tr class="phover" style=" cursor: pointer;" title='Click To See Details' onclick="window.open('<?=base_url('cdbtorsList2/')?><?=$row->dbc?>', '_blank');">
 			<td align="center" style="width:5%"><?=$i?></td>
 			<td style="width:47%;padding-left:5px;"><?=getdbc($row->dbc)?></td>
 			<td style="width:12%;padding-left:5px;"><?=dbcType($row->type)?></td>
@@ -62,7 +62,7 @@
 				$type=0;
 			}		
 		?>
-	   <a style="" title="Export PDF" href="<?=base_url('codeigniter/public/printpdfbaltype2')?>/<?=$type?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
+	   <a style="" title="Export PDF" href="<?=base_url('printpdfbaltype2')?>/<?=$type?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
 	</div>
 	<div class="row" style="margin:5px 5px 5px 0px;width:100%;">
 	<?//=displayPagination()?>	

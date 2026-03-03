@@ -82,7 +82,7 @@ class Excel extends BaseController
 				
             }
 			//echo "success: ".$successCount."fails: ".$failCount; exit;
-            return redirect()->to(base_url('codeigniter/public//excel'))->with('success', "$successCount record(s) imported successfully.".($failCount > 0 ? "$failCount failed." : ""));
+            return redirect()->to(base_url('/excel'))->with('success', "$successCount record(s) imported successfully.".($failCount > 0 ? "$failCount failed." : ""));
         }
 
         return redirect()->back()->with('error', 'File upload failed.');
