@@ -25,8 +25,8 @@
 			<td><?=$row['bout']?></td>
 			<td><?=$row['out']?></td>
 			<td>
-				<a href='<?=base_url('codeigniter/public/attendance/viewPunch/')?><?=$row['Id']?>' target="_blank" class='action-btn'>View</a>
-				<a href='<?=base_url('codeigniter/public/attendance/deletePunch/')?><?=$row['Id']?>' target="_blank" class='action-btn'>Delete</a>
+				<a href='<?=base_url('attendance/viewPunch/')?><?=$row['Id']?>' target="_blank" class='action-btn'>View</a>
+				<a href='<?=base_url('attendance/deletePunch/')?><?=$row['Id']?>' target="_blank" class='action-btn'>Delete</a>
 			</td>
 		</tr>
 <?php

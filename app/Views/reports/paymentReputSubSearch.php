@@ -65,7 +65,7 @@ foreach($allresult AS $result)
 		</td>
 		<td style="width:15%"><?=$result->remark?></td>
 		<td style="width:10%">
-			<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/').$ctrl?>" target="_blank">View</a>
+			<a style="test-decoration: none;" title="View Record" href="<?=base_url().$ctrl?>" target="_blank">View</a>
 		</td>
 	</tr>
 	
@@ -79,7 +79,7 @@ foreach($allresult AS $result)
 </tr>	
 </table>
 <div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">
-  <form id="filter1" method="get" action="<?=base_url('codeigniter/public/printpdfAllSearchBydate')?>" target="_blank">	
+  <form id="filter1" method="get" action="<?=base_url('printpdfAllSearchBydate')?>" target="_blank">
 		<input type="hidden" name="sdate" value="<?=$sdate?>">	
 		<input type="hidden" name="edate" value="<?=$edate?>">	
 		<input type="hidden" name="status" value="<?=$status?>">	 

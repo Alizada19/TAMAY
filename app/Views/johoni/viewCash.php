@@ -51,7 +51,7 @@
 			  $parts = explode('__', $image->image);
 		  ?>
 			  <div class="mb-3">
-				<span class="form-control-plaintext"><a href="<?= base_url('codeigniter/public/')?><?=$image->image?>" title="Download It"><?=isset($parts[1]) ? $parts[1] : '';?></a></span>
+				<span class="form-control-plaintext"><a href="<?= base_url()?><?=$image->image?>" title="Download It"><?=isset($parts[1]) ? $parts[1] : '';?></a></span>
 			  </div>	
 		  <?php
 		  }
@@ -60,7 +60,7 @@
         </div>
 		
         <div class="modal-footer bg-light rounded-bottom-4">
-          <button type="button" onclick="window.location.href='<?= base_url('codeigniter/public/editCash/' . $row->Id) ?>'" class="btn btn-primary">Update</button>
+          <button type="button" onclick="window.location.href='<?= base_url('editCash/' . $row->Id) ?>'" class="btn btn-primary">Update</button>
         </div>
 		<!--<button type="button" class="btn btn-secondary" onclick="window.close()">Cancel</button>-->
       </form>

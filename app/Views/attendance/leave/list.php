@@ -29,8 +29,8 @@
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;">dfa</td>
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;">dfa</td>
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;">
-				<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/expenses/view/')?>dfa/2" target="_blank">View</a>
-				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('codeigniter/public/expenses/editView/')?>dfa" target="_blank">Edit</a>
+				<a style="test-decoration: none;" title="View Record" href="<?=base_url('expenses/view/')?>dfa/2" target="_blank">View</a>
+				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('expenses/editView/')?>dfa" target="_blank">Edit</a>
 			</td>
 		</tr>
 	

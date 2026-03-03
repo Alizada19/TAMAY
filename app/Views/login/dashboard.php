@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title> 
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	<link rel="stylesheet" href="<?=base_url('codeigniter/public/')?>assets/materialize/css/materialize.min.css" media="screen,projection" />
+	<link rel="stylesheet" href="<?=base_url()?>assets/materialize/css/materialize.min.css" media="screen,projection" />
     <!-- Bootstrap Styles-->
-    <link href="<?=base_url('codeigniter/public/')?>assets/css/bootstrap.css" rel="stylesheet" />
-	 <!--<link href="<?=base_url('codeigniter/public/')?>css/bootstrap.min.css" rel="stylesheet" />-->
+    <link href="<?=base_url()?>assets/css/bootstrap.css" rel="stylesheet" />
+	 <!--<link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet" />-->
     <!-- FontAwesome Styles-->
-    <link href="<?=base_url('codeigniter/public/')?>assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="<?=base_url()?>assets/css/font-awesome.css" rel="stylesheet" />
     <!-- Morris Chart Styles-->
-    <link href="<?=base_url('codeigniter/public/')?>assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
+    <link href="<?=base_url()?>assets/js/morris/morris-0.4.3.min.css" rel="stylesheet" />
     <!-- Custom Styles-->
-    <link href="<?=base_url('codeigniter/public/')?>assets/css/custom-styles.css" rel="stylesheet" />
+    <link href="<?=base_url()?>assets/css/custom-styles.css" rel="stylesheet" />
     <!-- Google Fonts-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="<?=base_url('codeigniter/public/')?>assets/js/Lightweight-Chart/cssCharts.css"> 
+    <link rel="stylesheet" href="<?=base_url()?>assets/js/Lightweight-Chart/cssCharts.css">
 	<!--Charts-->
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/charts/code/highcharts.js')?>"></script>
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/charts/code/modules/exporting.js')?>"></script>
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/charts/code/modules/export-data.js')?>"></script>
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/charts/code/modules/accessibility.js')?>"></script>
+	<script type="text/javascript" src="<?=base_url('charts/code/highcharts.js')?>"></script>
+	<script type="text/javascript" src="<?=base_url('charts/code/modules/exporting.js')?>"></script>
+	<script type="text/javascript" src="<?=base_url('charts/code/modules/export-data.js')?>"></script>
+	<script type="text/javascript" src="<?=base_url('charts/code/modules/accessibility.js')?>"></script>
 	
 	<style type="text/css">
 		@media only screen and (max-width: 600px) {
@@ -264,34 +264,34 @@
                         <a class="active-menu waves-effect waves-dark" href="index.html"><i class="fa fa-dashboard"></i> Dashboard</a>
                     </li>
 					<li>
-                        <a href="<?=base_url('codeigniter/public/expenses/calender')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Calender</a>
+                        <a href="<?=base_url('expenses/calender')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Calender</a>
                     </li>
 					<li>
-                        <a href="<?=base_url('codeigniter/public/expenses/list')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Expenses</a>
+                        <a href="<?=base_url('expenses/list')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Expenses</a>
                     </li>
                     <li>
-                        <a href="<?=base_url('codeigniter/public/expenses/groupeList')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Groupes</a>
+                        <a href="<?=base_url('expenses/groupeList')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Groupes</a>
                     </li>
 					<li>
-                        <a href="<?=base_url('codeigniter/public/expenses/categoryList')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Categories</a>
+                        <a href="<?=base_url('expenses/categoryList')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Categories</a>
                     </li>
 					<li>
-                        <a href="<?=base_url('codeigniter/public/expenses/subcategoryList')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Subcategories</a>
+                        <a href="<?=base_url('expenses/subcategoryList')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Subcategories</a>
                     </li>
 					<li>
-                        <a href="<?=base_url('codeigniter/public/cinoutreport/home')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Customer IN/OUT Report</a>
+                        <a href="<?=base_url('cinoutreport/home')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Customer IN/OUT Report</a>
                     </li>
 					<li>
-                        <a href="<?=base_url('codeigniter/public/attendance/index')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Attendance</a>
+                        <a href="<?=base_url('attendance/index')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Attendance</a>
                     </li>
 					<li>
-                        <a href="<?=base_url('codeigniter/public/attendance/empList')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Employees</a>
+                        <a href="<?=base_url('attendance/empList')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Employees</a>
                     </li>
 					<li>
-                        <a href="<?=base_url('codeigniter/public/perfumes/home')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Perfumes</a>
+                        <a href="<?=base_url('perfumes/home')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Perfumes</a>
                     </li>
 					<li>
-                        <a href="<?=base_url('codeigniter/public/perfumes/display')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Display Perfumes</a>
+                        <a href="<?=base_url('perfumes/display')?>" target="_blank" class="waves-effect waves-dark"><i class="fa fa-desktop"></i>Display Perfumes</a>
                     </li>
                     <li>
                         <a href="ui-elements.html" class="waves-effect waves-dark"><i class="fa fa-desktop"></i> UI Elements</a>
@@ -365,78 +365,78 @@
 				<div class="row">
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">Funds Injection</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/addFund')?>"><h3>Add Fund.</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('addFund')?>"><h3>Add Fund.</h3></a></div>
 					</div>
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">Sales</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'dailyform/'?>"><h3>Add Report</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'dailyform/'?>"><h3>Add Report</h3></a></div>
 					</div>
 					
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">On Account/Cheque</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'payment'?>"><h3>Add On Account/Cheque</h3></a></div> 
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'payment'?>"><h3>Add On Account/Cheque</h3></a></div>
 					</div>
 					
 					
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">Suppliers Form</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'debtorcreditor/2'?>"><h3>Add Supplier</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'debtorcreditor/2'?>"><h3>Add Supplier</h3></a></div>
 					</div>
 					
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">Today's Report</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'nightlyreport/'?>"><h3>Today's Sales Report</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'nightlyreport/'?>"><h3>Today's Sales Report</h3></a></div>
 					</div>
 					
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">Sales Report</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'sreport/'?>"><h3>Search Sales Report</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'sreport/'?>"><h3>Search Sales Report</h3></a></div>
 					</div>
 	 
                     <div class="panel panel-primary myw">
 					  <div class="panel-heading">Cheque Report</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'chequereports/'?>"><h3>Cheque Report</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'chequereports/'?>"><h3>Cheque Report</h3></a></div>
 					</div>
                 
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">On Account Payment</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'ocashreports/'?>"><h3>On Account Payment</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'ocashreports/'?>"><h3>On Account Payment</h3></a></div>
 					</div>
 					
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">Unscheduled Report</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'uncashreports/'?>"><h3>Unscheduled Report</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'uncashreports/'?>"><h3>Unscheduled Report</h3></a></div>
 					</div>
 					
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">All Payment Report</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'apayments/'?>"><h3>All Payment Report</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'apayments/'?>"><h3>All Payment Report</h3></a></div>
 					</div>
 					
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">Reports by Supplier</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/').'supReports/'?>"><h3>Reports by Suppliers</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url().'supReports/'?>"><h3>Reports by Suppliers</h3></a></div>
 					</div>
 					<!--<div class="panel panel-primary myw">
 					  <div class="panel-heading">Reports by Suppliers</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?//=base_url('codeigniter/public/').'pendingChequesCharts'?>"><h3>Pending Cheques for coming 10 days.</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?//=base_url().'pendingChequesCharts'?>"><h3>Pending Cheques for coming 10 days.</h3></a></div>
 					</div> -->
 					
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">Customers In/Out </div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/cinoutmain')?>"><h3>Customers In/Out.</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('cinoutmain')?>"><h3>Customers In/Out.</h3></a></div>
 					</div>
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">D/C</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/cdbtorsMainList')?>"><h3>All D/C.</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('cdbtorsMainList')?>"><h3>All D/C.</h3></a></div>
 					</div>
 					<div class="panel panel-primary myw">
 					  <div class="panel-heading">Stock Transfer</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('codeigniter/public/stockList')?>"><h3>Stock transfered List.</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?=base_url('stockList')?>"><h3>Stock transfered List.</h3></a></div>
 					</div>
 					<!--<div class="panel panel-primary myw">
 					  <div class="panel-heading">New D/C</div>
-					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?//=base_url('codeigniter/public/cdbtorsMainListNew')?>"><h3>New D/C.</h3></a></div>
+					  <div class="panel-body"><a target='blank' style="text-decoration:none;" href="<?//=base_url('cdbtorsMainListNew')?>"><h3>New D/C.</h3></a></div>
 					</div>-->
                 </div>
 				
@@ -444,7 +444,7 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-12 col-xs-12">
 						<div class="card"><div class="card-action">
-					  <a title="More Details" target='blank' style="text-decoration:none; color:#000;" href="<?=base_url('codeigniter/public/').'pendingChequesCharts'?>">Pending payment of this month</a>
+					  <a title="More Details" target='blank' style="text-decoration:none; color:#000;" href="<?=base_url().'pendingChequesCharts'?>">Pending payment of this month</a>
 					</div>
 					<div class="card-image">
 					  <div class="collection">
@@ -474,7 +474,7 @@
 									  }	
 									 
 							?>
-									<a target='blank' href="<?=base_url('codeigniter/public/byonedaylist/')?><?=$rec->dates?>" class="collection-item"><?=date('l', strtotime($rec->dates))?>-<?=date_format(date_create($rec->dates), 'd/m/Y')?><span style="font-size:14px;" class=" badge <?=$bg?>" >RM <?=number_format($rec->tamount, 2)?></span></a>
+									<a target='blank' href="<?=base_url('byonedaylist/')?><?=$rec->dates?>" class="collection-item"><?=date('l', strtotime($rec->dates))?>-<?=date_format(date_create($rec->dates), 'd/m/Y')?><span style="font-size:14px;" class=" badge <?=$bg?>" >RM <?=number_format($rec->tamount, 2)?></span></a>
 						<?php		$flag=1;
 								  }
 								  	
@@ -535,7 +535,7 @@
 										}		
 									}*/
 									?>
-								<a target='blank' href="<?=base_url('codeigniter/public/byonedaylist/')?><?=$pending->dates?>" class="collection-item"><?=date('l', strtotime($pending->dates))?>-<?=date_format(date_create($pending->dates), 'd/m/Y')?><span style="font-size:14px;" class=" badge <?=$bg?>" >RM <?=number_format($pending->tamount, 2)?></span></a>
+								<a target='blank' href="<?=base_url('byonedaylist/')?><?=$pending->dates?>" class="collection-item"><?=date('l', strtotime($pending->dates))?>-<?=date_format(date_create($pending->dates), 'd/m/Y')?><span style="font-size:14px;" class=" badge <?=$bg?>" >RM <?=number_format($pending->tamount, 2)?></span></a>
 						<?php
 							//Plus one the date
 							$cdate = date("Y-m-d", strtotime($pending->dates. "-1 days"));
@@ -679,8 +679,8 @@
 								  ?>
 								  </td>
 								  <td title="Click for more details">
-									<a href="<?=base_url('codeigniter/public/expenses/groupebased')?>/<?=$row->groupe?>" target="_blank" style="text-decoration:none;">
-										 <img src="<?=base_url('codeigniter/public/')?>images/view.png" alt="View" style="width: 20px; height: 20px;">
+									<a href="<?=base_url('expenses/groupebased')?>/<?=$row->groupe?>" target="_blank" style="text-decoration:none;">
+										 <img src="<?=base_url()?>images/view.png" alt="View" style="width: 20px; height: 20px;">
 									</a>	 
 								  </td>
 								</tr>
@@ -864,27 +864,27 @@
     <!-- /. WRAPPER  -->
     <!-- JS Scripts-->
     <!-- jQuery Js -->
-    <script src="<?=base_url('codeigniter/public/')?>assets/js/jquery-1.10.2.js"></script>
+    <script src="<?=base_url()?>assets/js/jquery-1.10.2.js"></script>
 	
 	<!-- Bootstrap Js -->
-    <script src="<?=base_url('codeigniter/public/')?>assets/js/bootstrap.min.js"></script>
+    <script src="<?=base_url()?>assets/js/bootstrap.min.js"></script>
 	
-	<script src="<?=base_url('codeigniter/public/')?>assets/materialize/js/materialize.min.js"></script>
+	<script src="<?=base_url()?>assets/materialize/js/materialize.min.js"></script>
 	
     <!-- Metis Menu Js -->
-    <script src="<?=base_url('codeigniter/public/')?>assets/js/jquery.metisMenu.js"></script>
+    <script src="<?=base_url()?>assets/js/jquery.metisMenu.js"></script>
     <!-- Morris Chart Js -->
-    <script src="<?=base_url('codeigniter/public/')?>assets/js/morris/raphael-2.1.0.min.js"></script>
-    <script src="<?=base_url('codeigniter/public/')?>assets/js/morris/morris.js"></script>
+    <script src="<?=base_url()?>assets/js/morris/raphael-2.1.0.min.js"></script>
+    <script src="<?=base_url()?>assets/js/morris/morris.js"></script>
 	
 	
-	<script src="<?=base_url('codeigniter/public/')?>assets/js/easypiechart.js"></script>
-	<script src="<?=base_url('codeigniter/public/')?>assets/js/easypiechart-data.js"></script>
+	<script src="<?=base_url()?>assets/js/easypiechart.js"></script>
+	<script src="<?=base_url()?>assets/js/easypiechart-data.js"></script>
 	
-	 <script src="<?=base_url('codeigniter/public/')?>assets/js/Lightweight-Chart/jquery.chart.js"></script>
+	 <script src="<?=base_url()?>assets/js/Lightweight-Chart/jquery.chart.js"></script>
 	
     <!-- Custom Js -->
-    <script src="<?=base_url('codeigniter/public/')?>assets/js/custom-scripts.js"></script> 
+    <script src="<?=base_url()?>assets/js/custom-scripts.js"></script>
  
 <!--Chart parts-->
 <script>
@@ -944,12 +944,12 @@ function changeGroupe(value)
 	var mainUrl='';
 	if(value==2)
 	{	
-		mainUrl = "<?=base_url('codeigniter/public/expenses/getcategory')?>";
+		mainUrl = "<?=base_url('expenses/getcategory')?>";
 		expenseChar.series[0].setData(<?=json_encode($expenseBycategory)?>);
 	}
 	else if(value==1)
 	{
-		mainUrl = "<?=base_url('codeigniter/public/expenses/groupesub')?>";
+		mainUrl = "<?=base_url('expenses/groupesub')?>";
 		expenseChar.series[0].setData(<?=json_encode($cexpenses)?>);
 	}		
 	$.ajax({

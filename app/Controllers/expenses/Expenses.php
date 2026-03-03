@@ -183,7 +183,7 @@ class Expenses extends BaseController
 			$rid = $this->ExpensesModel->saveRecord($data, 'expenses'); 
 			if($rid)
 			{
-				return redirect()->to(base_url('codeigniter/public/expenses/view/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('expenses/view/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{
@@ -354,7 +354,7 @@ class Expenses extends BaseController
 			
 			if($update==1)
 			{
-				return redirect()->to(base_url('codeigniter/public/expenses/view/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('expenses/view/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{

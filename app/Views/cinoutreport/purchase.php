@@ -44,7 +44,7 @@
 	</tr>
 </table>
 <!--<div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">	
-   <form id="reportform" action="<?=base_url('codeigniter/public/cinoutreport/cinout')?>" method="get" target="_blank">
+   <form id="reportform" action="<?=base_url('cinoutreport/cinout')?>" method="get" target="_blank">
 		<input name="sdate" id="sdate" type="hidden" value="$sdate"/>
 		<input name="edate" id="sdate" type="hidden" value="$edata"/>
 		<input name="type" id="type" type="hidden" value="<?=$type?>"/>

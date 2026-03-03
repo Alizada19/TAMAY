@@ -3,8 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title>Nightly Sales Report For All Shops</title>
-    <link href="<?=base_url('codeigniter/public/')?>css/bootstrap.min.css" rel="stylesheet" />
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/')?>js/jq.js"></script>
+    <link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet" />
+	<script type="text/javascript" src="<?=base_url()?>js/jq.js"></script>
 	<style type="text/css">
 
 	table, th, td {
@@ -576,7 +576,7 @@
 			</tr>
 		</table>
 		<div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">	
-		   <a style="" title="Update Current Record" href="<?=base_url('codeigniter/public/printpdfsreport/')?><?=$sdate?>/<?=$edate?>/<?=$loc?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
+		   <a style="" title="Update Current Record" href="<?=base_url('printpdfsreport/')?><?=$sdate?>/<?=$edate?>/<?=$loc?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
 		</div>
 	</div>
 </div>	

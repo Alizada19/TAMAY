@@ -41,8 +41,8 @@
 			?></td>
 			
 			<td style="width:20%;background-color:#b3d7ff87;padding-left:5px;">
-				<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/johoniSalesView/')?><?=$row->Id?>/1" target="_blank">View</a>
-				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('codeigniter/public/editJohoniSales/')?><?=$row->Id?>" target="_blank">Edit</a>
+				<a style="test-decoration: none;" title="View Record" href="<?=base_url('johoniSalesView/')?><?=$row->Id?>/1" target="_blank">View</a>
+				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('editJohoniSales/')?><?=$row->Id?>" target="_blank">Edit</a>
 			</td>
 		</tr>
 	

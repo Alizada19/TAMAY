@@ -24,8 +24,8 @@
 			<td style="width:13%;background-color:#b3d7ff87;padding-left:5px;"><?=date_format(date_create($row->saveDate), 'Y-m-d')?></td>
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;"><?=$row->username?></td>
 			<td style="width:8%;padding-left:5px;background-color:#b3d7ff87;">
-				<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/expenses/subcategoryView/')?><?=$row->Id?>/2" target="_blank">View</a>
-				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('codeigniter/public/expenses/subcategoryEditView/')?><?=$row->Id?>" target="_blank">Edit</a>
+				<a style="test-decoration: none;" title="View Record" href="<?=base_url('expenses/subcategoryView/')?><?=$row->Id?>/2" target="_blank">View</a>
+				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('expenses/subcategoryEditView/')?><?=$row->Id?>" target="_blank">Edit</a>
 			</td>
 		</tr>
 	

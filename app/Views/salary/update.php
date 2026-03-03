@@ -1,5 +1,5 @@
 <div>
-<form id="reportform" action="<?=base_url('codeigniter/public/salary/updateSave/')?><?=$row->Id?>" method="post">
+<form id="reportform" action="<?=base_url('salary/updateSave/')?><?=$row->Id?>" method="post">
 	<table class="table table-bordered table-hover" style="width:60%;text-align:center;margin-left:20%; margin-right:20%;">
 		<thead>
 		<tr>

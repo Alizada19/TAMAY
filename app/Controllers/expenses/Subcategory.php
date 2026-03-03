@@ -60,7 +60,7 @@ class Subcategory extends BaseController
 				 $rid = $this->ExpensesModel->saveRecord($data, 'subcategory'); 
 				if($rid)
 				{
-					return redirect()->to(base_url('codeigniter/public/expenses/subcategoryView/'.$rid.'/1'.'')); exit;
+					return redirect()->to(base_url('expenses/subcategoryView/'.$rid.'/1'.'')); exit;
 				}
 				else
 				{
@@ -125,7 +125,7 @@ class Subcategory extends BaseController
 			
 			if($update==1)
 			{
-				return redirect()->to(base_url('codeigniter/public/expenses/subcategoryView/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('expenses/subcategoryView/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{

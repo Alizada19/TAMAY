@@ -254,12 +254,12 @@ class Login extends BaseController
 				$this->session->set($data);
 				
 				return view('login/userdashboard', $data);
-				//return redirect()->to(base_url('codeigniter/public/dailyform'));
+				//return redirect()->to(base_url('dailyform'));
 			}
 			else
 			{
 				$this->session->remove('name');
-				return redirect()->to(base_url('codeigniter/public/login'));		
+				return redirect()->to(base_url('login'));
 			}
 		}
 		else

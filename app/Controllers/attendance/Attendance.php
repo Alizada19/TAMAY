@@ -145,7 +145,7 @@ class Attendance extends BaseController
 				$this->upload($rid, $name);
 				$this->upload2($rid, $name);
 				
-				return redirect()->to(base_url('codeigniter/public/attendance/viewemp/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('attendance/viewemp/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{
@@ -416,7 +416,7 @@ class Attendance extends BaseController
 				//upload profile pic
 				$this->uploadEdit($rid, $name);
 				$this->uploadEditID($rid, $name);
-				return redirect()->to(base_url('codeigniter/public/attendance/viewemp/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('attendance/viewemp/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{
@@ -1057,7 +1057,7 @@ class Attendance extends BaseController
 		$update = $this->AttendanceModel->updatePunch($data, $rid);
 		if($update==1)
 		{
-			return redirect()->to(base_url('codeigniter/public/attendance/viewPunch/'.$rid.'')); exit;
+			return redirect()->to(base_url('attendance/viewPunch/'.$rid.'')); exit;
 		}
 		else
 		{

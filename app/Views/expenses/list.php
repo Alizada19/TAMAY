@@ -55,10 +55,10 @@
 				<button type="button" onclick="filterSearch(); hideSearch();" class="btn btn-info">Search</button>
 			</div>
 			<div class="col-sm-2" style="font-weight:bold;">
-				<button type="submit" class="btn btn-info" formaction="<?=base_url('codeigniter/public/expenses/printExcel')?>">Generate Excel</button>
+				<button type="submit" class="btn btn-info" formaction="<?=base_url('expenses/printExcel')?>">Generate Excel</button>
 			</div>
 			<div class="col-sm-2" style="font-weight:bold;">
-				 <button type="submit" class="btn btn-info" formaction="<?=base_url('codeigniter/public/expenses/printDailyExcel')?>">Daily Excel</button>
+				 <button type="submit" class="btn btn-info" formaction="<?=base_url('expenses/printDailyExcel')?>">Daily Excel</button>
 			</div>
 			<div class="col-sm-4" style="font-weight:bold;">
 				<button type="button" onclick="clearBoxes();" class="btn btn-info">Reset</button>
@@ -98,8 +98,8 @@
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;"><?=sname($row->subcategory)?></td>
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;"><?=$row->des?></td>
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;">
-				<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/expenses/view/')?><?=$row->Id?>/2" target="_blank">View</a>
-				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('codeigniter/public/expenses/editView/')?><?=$row->Id?>" target="_blank">Edit</a>
+				<a style="test-decoration: none;" title="View Record" href="<?=base_url('expenses/view/')?><?=$row->Id?>/2" target="_blank">View</a>
+				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('expenses/editView/')?><?=$row->Id?>" target="_blank">Edit</a>
 			</td>
 		</tr>
 	
@@ -113,7 +113,7 @@
 	</tr>
 </table>
 		<!--<div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">	
-		   <a style="" title="Update Current Record" href="<?=base_url('codeigniter/public/expenses/printpdf')?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
+		   <a style="" title="Update Current Record" href="<?=base_url('expenses/printpdf')?>" target="_blank"><input type="button"  name="btn_result" style="width:200px;" class="btn btn-primary line" value="Export PDF" /></a>
 		</div>-->
 </div>		
 <script>
@@ -128,7 +128,7 @@ function filterSearch()
 	var formData = $("#filter1").serialize(); 
 	$.ajax({
 				 type: 'get',
-				 url: "<?=base_url('codeigniter/public/expenses/searchFilter')?>",
+				 url: "<?=base_url('expenses/searchFilter')?>",
 				 data: formData,
 				 success: function(result) {
 					$("#listCon").empty(); 

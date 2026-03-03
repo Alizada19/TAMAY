@@ -263,7 +263,7 @@ class Cinout extends BaseController
 			$rid = $this->SalaryModel->customerSave($data, 'customer');  
 			if($rid)
 			{ 
-				return redirect()->to(base_url('codeigniter/public/customerAdd')); exit;
+				return redirect()->to(base_url('customerAdd')); exit;
 			}
 			else
 			{
@@ -342,7 +342,7 @@ class Cinout extends BaseController
 			$update = $this->SalaryModel->customerUpdate($data, $rid); 
 			if($update==1)
 			{
-				return redirect()->to(base_url('codeigniter/public/customerView/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('customerView/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{

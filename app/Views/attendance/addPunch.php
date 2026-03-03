@@ -217,7 +217,7 @@
 		
 			$.ajax({
 				 type: 'GET',
-				 url: "<?=base_url('codeigniter/public/attendance/')?>savePunch/"+action,
+				 url: "<?=base_url('attendance/')?>savePunch/"+action,
 				 data: formData,
 				 success: function(result) {
 					$("#presult").empty(); 
@@ -235,7 +235,7 @@ function bringAttById(empId)
 	var mydata = "&empId=" + encodeURIComponent(empId)+"&sdate="+sdate+"&edate="+edate+"&location="+location;
 	$.ajax({
 				 type: 'GET',
-				 url: "<?=base_url('codeigniter/public/attendance/')?>bringAtt",
+				 url: "<?=base_url('attendance/')?>bringAtt",
 				 data: mydata,
 				 success: function(result) {
 					$("#presult").empty(); 
@@ -275,7 +275,7 @@ function bringEmp(value)
 	var myDate = '&value='+value;
 	$.ajax({
 			 type: 'get',
-			 url: "<?=base_url('codeigniter/public/attendance/bringEmp')?>",
+			 url: "<?=base_url('attendance/bringEmp')?>",
 			 data: myDate,
 			 success: function(result) {
 				$("#empId").empty(); 

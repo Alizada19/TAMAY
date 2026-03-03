@@ -60,7 +60,7 @@ class Groupe extends BaseController
 				 $rid = $this->ExpensesModel->saveRecord($data, 'groupe'); 
 				if($rid)
 				{
-					return redirect()->to(base_url('codeigniter/public/expenses/groupeView/'.$rid.'/1'.'')); exit;
+					return redirect()->to(base_url('expenses/groupeView/'.$rid.'/1'.'')); exit;
 				}
 				else
 				{
@@ -125,7 +125,7 @@ class Groupe extends BaseController
 			
 			if($update==1)
 			{
-				return redirect()->to(base_url('codeigniter/public/expenses/groupeView/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('expenses/groupeView/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{

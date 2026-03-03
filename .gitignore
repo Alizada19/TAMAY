@@ -1,0 +1,11 @@
+vendor/
+writable/cache/*
+writable/codeigniter/
+writable/debugbar/
+writable/logs/*
+writable/session/*
+writable/uploads/*
+.env
+spark.log
+spark2.log
+/home/jules/verification/

@@ -48,7 +48,7 @@
 				if(isset($row->table) AND $row->table == 'johoni')
 				{
 				?>
-					<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/johoniSalesView/')?><?=$row->pid?>/1" target="_blank">View</a>
+					<a style="test-decoration: none;" title="View Record" href="<?=base_url('johoniSalesView/')?><?=$row->pid?>/1" target="_blank">View</a>
 				<?php
 				}	
 				?>
@@ -56,7 +56,7 @@
 				if(isset($row->table) AND $row->table == 'investment')
 				{
 				?>
-					<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/viewFund/')?><?=$row->pid?>/1" target="_blank">View</a>
+					<a style="test-decoration: none;" title="View Record" href="<?=base_url('viewFund/')?><?=$row->pid?>/1" target="_blank">View</a>
 				<?php
 				}	
 				?>
@@ -64,7 +64,7 @@
 				if(isset($row->table) AND $row->table == 'expenses')
 				{
 				?>
-					<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/expenses/view/')?><?=$row->pid?>/1" target="_blank">View</a>
+					<a style="test-decoration: none;" title="View Record" href="<?=base_url('expenses/view/')?><?=$row->pid?>/1" target="_blank">View</a>
 				<?php
 				}	
 				?>
@@ -72,7 +72,7 @@
 				if(isset($row->table) AND $row->table == 'cashdeposit')
 				{
 				?>
-					<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/viewCash/')?><?=$row->pid?>/1" target="_blank">View</a>
+					<a style="test-decoration: none;" title="View Record" href="<?=base_url('viewCash/')?><?=$row->pid?>/1" target="_blank">View</a>
 				<?php
 				}	
 				?>

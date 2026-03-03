@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<title>User Dashboard</title>
-	<link href="<?=base_url('codeigniter/public/')?>assets/css/bootstrap.css" rel="stylesheet" />
-	<link href="<?=base_url('codeigniter/public/')?>css/bootstrap.min.css" rel="stylesheet" />
-    <link href="<?=base_url('codeigniter/public/')?>css/temp/bootstrap.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="<?=base_url('codeigniter/public/')?>css/w3school.css">
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/')?>js/jq.js"></script>
+	<link href="<?=base_url()?>assets/css/bootstrap.css" rel="stylesheet" />
+	<link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet" />
+    <link href="<?=base_url()?>css/temp/bootstrap.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="<?=base_url()?>css/w3school.css">
+	<script type="text/javascript" src="<?=base_url()?>js/jq.js"></script>
 	<style type="text/css">
 
 	table, th, td {
@@ -36,14 +36,14 @@
   if($this->session->get('myRole') == 1 OR $this->session->get('myRole') == 3)
   {
   ?>
-  <a href="<?=base_url('codeigniter/public/attendance/empList')?>" target="_blank" class="w3-bar-item w3-button">List Employees</a>
-  <a href="<?=base_url('codeigniter/public/attendance/addemp')?>" target="_blank" class="w3-bar-item w3-button">Add Employee</a>
-  <a href="<?=base_url('codeigniter/public/attendance/searchlayout')?>" target="_blank" class="w3-bar-item w3-button">Search Attendance</a>
-  <a href="<?=base_url('codeigniter/public/attendance/reportLayout')?>" target="_blank" class="w3-bar-item w3-button">Attendance Report</a>
-  <a href="<?=base_url('codeigniter/public/salary/salaryDashboard')?>" target="_blank" class="w3-bar-item w3-button">Calculate Salary</a>
-  <a href="<?=base_url('codeigniter/public/attendance/leaveList')?>" target="_blank" class="w3-bar-item w3-button">Leave</a>
-  <a href="<?=base_url('codeigniter/public/attendance/leaveAdd')?>" target="_blank" class="w3-bar-item w3-button">Add Leave</a>
-  <a href="<?=base_url('codeigniter/public/salary/salaryList')?>" target="_blank" class="w3-bar-item w3-button">Salary List</a>
+  <a href="<?=base_url('attendance/empList')?>" target="_blank" class="w3-bar-item w3-button">List Employees</a>
+  <a href="<?=base_url('attendance/addemp')?>" target="_blank" class="w3-bar-item w3-button">Add Employee</a>
+  <a href="<?=base_url('attendance/searchlayout')?>" target="_blank" class="w3-bar-item w3-button">Search Attendance</a>
+  <a href="<?=base_url('attendance/reportLayout')?>" target="_blank" class="w3-bar-item w3-button">Attendance Report</a>
+  <a href="<?=base_url('salary/salaryDashboard')?>" target="_blank" class="w3-bar-item w3-button">Calculate Salary</a>
+  <a href="<?=base_url('attendance/leaveList')?>" target="_blank" class="w3-bar-item w3-button">Leave</a>
+  <a href="<?=base_url('attendance/leaveAdd')?>" target="_blank" class="w3-bar-item w3-button">Add Leave</a>
+  <a href="<?=base_url('salary/salaryList')?>" target="_blank" class="w3-bar-item w3-button">Salary List</a>
   <?php
   }
   ?>
@@ -57,13 +57,13 @@
 		<h6>Username:  <?php $this->session = \Config\Services::session(); echo $this->session->get('name');?></h6>
 		</div>
 		<div style="display:inline-block; margin-top:0px; font-size:20px; float:right;">
-			<h6><a href="<?=base_url('codeigniter/public/login')?>" title="Logout" style="text-decoration:none;color: inherit;">Logout</a></h6>
+			<h6><a href="<?=base_url('login')?>" title="Logout" style="text-decoration:none;color: inherit;">Logout</a></h6>
 		</div>
 	</div>
   </div>
 </div>
 <div style="display:inline-block;float:left;width:35%;margin-left:10px;">
-	<img src="<?=base_url('codeigniter/public/')?>images/timer.PNG" style="width:100px; height:90px;" alt="Groom">
+	<img src="<?=base_url()?>images/timer.PNG" style="width:100px; height:90px;" alt="Groom">
 	<button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
 </div>
 <div style="display:inline-block; text-align:center;font-weight:bold;font-size:20px;margin-bottom:50px;">

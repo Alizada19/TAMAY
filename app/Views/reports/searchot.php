@@ -52,7 +52,7 @@ foreach($otresult AS $ocash)
 		?>
 		</td>
 		<td style="width:10%">
-			<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('codeigniter/public/paymentupdateoc/')?><?=$ocash->Id?>" target="_blank">Edit</a>
+			<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('paymentupdateoc/')?><?=$ocash->Id?>" target="_blank">Edit</a>
 		</td>
 	</tr>
 <?php
@@ -65,7 +65,7 @@ foreach($otresult AS $ocash)
 </tr>
 </table>
 <div class="row" style="margin:5px 5px 5px 0px;width:100%; ;">	
-   <form id="reportform" action="<?=base_url('codeigniter/public/printpdfotsearch')?>" method="get" target="_blank">
+   <form id="reportform" action="<?=base_url('printpdfotsearch')?>" method="get" target="_blank">
 		<input name="sdate" id="sdate" type="hidden" value="<?=$sdate?>"/>
 		<input name="edate" id="sdate" type="hidden" value="<?=$edate?>"/>
 		<input name="status" id="status" type="hidden" value="<?=$status?>"/>

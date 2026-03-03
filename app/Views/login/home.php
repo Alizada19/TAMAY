@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<title>Login</title>
 	
-    <link href="<?=base_url('codeigniter/public/')?>css/bootstrap.min.css" rel="stylesheet" />
-	<script type="text/javascript" src="<?=base_url('codeigniter/public/')?>js/jq.js"></script>
+    <link href="<?=base_url()?>css/bootstrap.min.css" rel="stylesheet" />
+	<script type="text/javascript" src="<?=base_url()?>js/jq.js"></script>
 	<style type="text/css">
 
 	table, th, td {
@@ -21,7 +21,7 @@
 		  <div class="col-12 col-md-6 col-xl-7">
 			<div class="d-flex justify-content-center text-bg-primary">
 			  <div class="col-12 col-xl-9">
-				<img class="img-fluid rounded mb-4" loading="lazy" src="<?=base_url('codeigniter/public/')?>images/republic.png" width="245" height="80" alt="Logo of Tamy">
+				<img class="img-fluid rounded mb-4" loading="lazy" src="<?=base_url()?>images/republic.png" width="245" height="80" alt="Logo of Tamy">
 				<hr class="border-primary-subtle mb-4">
 				<h2 class="h1 mb-4">This page is only for authorized staffs!</h2>
 				<p class="lead mb-5">Please enter your user name and password.</p>
@@ -44,7 +44,7 @@
 					</div>
 				  </div>
 				</div>
-				<form method="post" action="<?=base_url('codeigniter/public/')?>loginadd">
+				<form method="post" action="<?=base_url()?>loginadd">
 				  <div class="row gy-3 overflow-hidden">
 					<div class="col-12">
 					  <div class="form-floating mb-3">

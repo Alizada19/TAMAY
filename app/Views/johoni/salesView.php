@@ -67,7 +67,7 @@
 			  $parts = explode('__', $image->image);
 		  ?>
 			  <div class="mb-3">
-				<span class="form-control-plaintext"><a href="<?= base_url('codeigniter/public/')?><?=$image->image?>" title="Download It"><?=isset($parts[1]) ? $parts[1] : '';?></a></span>
+				<span class="form-control-plaintext"><a href="<?= base_url()?><?=$image->image?>" title="Download It"><?=isset($parts[1]) ? $parts[1] : '';?></a></span>
 			  </div>	
 		  <?php
 		  }
@@ -81,16 +81,16 @@
 				<label for="description" class="form-label"><?=gname($expense->groupe)?></label>
 				<span class="form-control-plaintext"><?=$expense->amount?></span>
 				
-				<a href="<?=base_url('codeigniter/public/expenses/editView2/')?><?=$expense->Id?>">EDIT</a>
+				<a href="<?=base_url('expenses/editView2/')?><?=$expense->Id?>">EDIT</a>
 			</div>
 		  <?php
 		  }
 		  ?>
-		  <label style="" title="Click to add expenses"><a href="<?=base_url('codeigniter/public/expenses/add2/')?><?=$row->Id?>/<?=$row->sdate?>/qs">Add Expense</a></label> 
+		  <label style="" title="Click to add expenses"><a href="<?=base_url('expenses/add2/')?><?=$row->Id?>/<?=$row->sdate?>/qs">Add Expense</a></label>
         </div>
 		
         <div class="modal-footer bg-light rounded-bottom-4">
-          <button type="button" onclick="window.location.href='<?= base_url('codeigniter/public/editJohoniSales/' . $row->Id) ?>'" class="btn btn-primary">Update</button>
+          <button type="button" onclick="window.location.href='<?= base_url('editJohoniSales/' . $row->Id) ?>'" class="btn btn-primary">Update</button>
         </div>
 		<!--<button type="button" class="btn btn-secondary" onclick="window.close()">Cancel</button>-->
       </form>

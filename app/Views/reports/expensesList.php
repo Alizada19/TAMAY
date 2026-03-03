@@ -30,8 +30,8 @@
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;"><?=cname($row->category)?></td>
 			<td style="width:20%;background-color:#b3d7ff87;padding-left:5px;"><?=$row->des?></td>
 			<td style="width:10%;background-color:#b3d7ff87;padding-left:5px;">
-				<a style="test-decoration: none;" title="View Record" href="<?=base_url('codeigniter/public/expenses/view/')?><?=$row->Id?>/2" target="_blank">View</a>
-				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('codeigniter/public/expenses/editView/')?><?=$row->Id?>" target="_blank">Edit</a>
+				<a style="test-decoration: none;" title="View Record" href="<?=base_url('expenses/view/')?><?=$row->Id?>/2" target="_blank">View</a>
+				<a style="test-decoration: none;" title="Edit Record" href="<?=base_url('expenses/editView/')?><?=$row->Id?>" target="_blank">Edit</a>
 			</td>
 		</tr>
 	

@@ -245,7 +245,7 @@ class Johoni extends BaseController
 						}
 					}
 	
-					return redirect()->to(base_url('codeigniter/public/johoniSalesView/'.$rid.'/1'.'')); exit;
+					return redirect()->to(base_url('johoniSalesView/'.$rid.'/1'.'')); exit;
 				}
 				else
 				{
@@ -337,7 +337,7 @@ class Johoni extends BaseController
 						}
 					}
 	
-					return redirect()->to(base_url('codeigniter/public/viewFund/'.$rid.'/1'.'')); exit;
+					return redirect()->to(base_url('viewFund/'.$rid.'/1'.'')); exit;
 				}
 				else
 				{
@@ -432,7 +432,7 @@ class Johoni extends BaseController
 							//attachment ends
 						}
 					} 
-					return redirect()->to(base_url('codeigniter/public/johoniSalesView/'.$rid.'/1'.'')); exit;
+					return redirect()->to(base_url('johoniSalesView/'.$rid.'/1'.'')); exit;
 				}
 				else
 				{
@@ -523,7 +523,7 @@ class Johoni extends BaseController
 							//attachment ends
 						}
 					} 
-					return redirect()->to(base_url('codeigniter/public/viewFund/'.$rid.'/1'.'')); exit;
+					return redirect()->to(base_url('viewFund/'.$rid.'/1'.'')); exit;
 				}
 				else
 				{
@@ -709,7 +709,7 @@ class Johoni extends BaseController
 			
 			if($update==1)
 			{
-				return redirect()->to(base_url('codeigniter/public/expenses/view/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('expenses/view/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{

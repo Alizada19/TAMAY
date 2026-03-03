@@ -1,4 +1,4 @@
-<form id="form1" method="post" action="<?=base_url('codeigniter/public/')?>paymentAddc">
+<form id="form1" method="post" action="<?=base_url()?>paymentAddc">
 	<input type="hidden" name="ptype" value="1">
 	<div class="container mt-5">
 		<table class="table table-bordered table-striped custom-table">

@@ -60,7 +60,7 @@ class Category extends BaseController
 				 $rid = $this->ExpensesModel->saveRecord($data, 'category'); 
 				if($rid)
 				{
-					return redirect()->to(base_url('codeigniter/public/expenses/categoryView/'.$rid.'/1'.'')); exit;
+					return redirect()->to(base_url('expenses/categoryView/'.$rid.'/1'.'')); exit;
 				}
 				else
 				{
@@ -125,7 +125,7 @@ class Category extends BaseController
 			
 			if($update==1)
 			{
-				return redirect()->to(base_url('codeigniter/public/expenses/categoryView/'.$rid.'/1'.'')); exit;
+				return redirect()->to(base_url('expenses/categoryView/'.$rid.'/1'.'')); exit;
 			}
 			else
 			{

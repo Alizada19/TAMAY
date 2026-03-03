@@ -47,7 +47,7 @@ function filterSearch()
 	var formData = $("#filter1").serialize(); 
 	$.ajax({
 			 type: 'get',
-			 url: "<?=base_url('codeigniter/public/salary/mainLayout')?>",
+			 url: "<?=base_url('salary/mainLayout')?>",
 			 data: formData,
 			 success: function(result) {
 				$("#attCon").empty(); 
@@ -63,7 +63,7 @@ function bringEmp(value)
 	var myDate = '&value='+value;
 	$.ajax({
 			 type: 'get',
-			 url: "<?=base_url('codeigniter/public/attendance/bringEmp')?>",
+			 url: "<?=base_url('attendance/bringEmp')?>",
 			 data: myDate,
 			 success: function(result) {
 				$("#emps").empty(); 
@@ -78,7 +78,7 @@ function bringEmpByStatus(value)
 	var formData = $("#filter1").serialize(); 
 	$.ajax({
 			 type: 'get',
-			 url: "<?=base_url('codeigniter/public/attendance/bringStatus')?>",
+			 url: "<?=base_url('attendance/bringStatus')?>",
 			 data: formData,
 			 success: function(result) {
 				$("#emps").empty(); 
